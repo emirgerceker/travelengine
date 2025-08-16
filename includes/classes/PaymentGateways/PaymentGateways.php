@@ -9,6 +9,7 @@ namespace WPTravelEngine\PaymentGateways;
 
 use WPTravelEngine\Abstracts\PaymentGateway;
 use WPTravelEngine\PaymentGateways\StandardPaypal\Gateway as PayPalGateway;
+use WPTravelEngine\PaymentGateways\WooCommerce;
 use WPTravelEngine\Traits\Singleton;
 
 /**
@@ -103,12 +104,16 @@ class PaymentGateways {
 	 */
 	protected function register_gateways() {
 
-		$payment_gateways = array(
-			'booking_only'         => new BookingOnly(),
-			'paypal_payment'       => new PayPalGateway(),
-			'direct_bank_transfer' => new DirectBankTransfer(),
-			'check_payments'       => new CheckPayment(),
-		);
+                $payment_gateways = array(
+                        'booking_only'         => new BookingOnly(),
+                        'paypal_payment'       => new PayPalGateway(),
+                        'direct_bank_transfer' => new DirectBankTransfer(),
+                        'check_payments'       => new CheckPayment(),
+                );
+
+                if ( class_exists( '\\WooCommerce' ) ) {
+                        $payment_gateways['woocommerce'] = new WooCommerce();
+                }
 
 		$gateways = apply_filters_deprecated( 'wp_travel_engine_available_payment_gateways', [ array() ], '6.0.0' );
 

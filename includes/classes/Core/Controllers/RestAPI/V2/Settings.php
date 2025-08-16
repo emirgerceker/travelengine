@@ -934,11 +934,7 @@ class Settings {
 
 		$settings[ 'payment_gateways' ] = apply_filters( 'wptravelengine_rest_payment_gateways', $settings[ 'payment_gateways' ], $plugin_settings );
 
-		$active_extensions = apply_filters( 'wpte_settings_get_global_tabs', array() );
-		$file_path         = $active_extensions[ 'wpte-payment' ][ 'sub_tabs' ][ 'woocommerce' ][ 'content_path' ] ?? '';
-		if ( file_exists( $file_path ) ) {
-			$settings[ 'enable_woocommerce_gateway' ] = wptravelengine_toggled( $plugin_settings->get( 'use_woocommerce_payment_gateway', 'no' ) );
-		}
+                $settings[ 'enable_woocommerce_gateway' ] = wptravelengine_toggled( $plugin_settings->get( 'use_woocommerce_payment_gateway', 'no' ) );
 
 		$payments_order = Options::get( 'wptravelengine_payment_gateways', array() );
 
