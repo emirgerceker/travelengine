@@ -1,24 +1,19 @@
 <?php
 /**
- * Payment Woocomerce Tab Settings.
+ * Payment WooCommerce Tab Settings.
  *
  * @since 6.2.0
  */
-$is_wte_woocommerce_active = defined( 'WPTRAVELENGINE_WC_PAYMENTS_FILE__' );
-$is_woocomerce_active      = defined( 'WC_PLUGIN_FILE' );
-$active_extensions         = apply_filters( 'wpte_settings_get_global_tabs', array() );
-$file_path                 = $active_extensions['wpte-payment']['sub_tabs']['woocommerce']['content_path'] ?? '';
-if ( ! file_exists( $file_path ) ) {
-	return array();
-}
+$is_woocomerce_active = defined( 'WC_PLUGIN_FILE' );
+
 return apply_filters(
-	'payment_woocommerce',
-	array(
-		'is_active' => ( $is_wte_woocommerce_active && $is_woocomerce_active ) ? true : false,
-		'title'     => __( 'WooCommerce', 'wp-travel-engine' ),
-		'order'     => 75,
-		'id'        => 'payment-woocommerce',
-		'fields'    => array(
+        'payment_woocommerce',
+        array(
+                'is_active' => $is_woocomerce_active ? true : false,
+                'title'     => __( 'WooCommerce', 'wp-travel-engine' ),
+                'order'     => 75,
+                'id'        => 'payment-woocommerce',
+                'fields'    => array(
 			array(
 				'field_type' => 'DEBUG_MODE',
 				'name'       => 'debug_mode',
