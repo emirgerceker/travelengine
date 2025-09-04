@@ -289,65 +289,56 @@ class Helper
     {
         $tour_package = get_post_meta($trip_id, 'tour_package', true);
         if (!empty($tour_package)) {
-            $min_adult_price = null;
-            $min_sale_adult_price = null;
-            $min_children_price = null;
-            $min_sale_children_price = null;
             $price_type = null;
+            $min_regular_price = null;
+            $min_sale_price    = null;
+
+            // Get all pricing category slugs for the trip
+            $pricing_terms = wp_get_post_terms($trip_id, 'togo_trip_pricing_categories');
+            $pricing_slugs = [];
+            if (!empty($pricing_terms) && !is_wp_error($pricing_terms)) {
+                foreach ($pricing_terms as $term) {
+                    $pricing_slugs[] = $term->slug;
+                }
+            }
 
             foreach ($tour_package as $package) {
                 if (isset($package['schedules']) && is_array($package['schedules'])) {
                     foreach ($package['schedules'] as $schedule) {
                         $price_type = $schedule['price_type'];
-                        if ($schedule['price_type'] == 'per_person') {
-                            if (isset($schedule['sale_price[children]']) && is_array($schedule['sale_price[children]'])) {
-                                foreach ($schedule['sale_price[children]'] as $key => $price) {
-                                    // Convert price to a numeric value if possible
-                                    $numeric_price = intval($price);
 
-                                    // Skip empty values or zeroes
-                                    if ($numeric_price > 0 && (is_null($min_children_price) || $numeric_price < $min_children_price)) {
-                                        $min_children_price = $schedule['regular_price[children]'][$key] ? $schedule['regular_price[children]'][$key] : 0;
-                                        $min_sale_children_price = $numeric_price;
+                        if ($price_type == 'per_person') {
+                            foreach ($pricing_slugs as $slug) {
+                                $sale_key    = 'sale_price[' . $slug . ']';
+                                $regular_key = 'regular_price[' . $slug . ']';
+
+                                if (isset($schedule[$sale_key]) && is_array($schedule[$sale_key])) {
+                                    foreach ($schedule[$sale_key] as $key => $price) {
+                                        $numeric_price = intval($price);
+                                        if ($numeric_price > 0 && (is_null($min_regular_price) || $numeric_price < $min_regular_price)) {
+                                            $min_regular_price = isset($schedule[$regular_key][$key]) ? intval($schedule[$regular_key][$key]) : 0;
+                                            $min_sale_price    = $numeric_price;
+                                        }
                                     }
                                 }
-                            }
 
-                            if ($min_sale_children_price == 0 && isset($schedule['regular_price[children]']) && is_array($schedule['regular_price[children]'])) {
-                                foreach ($schedule['regular_price[children]'] as $key => $price) {
-                                    // Convert price to a numeric value if possible
-                                    $numeric_price = intval($price);
-
-                                    // Skip empty values or zeroes
-                                    if ($numeric_price > 0 && (is_null($min_children_price) || $numeric_price < $min_children_price)) {
-                                        $min_children_price = $numeric_price;
-                                        $min_sale_children_price = $schedule['sale_price[children]'][$key] ? $schedule['sale_price[children]'][$key] : 0;
-                                    }
-                                }
-                            }
-
-                            if ($min_sale_children_price == 0 && $min_children_price == 0 && isset($schedule['regular_price[adult]']) && is_array($schedule['regular_price[adult]'])) {
-                                foreach ($schedule['regular_price[adult]'] as $key => $price) {
-                                    // Convert price to a numeric value if possible
-                                    $numeric_price = intval($price);
-
-                                    // Skip empty values or zeroes
-                                    if ($numeric_price > 0 && (is_null($min_adult_price) || $numeric_price < $min_adult_price)) {
-                                        $min_adult_price = $numeric_price;
-                                        $min_sale_adult_price = $schedule['sale_price[adult]'][$key] ? $schedule['sale_price[adult]'][$key] : 0;
+                                if ((is_null($min_regular_price) || $min_sale_price == 0) && isset($schedule[$regular_key]) && is_array($schedule[$regular_key])) {
+                                    foreach ($schedule[$regular_key] as $key => $price) {
+                                        $numeric_price = intval($price);
+                                        if ($numeric_price > 0 && (is_null($min_regular_price) || $numeric_price < $min_regular_price)) {
+                                            $min_regular_price = $numeric_price;
+                                            $min_sale_price    = isset($schedule[$sale_key][$key]) ? intval($schedule[$sale_key][$key]) : 0;
+                                        }
                                     }
                                 }
                             }
                         } else {
                             if (isset($schedule['per_group_regular_price']) && is_array($schedule['per_group_regular_price'])) {
                                 foreach ($schedule['per_group_regular_price'] as $key => $price) {
-                                    // Convert price to a numeric value if possible
                                     $numeric_price = intval($price);
-
-                                    // Skip empty values or zeroes
-                                    if ($numeric_price > 0 && (is_null($min_adult_price) || $numeric_price < $min_adult_price)) {
-                                        $min_adult_price = $numeric_price;
-                                        $min_sale_adult_price = $schedule['per_group_sale_price'][$key] ? $schedule['per_group_sale_price'][$key] : 0;
+                                    if ($numeric_price > 0 && (is_null($min_regular_price) || $numeric_price < $min_regular_price)) {
+                                        $min_regular_price = $numeric_price;
+                                        $min_sale_price    = isset($schedule['per_group_sale_price'][$key]) ? intval($schedule['per_group_sale_price'][$key]) : 0;
                                     }
                                 }
                             }
@@ -356,19 +347,11 @@ class Helper
                 }
             }
 
-            $result = [
-                'price_type' => $price_type
+            return [
+                'price_type'    => $price_type,
+                'regular_price' => $min_regular_price,
+                'sale_price'    => $min_sale_price,
             ];
-
-            if ($min_children_price == NULL && $min_sale_children_price == NULL) {
-                $result['regular_price'] = $min_adult_price;
-                $result['sale_price'] = $min_sale_adult_price;
-            } else {
-                $result['regular_price'] = $min_children_price;
-                $result['sale_price'] = $min_sale_children_price;
-            }
-
-            return $result;
         }
     }
 
@@ -484,38 +467,45 @@ class Helper
                 foreach ($package['schedules'] as $schedule) {
                     if ($schedule['price_type'] == 'per_person') {
                         $min_price = 0;
-                        $sale_price_children = array_filter($schedule['sale_price[children]'], function ($value) {
-                            return $value !== '' && $value !== null;
-                        });
-                        if (!empty($sale_price_children)) {
-                            $min_price = min($sale_price_children);
-                        }
+                        $pricing_terms = wp_get_post_terms($trip_id, 'togo_trip_pricing_categories');
+                        if (!is_wp_error($pricing_terms) && !empty($pricing_terms)) {
+                            foreach ($pricing_terms as $term) {
+                                $slug       = $term->slug;
+                                $sale_key   = 'sale_price[' . $slug . ']';
+                                $regular_key = 'regular_price[' . $slug . ']';
 
-                        $regular_price_children = array_filter($schedule['regular_price[children]'], function ($value) {
-                            return $value !== '' && $value !== null;
-                        });
-                        if ($min_price == 0 && !empty($regular_price_children)) {
-                            $min_price = min($regular_price_children);
-                        }
-                        $sale_price_adult = array_filter($schedule['sale_price[adult]'], function ($value) {
-                            return $value !== '' && $value !== null;
-                        });
-                        if ($min_price == 0 && !empty($sale_price_adult)) {
-                            $min_price = min($sale_price_adult);
-                        }
-                        $regular_price_adult = array_filter($schedule['regular_price[adult]'], function ($value) {
-                            return $value !== '' && $value !== null;
-                        });
-                        if ($min_price == 0 && !empty($regular_price_adult)) {
-                            $min_price = min($regular_price_adult);
+                                if (isset($schedule[$sale_key]) && is_array($schedule[$sale_key])) {
+                                    $filtered = array_filter($schedule[$sale_key], function ($value) {
+                                        return $value !== '' && $value !== null;
+                                    });
+                                    if (!empty($filtered)) {
+                                        $min_term_price = min($filtered);
+                                        if ($min_price == 0 || $min_term_price < $min_price) {
+                                            $min_price = $min_term_price;
+                                        }
+                                    }
+                                }
+
+                                if ($min_price == 0 && isset($schedule[$regular_key]) && is_array($schedule[$regular_key])) {
+                                    $filtered = array_filter($schedule[$regular_key], function ($value) {
+                                        return $value !== '' && $value !== null;
+                                    });
+                                    if (!empty($filtered)) {
+                                        $min_term_price = min($filtered);
+                                        if ($min_price == 0 || $min_term_price < $min_price) {
+                                            $min_price = $min_term_price;
+                                        }
+                                    }
+                                }
+                            }
                         }
 
                         $calendar_price[] = [
-                            'start_date' => $schedule['start_date'],
-                            'end_date' => $schedule['end_date'],
-                            'price' => $min_price,
+                            'start_date'   => $schedule['start_date'],
+                            'end_date'     => $schedule['end_date'],
+                            'price'        => $min_price,
                             'format_price' => self::togo_format_price($min_price),
-                            'trip_days' => $schedule['trip_days'],
+                            'trip_days'    => $schedule['trip_days'],
                         ];
                     } else {
                         $min_price = 0;
