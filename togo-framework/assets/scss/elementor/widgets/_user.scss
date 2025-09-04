@@ -1,0 +1,70 @@
+.elementor-widget-togo-user {
+  position: relative;
+  &:hover .user-submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: all;
+  }
+}
+.togo-user {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  > img {
+    cursor: pointer;
+  }
+  img {
+    border-radius: 50%;
+  }
+  .togo-svg-icon {
+    display: flex;
+  }
+  .user-submenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 220px;
+    border: 1px solid var(--togo-border-color-04);
+    border-radius: 0 0 16px 16px;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease 0s;
+    pointer-events: none;
+  }
+  .user-name a {
+    display: flex;
+    align-items: center;
+    padding: 15px 24px;
+    column-gap: 8px;
+    span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .user-menu {
+    margin-bottom: 16px;
+    a {
+      display: flex;
+      align-items: center;
+      padding: 8px 24px;
+      column-gap: 8px;
+      span {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      svg {
+        transition: unset;
+      }
+      &:hover {
+        background-color: rgba(var(--togo-accent-color-rgb), 0.05);
+      }
+    }
+  }
+}

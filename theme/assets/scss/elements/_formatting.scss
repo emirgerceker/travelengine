@@ -1,0 +1,244 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  scrollbar-width: thin;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: var(--togo-body-font-size);
+  line-height: var(--togo-body-line-height);
+  color: var(--togo-text-color-02);
+  font-family: var(--togo-body-font-family);
+  font-style: var(--togo-body-font-style);
+  font-stretch: normal;
+  font-weight: var(--togo-body-font-weight);
+  letter-spacing: var(--togo-body-letter-spacing);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: var(--togo-heading-font-family);
+  font-weight: var(--togo-heading-font-weight);
+  line-height: var(--togo-heading-line-height);
+  letter-spacing: var(--togo-heading-letter-spacing);
+  font-style: var(--togo-heading-font-style);
+}
+
+h1 {
+  font-size: var(--togo-h1-font-size);
+}
+
+h2 {
+  font-size: var(--togo-h2-font-size);
+}
+
+h3 {
+  font-size: var(--togo-h3-font-size);
+}
+
+h4 {
+  font-size: var(--togo-h4-font-size);
+}
+
+h5 {
+  font-size: var(--togo-h5-font-size);
+}
+
+h6 {
+  font-size: var(--togo-h6-font-size);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--togo-primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--togo-accent-color);
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+input[type="date"],
+textarea {
+  font-size: 16px;
+  color: var(--togo-text-color-01);
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--togo-border-color-04);
+  background-color: var(--togo-text-color-04);
+  border-radius: rem(8);
+  padding: 0 16px;
+  min-height: 42px;
+  font-family: var(--togo-body-font-family);
+}
+
+button,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+  border-color: var(--togo-accent-color);
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="submit"]:focus {
+  outline: 0;
+}
+
+select {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #7e7e7e;
+  padding: 3px 35px 3px 20px;
+  min-height: 56px;
+  max-width: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  background: transparent
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB3SURBVHgBjZDLDYAgDIYtHiCcgIncSDegbOBITsSZG7aJJsbQBpICfXz520IIYTfGhFprWSYO19MDhq/eO6aU8gSUAeBkoTeAMcauwQw9NfhPiLAIabAErV+ntXY554C+6L1frLUbzYRkhZY3Vhspq+1pMNkh5W8vCSfbyjoGgwAAAABJRU5ErkJggg==)
+    no-repeat center right 12px / 10px;
+  background-color: #f7f7f7;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select:focus {
+  color: #777;
+  border-color: var(--togo-accent-color);
+  background-color: #fff;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-color: #5d5d5d;
+}
+
+@-webkit-keyframes autofill {
+  to {
+    color: #666 !important;
+    background: #fff !important;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+select:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+li::marker {
+  display: none;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.bottom-30 {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

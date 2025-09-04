@@ -1,0 +1,15 @@
+.template-empty {
+  padding: rem(100) rem(24);
+  border: 1px solid var(--togo-border-color-04);
+  border-radius: rem(16);
+  background-color: var(--togo-text-color-04);
+  text-align: center;
+  h5 {
+    margin-bottom: rem(16);
+  }
+}
+.my-wishlist {
+  .type-trip {
+    margin-bottom: rem(30);
+  }
+}

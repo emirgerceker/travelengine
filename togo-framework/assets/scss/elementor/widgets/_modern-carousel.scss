@@ -1,0 +1,123 @@
+.modern-carousel-item {
+  img {
+    width: 100%;
+  }
+  .modern-carousel-item-inner {
+    position: relative;
+  }
+  .modern-carousel-item-content {
+    position: absolute;
+    left: rem(100);
+    bottom: rem(80);
+    width: 100%;
+    padding-right: rem(24);
+  }
+  .modern-carousel-item-subtitle {
+    font-size: rem(16);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--togo-text-color-04);
+    transform: translateY(30px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .modern-carousel-item-title {
+    font-size: rem(80);
+    font-weight: 600;
+    color: var(--togo-text-color-04);
+    margin-bottom: rem(12);
+    transform: translateY(30px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .modern-carousel-item-text {
+    font-size: rem(18);
+    color: var(--togo-text-color-04);
+    margin-bottom: rem(24);
+    transform: translateY(30px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .togo-button.line {
+    background-color: transparent;
+    border-color: var(--togo-text-color-04);
+    color: var(--togo-text-color-04);
+    transform: translateY(30px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    &:hover {
+      border-color: var(--togo-border-color-04);
+      background-color: var(--togo-border-color-04);
+      color: var(--togo-text-color-01);
+    }
+  }
+}
+.swiper-slide-active.animated {
+  .modern-carousel-item-subtitle {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: all 0.6s cubic-bezier(0.1, 0.2, 0.7, 1);
+    transition-delay: 0.1s;
+  }
+  .modern-carousel-item-title {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: all 0.6s cubic-bezier(0.1, 0.2, 0.7, 1);
+    transition-delay: 0.4s;
+  }
+  .modern-carousel-item-text {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: all 0.6s cubic-bezier(0.1, 0.2, 0.7, 1);
+    transition-delay: 0.7s;
+  }
+  .togo-button.line {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: all 0.6s cubic-bezier(0.1, 0.2, 0.7, 1);
+    transition-delay: 1s;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .modern-carousel-item {
+    .modern-carousel-item-content {
+      left: rem(48);
+      bottom: rem(48);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modern-carousel-item {
+    .modern-carousel-item-content {
+      left: rem(24);
+    }
+    .modern-carousel-item-title {
+      font-size: rem(32);
+    }
+    .modern-carousel-item-subtitle {
+      font-size: rem(14);
+      margin-bottom: rem(8);
+    }
+    img {
+      min-height: rem(400);
+    }
+  }
+}

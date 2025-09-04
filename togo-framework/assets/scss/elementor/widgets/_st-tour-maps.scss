@@ -1,0 +1,17 @@
+.togo-st-tour-maps-map {
+  height: 500px;
+}
+.custom-marker {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border: 3px solid var(--togo-accent-color);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+}

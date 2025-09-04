@@ -1,0 +1,80 @@
+header.site-header {
+  position: relative;
+  z-index: 3;
+  color: var(--togo-primary-color);
+  background-color: #fff;
+
+  &.header-sticky.scroll {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -100%;
+    @include transition-03;
+  }
+
+  &.header-sticky.on {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0px 1px 0px 0px #edf0f2;
+    @include transition-03;
+
+    &.has-wpadminbar {
+      top: 32px;
+    }
+  }
+
+  &.header-float {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+    @include transition-03;
+  }
+
+  &.header-light {
+    background-color: #fff;
+    color: var(--togo-primary-color);
+    box-shadow: 0px 1px 0px 0px #edf0f2;
+    .header-button a {
+      color: #fff;
+    }
+  }
+
+  &.header-dark {
+    background-color: var(--togo-primary-color);
+    color: #fff;
+
+    .column-wrap a {
+      color: #fff;
+    }
+  }
+
+  .header-main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+  }
+}
+
+.header-device {
+  display: flex;
+
+  &.line > span {
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background: #0d0909;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.site-header.header-sticky.on.has-wpadminbar {
+    top: 0;
+  }
+}

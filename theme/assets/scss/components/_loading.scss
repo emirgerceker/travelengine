@@ -1,0 +1,600 @@
+/**
+ * ==============================================
+ * Dot Falling
+ * ==============================================
+ */
+.dot-falling {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--togo-accent-color);
+  color: var(--togo-accent-color);
+  box-shadow: 9999px 0 0 0 var(--togo-accent-color);
+  animation: dotFalling 1s infinite linear;
+  animation-delay: 0.1s;
+}
+
+.dot-falling::before,
+.dot-falling::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-falling::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--togo-accent-color);
+  color: var(--togo-accent-color);
+  animation: dotFallingBefore 1s infinite linear;
+  animation-delay: 0s;
+}
+
+.dot-falling::after {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--togo-accent-color);
+  color: var(--togo-accent-color);
+  animation: dotFallingAfter 1s infinite linear;
+  animation-delay: 0.2s;
+}
+
+/**
+* ==============================================
+* Dot Fire
+* ==============================================
+*/
+.dot-fire {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--togo-accent-color);
+  color: var(--togo-accent-color);
+  box-shadow: 9999px 22.5px 0 -5px var(--togo-accent-color);
+  animation: dotFire 1.5s infinite linear;
+  animation-delay: -0.85s;
+}
+
+.dot-fire::before,
+.dot-fire::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--togo-accent-color);
+  color: var(--togo-accent-color);
+}
+
+.dot-fire::before {
+  box-shadow: 9999px 22.5px 0 -5px var(--togo-accent-color);
+  animation: dotFire 1.5s infinite linear;
+  animation-delay: -1.85s;
+}
+
+.dot-fire::after {
+  box-shadow: 9999px 22.5px 0 -5px var(--togo-accent-color);
+  animation: dotFire 1.5s infinite linear;
+  animation-delay: -2.85s;
+}
+
+/**
+* ==============================================
+* Dot Spin
+* ==============================================
+*/
+.dot-spin {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: 0 -18px 0 0 var(--togo-accent-color),
+    12.72984px -12.72984px 0 0 var(--togo-accent-color),
+    18px 0 0 0 var(--togo-accent-color),
+    12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0),
+    0 18px 0 0 rgba(152, 128, 255, 0),
+    -12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0),
+    -18px 0 0 0 rgba(152, 128, 255, 0),
+    -12.72984px -12.72984px 0 0 rgba(152, 128, 255, 0);
+  animation: dotSpin 1.5s infinite linear;
+}
+
+.togo-ldef-loading {
+  box-sizing: unset;
+}
+/* togo circle */
+.togo-ldef-circle {
+  display: inline-block;
+  transform: translateZ(1px);
+}
+.togo-ldef-circle > span {
+  display: inline-block;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border-radius: 50%;
+  background: #fff;
+  animation: togo-ldef-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+/* togo dual ring */
+.togo-ldef-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: togo-ldef-dual-ring 1.2s linear infinite;
+}
+
+/* togo facebook */
+.togo-ldef-facebook {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-facebook span {
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 13px;
+  background: #fff;
+  animation: togo-ldef-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.togo-ldef-facebook span:nth-child(1) {
+  left: 6px;
+  animation-delay: -0.24s;
+}
+.togo-ldef-facebook span:nth-child(2) {
+  left: 26px;
+  animation-delay: -0.12s;
+}
+.togo-ldef-facebook span:nth-child(3) {
+  left: 45px;
+  animation-delay: 0;
+}
+
+/* togo heart */
+.togo-ldef-heart {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform: rotate(45deg) !important;
+  transform-origin: 32px 32px;
+}
+.togo-ldef-heart span {
+  top: 22px;
+  left: 25px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  animation: togo-ldef-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.togo-ldef-heart span:after,
+.togo-ldef-heart span:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+}
+.togo-ldef-heart span:before {
+  left: -17px;
+  border-radius: 50% 0 0 50%;
+}
+.togo-ldef-heart span:after {
+  top: -17px;
+  border-radius: 50% 50% 0 0;
+}
+
+/* togo ring */
+.togo-ldef-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-ring span {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: togo-ldef-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.togo-ldef-ring span:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.togo-ldef-ring span:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.togo-ldef-ring span:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+/* togo roller */
+.togo-ldef-roller {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-roller span {
+  display: block;
+  animation: togo-ldef-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.togo-ldef-roller span:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -3px 0 0 -3px;
+}
+.togo-ldef-roller span:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.togo-ldef-roller span:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.togo-ldef-roller span:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.togo-ldef-roller span:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.togo-ldef-roller span:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.togo-ldef-roller span:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.togo-ldef-roller span:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.togo-ldef-roller span:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.togo-ldef-roller span:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.togo-ldef-roller span:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.togo-ldef-roller span:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.togo-ldef-roller span:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.togo-ldef-roller span:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.togo-ldef-roller span:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.togo-ldef-roller span:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.togo-ldef-roller span:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+
+/* togo default */
+.togo-ldef-default {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-default span {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  animation: togo-ldef-default 1.2s linear infinite;
+}
+.togo-ldef-default span:nth-child(1) {
+  animation-delay: 0s;
+  top: 29px;
+  left: 53px;
+}
+.togo-ldef-default span:nth-child(2) {
+  animation-delay: -0.1s;
+  top: 18px;
+  left: 50px;
+}
+.togo-ldef-default span:nth-child(3) {
+  animation-delay: -0.2s;
+  top: 9px;
+  left: 41px;
+}
+.togo-ldef-default span:nth-child(4) {
+  animation-delay: -0.3s;
+  top: 6px;
+  left: 29px;
+}
+.togo-ldef-default span:nth-child(5) {
+  animation-delay: -0.4s;
+  top: 9px;
+  left: 18px;
+}
+.togo-ldef-default span:nth-child(6) {
+  animation-delay: -0.5s;
+  top: 18px;
+  left: 9px;
+}
+.togo-ldef-default span:nth-child(7) {
+  animation-delay: -0.6s;
+  top: 29px;
+  left: 6px;
+}
+.togo-ldef-default span:nth-child(8) {
+  animation-delay: -0.7s;
+  top: 41px;
+  left: 9px;
+}
+.togo-ldef-default span:nth-child(9) {
+  animation-delay: -0.8s;
+  top: 50px;
+  left: 18px;
+}
+.togo-ldef-default span:nth-child(10) {
+  animation-delay: -0.9s;
+  top: 53px;
+  left: 29px;
+}
+.togo-ldef-default span:nth-child(11) {
+  animation-delay: -1s;
+  top: 50px;
+  left: 41px;
+}
+.togo-ldef-default span:nth-child(12) {
+  animation-delay: -1.1s;
+  top: 41px;
+  left: 50px;
+}
+
+/* togo ellipsis */
+.togo-ldef-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-ellipsis span {
+  position: absolute;
+  top: 27px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.togo-ldef-ellipsis span:nth-child(1) {
+  left: 6px;
+  animation: togo-ldef-ellipsis1 0.6s infinite;
+}
+.togo-ldef-ellipsis span:nth-child(2) {
+  left: 6px;
+  animation: togo-ldef-ellipsis2 0.6s infinite;
+}
+.togo-ldef-ellipsis span:nth-child(3) {
+  left: 26px;
+  animation: togo-ldef-ellipsis2 0.6s infinite;
+}
+.togo-ldef-ellipsis span:nth-child(4) {
+  left: 45px;
+  animation: togo-ldef-ellipsis3 0.6s infinite;
+}
+
+/* togo grid */
+.togo-ldef-grid {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-grid span {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation: togo-ldef-grid 1.2s linear infinite;
+}
+.togo-ldef-grid span:nth-child(1) {
+  top: 6px;
+  left: 6px;
+  animation-delay: 0s;
+}
+.togo-ldef-grid span:nth-child(2) {
+  top: 6px;
+  left: 26px;
+  animation-delay: -0.4s;
+}
+.togo-ldef-grid span:nth-child(3) {
+  top: 6px;
+  left: 45px;
+  animation-delay: -0.8s;
+}
+.togo-ldef-grid span:nth-child(4) {
+  top: 26px;
+  left: 6px;
+  animation-delay: -0.4s;
+}
+.togo-ldef-grid span:nth-child(5) {
+  top: 26px;
+  left: 26px;
+  animation-delay: -0.8s;
+}
+.togo-ldef-grid span:nth-child(6) {
+  top: 26px;
+  left: 45px;
+  animation-delay: -1.2s;
+}
+.togo-ldef-grid span:nth-child(7) {
+  top: 45px;
+  left: 6px;
+  animation-delay: -0.8s;
+}
+.togo-ldef-grid span:nth-child(8) {
+  top: 45px;
+  left: 26px;
+  animation-delay: -1.2s;
+}
+.togo-ldef-grid span:nth-child(9) {
+  top: 45px;
+  left: 45px;
+  animation-delay: -1.6s;
+}
+
+/* togo hourglass */
+.togo-ldef-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 6px;
+  box-sizing: border-box;
+  border: 26px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: togo-ldef-hourglass 1.2s infinite;
+}
+
+/* togo ripple */
+.togo-ldef-ripple {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-ripple span {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: togo-ldef-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.togo-ldef-ripple span:nth-child(2) {
+  animation-delay: -0.5s;
+}
+
+/* togo spinner */
+.togo-ldef-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.togo-ldef-spinner span {
+  display: block;
+  transform-origin: 32px 32px;
+  animation: togo-ldef-spinner 1.2s linear infinite;
+}
+.togo-ldef-spinner span:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 29px;
+  width: 5px;
+  height: 14px;
+  border-radius: 20%;
+  background: #fff;
+}
+.togo-ldef-spinner span:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.togo-ldef-spinner span:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.togo-ldef-spinner span:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.togo-ldef-spinner span:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.togo-ldef-spinner span:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.togo-ldef-spinner span:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.togo-ldef-spinner span:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.togo-ldef-spinner span:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.togo-ldef-spinner span:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.togo-ldef-spinner span:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.togo-ldef-spinner span:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.togo-ldef-spinner span:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}

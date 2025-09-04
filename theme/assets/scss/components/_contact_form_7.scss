@@ -1,0 +1,96 @@
+.wpcf7-form {
+  .form-group {
+    display: flex;
+    &.col2 {
+      flex-wrap: wrap;
+      gap: rem(30);
+      .form-field {
+        flex: 0 0 calc(50% - rem(15));
+        max-width: calc(50% - rem(15));
+      }
+    }
+  }
+  .form-field {
+    margin-bottom: rem(20);
+    textarea {
+      min-height: rem(250);
+      resize: none;
+      padding: rem(16);
+    }
+  }
+  .togo-field {
+    position: relative;
+    input {
+      min-height: rem(54);
+      background-color: transparent;
+    }
+    &.focus {
+      label {
+        color: var(--togo-text-color-03);
+        font-size: rem(12);
+        top: rem(16);
+      }
+      input {
+        padding-top: rem(16);
+      }
+    }
+    label {
+      position: absolute;
+      top: rem(28);
+      left: rem(16);
+      transform: translateY(-50%);
+      display: block;
+      color: var(--togo-text-color-03);
+      font-weight: 400;
+      .required {
+        color: var(--togo-tone-color-01);
+        margin-left: rem(4);
+      }
+    }
+  }
+  .field-textarea {
+    label {
+      display: block;
+      margin-bottom: rem(8);
+      color: var(--togo-text-color-01);
+      .required {
+        color: var(--togo-tone-color-01);
+        margin-left: rem(4);
+      }
+    }
+  }
+  .field-newsletter {
+    .label {
+      display: block;
+      margin-bottom: rem(8);
+      color: var(--togo-text-color-01);
+      font-weight: 500;
+      .required {
+        color: var(--togo-tone-color-01);
+        margin-left: rem(4);
+      }
+    }
+    .wpcf7-list-item {
+      margin: 0;
+    }
+    input[type="checkbox"] {
+      margin-left: 0;
+    }
+  }
+}
+.wpcf7 form {
+  .wpcf7-response-output {
+    margin: rem(32) 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wpcf7-form {
+    .form-group {
+      gap: 0 !important;
+      .form-field {
+        flex: 0 0 calc(100% - rem(15)) !important;
+        max-width: calc(100% - rem(15)) !important;
+      }
+    }
+  }
+}

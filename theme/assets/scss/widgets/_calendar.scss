@@ -1,0 +1,19 @@
+.widget_calendar {
+  caption {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  td,
+  th {
+    padding: 5px;
+  }
+
+  #today {
+    background-color: var(--togo-accent-color);
+    color: #fff;
+  }
+}

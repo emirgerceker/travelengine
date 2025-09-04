@@ -1,0 +1,49 @@
+.mc4wp-form {
+  .mc4wp-form-fields {
+    position: relative;
+    input[type="email"] {
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid var(--togo-border-color-04);
+      border-radius: 28px;
+      height: 56px;
+      line-height: 54px;
+      padding: 0 64px 0 20px;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--togo-primary-color);
+      &:focus {
+        border-color: var(--togo-accent-color);
+      }
+      &::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: var(--togo-body-font-family);
+        color: var(--togo-text-color-02);
+      }
+    }
+    button {
+      border: 0;
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 56px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--togo-accent-color);
+      border-radius: 50%;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

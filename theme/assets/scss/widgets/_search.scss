@@ -1,0 +1,50 @@
+.widget_search,
+.widget_product_search,
+.search-form {
+  position: relative;
+  form {
+    position: relative;
+  }
+
+  .search-field {
+    width: 100%;
+    padding-right: 72px;
+  }
+
+  .search-btn-text {
+    display: none;
+  }
+
+  .search-btn-icon {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+
+  .search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border: 0;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: none;
+    transform: none;
+    background: transparent;
+  }
+
+  .search-submit:hover {
+    background-color: var(--togo-accent-color);
+    color: #fff;
+
+    i {
+      color: #fff;
+    }
+  }
+}

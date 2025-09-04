@@ -1,0 +1,149 @@
+.widget {
+  .widget-title,
+  .wp-block-heading {
+    font-size: 20px;
+    line-height: 1.44;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-top: 0;
+    letter-spacing: calc(16px * -1.2 / 100);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li + li {
+    margin-top: 12px;
+  }
+
+  &.widget_text a {
+    color: var(--togo-accent-color);
+  }
+
+  & + .widget {
+    margin-top: 50px;
+  }
+}
+
+.site-content .widget + .widget {
+  margin-top: 32px;
+}
+
+.wp-block-gallery {
+  &.columns-3 {
+    column-gap: unset !important;
+    margin-left: -6px !important;
+    margin-right: -6px !important;
+    row-gap: 12px !important;
+    .wp-block-image {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+  }
+}
+
+.widget_nav_menu,
+.widget_pages,
+.widget_categories,
+.widget_product_categories,
+.widget_archive {
+  ul ul {
+    margin-left: 10px;
+  }
+
+  li + li {
+    margin-top: 12px;
+  }
+
+  > ul > li,
+  ul.menu > li {
+    position: relative;
+  }
+
+  li ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  li ul li {
+    padding-top: 20px;
+    border-top: 1px solid #d8d8d8;
+  }
+}
+
+.widget_recent_comments .comment-author-link {
+  position: relative;
+  padding-left: 25px;
+
+  &:before {
+    content: "\f27a";
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Font Awesome 5 Pro";
+    line-height: 0;
+    position: absolute;
+    top: 12px;
+    left: 0;
+  }
+}
+
+.widget_recent_entries li {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    order: 2;
+    width: 100%;
+    display: block;
+  }
+  span {
+    order: 1;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #999999;
+  }
+}
+
+#secondary .widget .mc4wp-form {
+  padding: 24px;
+  border-radius: 3px;
+  background-color: var(--togo-primary-color);
+  h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  p {
+    color: #cccccc;
+    margin-bottom: 15px;
+  }
+  input:focus {
+    border: 1px solid #f7f7f7;
+  }
+  input {
+    height: 48px;
+    min-height: 48px;
+    line-height: normal;
+    padding: 0 20px;
+  }
+  input[type="submit"] {
+    border-radius: 3px;
+    background-color: var(--togo-accent-color);
+    border: 1px solid var(--togo-accent-color);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1043b2;
+      border-color: #1043b2;
+    }
+  }
+}

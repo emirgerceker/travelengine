@@ -1,0 +1,43 @@
+.widget_rss {
+
+    li + li {
+        margin-top: 25px;
+    }
+
+    li a {
+        font-weight: 500;
+        line-height: 1.5;
+		  font-size: 18px;
+    }
+
+    .rsswidget {
+        display: inline-block;
+    }
+
+    .rss-date {
+        font-size: 14px;
+        display: block;
+        position: relative;
+        margin: 5px 0 8px;
+        padding-left: 20px;
+
+        &:before {
+            content: '\f133';
+            font-weight: 300;
+            font-family: 'Font Awesome 5 Pro';
+            line-height: 0;
+            position: absolute;
+            top: 11px;
+            left: 0;
+        }
+    }
+
+    .rssSummary {
+        margin-bottom: 5px;
+    }
+
+    .rss-widget-icon {
+        display: block;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,133 @@
+.togo-mega-destinations {
+  display: flex;
+  border: 1px solid var(--togo-border-color-04);
+  border-radius: 0 0 16px 16px;
+  box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+}
+.destinations-nav {
+  border-right: 1px solid var(--togo-border-color-04);
+  padding: 16px 0;
+  .nav-item {
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &.is-active {
+      a {
+        background-color: rgba(var(--togo-accent-color-rgb), 0.05);
+        color: var(--togo-accent-color);
+      }
+      .togo-svg-icon {
+        color: var(--togo-accent-color);
+      }
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 270px;
+    padding: 8px 24px;
+  }
+  .view-all {
+    padding: 0 24px;
+    margin-bottom: 8px;
+  }
+}
+.view-all {
+  margin-top: 16px;
+  .togo-button.underline {
+    display: inline-flex;
+    border-bottom-color: var(--togo-accent-color);
+    color: var(--togo-accent-color);
+    min-width: unset;
+  }
+}
+.destinations-box {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transition: all 0.3s ease;
+  transform: translateX(10px);
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    transform: translateX(0);
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--togo-text-color-02);
+    margin-bottom: 24px;
+    font-family: var(--togo-body-font-family);
+  }
+}
+.no-destinations {
+  margin-bottom: 0;
+}
+.children-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  .children-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 20px;
+    a {
+      display: flex;
+      align-items: center;
+      column-gap: 12px;
+      &:hover img {
+        opacity: 0.8;
+        background-color: var(--togo-accent-color);
+      }
+    }
+    img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+    }
+    span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+.destinations-content {
+  flex: 1;
+  padding: 24px;
+}
+.destinations-banner {
+  padding: 24px;
+  .inner {
+    background-image: url("../images/destinations-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px 24px 44px;
+    max-width: 222px;
+    row-gap: 8px;
+  }
+  &-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  &-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+}

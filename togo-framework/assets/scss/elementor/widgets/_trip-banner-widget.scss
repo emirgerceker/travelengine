@@ -1,0 +1,129 @@
+.trip-banner-widget {
+  position: relative;
+  display: flex;
+  align-items: center;
+  .trip-banner-inner {
+    padding: rem(60) rem(200) rem(60) rem(48);
+    background-color: #f0f8ff;
+    border-radius: 0 rem(16) rem(16) 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .trip-banner-title {
+    font-size: rem(24);
+    font-weight: 500;
+    margin-bottom: rem(12);
+  }
+  .trip-banner-excerpt {
+    font-size: rem(18);
+    margin-bottom: rem(16);
+  }
+  .trip-banner-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(12);
+    margin-bottom: rem(32);
+    > div {
+      flex: 0 0 calc(50% - rem(6));
+      max-width: calc(50% - rem(6));
+      display: flex;
+      align-items: center;
+      gap: rem(8);
+    }
+  }
+  .trip-banner-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .price {
+      font-size: rem(24);
+    }
+  }
+  .trip-price {
+    .prefix {
+      color: var(--togo-text-color-03);
+      margin-right: rem(8);
+    }
+    ins {
+      text-decoration: unset;
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+    }
+    .suffix {
+      color: var(--togo-text-color-02);
+    }
+    .sale-price {
+      font-size: rem(24);
+    }
+  }
+  .trip-itinerary-slider {
+    flex: 0 0 50%;
+    max-width: 50%;
+    transform: translateX(rem(-100));
+  }
+  .trip-itinerary {
+    position: relative;
+    height: 100%;
+    border-radius: rem(16);
+    overflow: hidden;
+  }
+  .trip-itinerary-thumb {
+    height: 100%;
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .trip-itinerary-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: rem(28);
+    background: #000000;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .trip-itinerary-title {
+    font-size: rem(20);
+    color: var(--togo-text-color-04);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .trip-banner-widget {
+    flex-wrap: wrap;
+    .trip-banner-inner {
+      flex: 0 0 100%;
+      max-width: 100%;
+      border-radius: 0;
+      padding: rem(48);
+    }
+    .trip-itinerary-slider {
+      margin-top: rem(32);
+      flex: 0 0 100%;
+      max-width: 100%;
+      transform: translateX(0);
+      padding: 0 rem(48);
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .trip-banner-widget {
+    .trip-banner-inner {
+      padding: rem(32) rem(15);
+    }
+    .trip-itinerary-slider {
+      padding: 0 rem(15);
+    }
+    .trip-banner-footer {
+      flex-wrap: wrap;
+      align-items: unset;
+      justify-content: unset;
+      gap: rem(12);
+      flex-direction: column;
+    }
+  }
+}

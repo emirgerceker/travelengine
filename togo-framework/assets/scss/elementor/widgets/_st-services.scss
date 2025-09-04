@@ -1,0 +1,68 @@
+.togo-st-service {
+  border: 1px solid #eee;
+  border-radius: rem(8);
+  padding: rem(20);
+  height: 100%;
+  .togo-st-service-icon {
+    margin-bottom: rem(20);
+    img {
+      height: 36px;
+    }
+  }
+  .togo-st-service-content {
+    margin-bottom: rem(30);
+    h3 {
+      font-size: rem(16);
+      line-height: rem(24);
+      font-weight: 500;
+      margin-bottom: rem(8);
+    }
+    p {
+      font-size: rem(14);
+      line-height: rem(21);
+    }
+  }
+  .togo-st-service-price {
+    span {
+      font-size: rem(16);
+      line-height: rem(24);
+      font-weight: 500;
+      color: #000;
+      &:first-child {
+        margin-right: 4px;
+      }
+    }
+  }
+}
+
+.elementor-widget-togo-st-services {
+  overflow: hidden;
+  .togo-swiper {
+    overflow: unset;
+    position: static;
+    padding-right: 1px;
+  }
+  .swiper-nav-button {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 0;
+    right: 8px;
+    margin-top: 0;
+    &:hover {
+      background-color: var(--togo-accent-color);
+      border-color: var(--togo-accent-color);
+      color: #fff;
+    }
+    &.swiper-button-prev {
+      left: unset;
+      right: 56px;
+    }
+  }
+}

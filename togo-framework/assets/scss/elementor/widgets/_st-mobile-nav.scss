@@ -1,0 +1,26 @@
+.elementor-widget-togo-st-mobile-nav {
+  background-color: var(--togo-text-color-04);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.togo-st-mobile-nav {
+  display: none;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  &::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  a {
+    padding: rem(8) rem(16);
+    white-space: nowrap;
+    border-right: 1px solid var(--togo-border-color-04);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .togo-st-mobile-nav {
+    display: flex;
+  }
+}

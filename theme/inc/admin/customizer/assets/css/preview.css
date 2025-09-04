@@ -1,0 +1,93 @@
+body {
+	background: #fff;
+}
+
+.button {
+	font-size: 14px;
+	display: inline-flex;
+	align-items: center;
+	padding: 5px 15px;
+	border-radius: 3px;
+	color: #0071a1;
+	cursor: pointer;
+	border: 1px solid #0071a1;
+	background: #f3f5f6;
+}
+
+.button:hover {
+	color: #fff;
+}
+
+.button-primary {
+	background: #0071a1;
+	color: #fff;
+}
+
+.button-secondary {
+	color: #0071a1;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-header_general {
+	top: inherit;
+	bottom: 0;
+}
+
+.customize-partial-edit-shortcut,.widget .customize-partial-edit-shortcut {
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+}
+
+.customize-partial-edit-shortcut button,.widget .customize-partial-edit-shortcut button {
+	display: none;
+}
+
+.customize-partial-edit-shortcut:after,.widget .customize-partial-edit-shortcut:after {
+	content: 'Customize Here';
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	font-size: 11px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	min-width: 115px;
+	left: 50%;
+	top: 0;
+	display: inline-block;
+	color: #fff;
+	background: #0071a1;
+	border-radius: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+
+.site-header:hover>.customize-partial-edit-shortcut:after {
+	opacity: 1;
+	visibility: visible;
+}
+
+.site-header:hover {
+	outline: 1px solid #0071a1;
+}
+
+.site-header>.customize-partial-edit-shortcut:after {
+	content: 'Edit Header';
+}
+
+.menu>.customize-partial-edit-shortcut:after {
+	content: 'Edit Menu';
+}
+
+.site-header:hover>.customize-partial-edit-shortcut:after,.menu:hover>.customize-partial-edit-shortcut:after {
+	opacity: 1;
+	visibility: visible;
+}

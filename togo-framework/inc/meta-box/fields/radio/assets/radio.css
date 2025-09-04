@@ -1,0 +1,72 @@
+.modal-icon input[type="radio"] {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: auto;
+}
+.modal-icon .uxper-field-radio-inner {
+  display: flex;
+  margin-left: -6px;
+  margin-right: -6px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: stretch;
+  row-gap: 12px;
+}
+.modal-icon .uxper-field-radio-inner label {
+  margin: 0 !important;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+  width: 12.5%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.modal-icon .uxper-field-radio-inner label > span {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  height: 100%;
+}
+.modal-icon .uxper-field-radio-inner label .icon-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.modal-icon .uxper-field-radio-inner svg {
+  width: 20px;
+}
+.modal-icon input[type="radio"]:checked + span {
+  background-color: #0066cc;
+  color: #fff;
+  border-color: #0066cc;
+}
+.modal-icon .uxper-field-radio-inner .togo-svg-icon {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.uxper-field-select-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+}
+
+.uxper-field-select-icon svg {
+  width: 20px;
+}
+
+#trip_overview_icon .uxper-field-content-wrap,
+#trip_overview_icon .uxper-field-content-wrap .uxper-field-content {
+  height: 100%;
+}

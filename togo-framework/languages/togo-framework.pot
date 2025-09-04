@@ -1,0 +1,6215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-10 17:09+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: togo-framework-setup.php:70
+msgid "The Togo Trip plugin requires the Togo theme to be active."
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:5
+#: inc/post-type/trips/meta-box.php:113
+msgid "General"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:13
+msgid "Use Template Elementor (City Page)"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:18
+#: inc/backend/customizer/options/trip/archive.php:346
+#: inc/backend/customizer/options/trip/archive.php:414
+#: inc/backend/customizer/options/trip/archive.php:481
+#: inc/backend/customizer/options/trip/card.php:72
+#: inc/backend/customizer/options/trip/card.php:97
+#: inc/backend/customizer/options/trip/card.php:110
+#: inc/backend/customizer/options/trip/card.php:123
+#: inc/backend/customizer/options/trip/card.php:136
+#: inc/backend/customizer/options/trip/card.php:149
+#: inc/backend/customizer/options/trip/card.php:162
+#: inc/backend/customizer/options/trip/card.php:182
+#: inc/backend/customizer/options/trip/card.php:202
+#: inc/backend/customizer/options/trip/card.php:222
+#: inc/backend/customizer/options/trip/single.php:27
+#: inc/elementor/widgets/activities-grid.php:141
+#: inc/elementor/widgets/canvas-menu.php:175
+#: inc/elementor/widgets/canvas-menu.php:236
+#: inc/elementor/widgets/canvas-menu.php:249
+#: inc/elementor/widgets/destinations-grid.php:126
+#: inc/elementor/widgets/destinations.php:82
+#: inc/elementor/widgets/destinations.php:109
+#: inc/elementor/widgets/destinations.php:161
+#: inc/elementor/widgets/destinations.php:199
+#: inc/elementor/widgets/destinations.php:224
+#: inc/elementor/widgets/language-currency.php:94
+#: inc/elementor/widgets/language-currency.php:107
+#: inc/elementor/widgets/login-form.php:95
+#: inc/elementor/widgets/login-form.php:107
+#: inc/elementor/widgets/register-form.php:101
+#: inc/elementor/widgets/register-form.php:113
+#: inc/elementor/widgets/search-form.php:92
+#: inc/elementor/widgets/search-form.php:104
+#: inc/elementor/widgets/search-form.php:116
+#: inc/elementor/widgets/search-modal.php:133
+#: inc/elementor/widgets/carousel/destinations-carousel.php:129
+#: inc/elementor/widgets/carousel/testimonials.php:265
+#: inc/elementor/widgets/carousel/trip-related.php:145
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:107
+#: inc/elementor/widgets/single-trips/itinerary.php:105
+#: inc/elementor/widgets/single-trips/overview.php:153
+#: inc/elementor/widgets/single-trips/overview.php:240
+#: inc/elementor/widgets/single-trips/overview.php:252
+#: inc/elementor/widgets/single-trips/tour-maps.php:106
+#: inc/elementor/widgets/trip-destinations/description.php:87
+#: inc/elementor/widgets/trip-destinations/description.php:106
+#: inc/elementor/widgets/trip-destinations/destinations.php:98
+#: inc/elementor/widgets/trip-destinations/destinations.php:117
+#: inc/elementor/widgets/trip-destinations/destinations.php:136
+#: inc/elementor/widgets/trip-destinations/destinations.php:155
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:93
+#: inc/elementor/widgets/trip-destinations/video.php:111
+#: inc/post-type/trips/meta-box.php:223 inc/post-type/trips/meta-box.php:442
+msgid "No"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:19
+#: inc/backend/customizer/options/trip/archive.php:347
+#: inc/backend/customizer/options/trip/archive.php:415
+#: inc/backend/customizer/options/trip/archive.php:482
+#: inc/backend/customizer/options/trip/card.php:73
+#: inc/backend/customizer/options/trip/card.php:98
+#: inc/backend/customizer/options/trip/card.php:111
+#: inc/backend/customizer/options/trip/card.php:124
+#: inc/backend/customizer/options/trip/card.php:137
+#: inc/backend/customizer/options/trip/card.php:150
+#: inc/backend/customizer/options/trip/card.php:163
+#: inc/backend/customizer/options/trip/card.php:183
+#: inc/backend/customizer/options/trip/card.php:203
+#: inc/backend/customizer/options/trip/card.php:223
+#: inc/backend/customizer/options/trip/single.php:28
+#: inc/elementor/widgets/activities-grid.php:140
+#: inc/elementor/widgets/canvas-menu.php:174
+#: inc/elementor/widgets/canvas-menu.php:235
+#: inc/elementor/widgets/canvas-menu.php:248
+#: inc/elementor/widgets/destinations-grid.php:125
+#: inc/elementor/widgets/destinations.php:81
+#: inc/elementor/widgets/destinations.php:108
+#: inc/elementor/widgets/destinations.php:160
+#: inc/elementor/widgets/destinations.php:198
+#: inc/elementor/widgets/destinations.php:223
+#: inc/elementor/widgets/language-currency.php:93
+#: inc/elementor/widgets/language-currency.php:106
+#: inc/elementor/widgets/login-form.php:94
+#: inc/elementor/widgets/login-form.php:106
+#: inc/elementor/widgets/register-form.php:100
+#: inc/elementor/widgets/register-form.php:112
+#: inc/elementor/widgets/search-form.php:91
+#: inc/elementor/widgets/search-form.php:103
+#: inc/elementor/widgets/search-form.php:115
+#: inc/elementor/widgets/search-modal.php:132
+#: inc/elementor/widgets/carousel/destinations-carousel.php:128
+#: inc/elementor/widgets/carousel/testimonials.php:264
+#: inc/elementor/widgets/carousel/trip-related.php:144
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:106
+#: inc/elementor/widgets/single-trips/itinerary.php:104
+#: inc/elementor/widgets/single-trips/overview.php:152
+#: inc/elementor/widgets/single-trips/overview.php:239
+#: inc/elementor/widgets/single-trips/overview.php:251
+#: inc/elementor/widgets/single-trips/tour-maps.php:105
+#: inc/elementor/widgets/trip-destinations/description.php:86
+#: inc/elementor/widgets/trip-destinations/description.php:105
+#: inc/elementor/widgets/trip-destinations/destinations.php:97
+#: inc/elementor/widgets/trip-destinations/destinations.php:116
+#: inc/elementor/widgets/trip-destinations/destinations.php:135
+#: inc/elementor/widgets/trip-destinations/destinations.php:154
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:92
+#: inc/elementor/widgets/trip-destinations/video.php:110
+#: inc/post-type/trips/meta-box.php:224 inc/post-type/trips/meta-box.php:443
+msgid "Yes"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:25
+msgid "Archive Trip"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:33
+#: inc/backend/customizer/options/trip/archive.php:67
+msgid "Page title"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:41
+msgid "Content Max Width"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:72
+#: inc/backend/customizer/options/trip/archive.php:85
+#: inc/backend/customizer/options/trip/archive.php:146
+#: inc/elementor/widgets/posts.php:124 inc/elementor/widgets/posts.php:140
+#: inc/elementor/widgets/posts.php:156
+#: inc/elementor/widgets/togo-video.php:204
+#: inc/elementor/widgets/togo-video.php:237
+#: inc/elementor/widgets/carousel/posts.php:128
+#: inc/elementor/widgets/carousel/posts.php:144
+#: inc/elementor/widgets/carousel/posts.php:160
+#: inc/elementor/widgets/my-account/my-bookings.php:98
+msgid "Hide"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:73
+#: inc/backend/customizer/options/trip/archive.php:86
+#: inc/backend/customizer/options/trip/archive.php:147
+#: inc/elementor/widgets/posts.php:123 inc/elementor/widgets/posts.php:139
+#: inc/elementor/widgets/posts.php:155
+#: inc/elementor/widgets/togo-video.php:203
+#: inc/elementor/widgets/togo-video.php:236
+#: inc/elementor/widgets/carousel/posts.php:127
+#: inc/elementor/widgets/carousel/posts.php:143
+#: inc/elementor/widgets/carousel/posts.php:159
+#: inc/elementor/widgets/my-account/my-bookings.php:97
+msgid "Show"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:80
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:100
+#: inc/elementor/widgets/search-modal.php:75
+#: inc/elementor/widgets/carousel/modern-carousel.php:125
+#: inc/elementor/widgets/carousel/modern-carousel.php:127
+#: inc/elementor/widgets/carousel/modern-carousel.php:177
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:116
+#: inc/elementor/widgets/single-trips/cancellation.php:96
+#: inc/elementor/widgets/single-trips/cancellation.php:103
+#: inc/elementor/widgets/single-trips/cancellation.php:118
+#: inc/elementor/widgets/single-trips/faqs.php:86
+#: inc/elementor/widgets/single-trips/faqs.php:93
+#: inc/elementor/widgets/single-trips/faqs.php:108
+#: inc/elementor/widgets/single-trips/highlights.php:79
+#: inc/elementor/widgets/single-trips/highlights.php:86
+#: inc/elementor/widgets/single-trips/highlights.php:101
+#: inc/elementor/widgets/single-trips/ie.php:79
+#: inc/elementor/widgets/single-trips/ie.php:86
+#: inc/elementor/widgets/single-trips/ie.php:101
+#: inc/elementor/widgets/single-trips/itinerary.php:85
+#: inc/elementor/widgets/single-trips/itinerary.php:92
+#: inc/elementor/widgets/single-trips/itinerary.php:191
+#: inc/elementor/widgets/single-trips/overview.php:87
+#: inc/elementor/widgets/single-trips/overview.php:94
+#: inc/elementor/widgets/single-trips/overview.php:109
+#: inc/elementor/widgets/single-trips/reviews.php:66
+#: inc/elementor/widgets/single-trips/reviews.php:73
+#: inc/elementor/widgets/single-trips/reviews.php:120
+#: inc/elementor/widgets/single-trips/services.php:86
+#: inc/elementor/widgets/single-trips/services.php:93
+#: inc/elementor/widgets/single-trips/services.php:108
+#: inc/elementor/widgets/single-trips/tour-maps.php:86
+#: inc/elementor/widgets/single-trips/tour-maps.php:93
+#: inc/elementor/widgets/single-trips/tour-maps.php:192
+#: inc/elementor/widgets/trip-destinations/faqs.php:89
+msgid "Heading"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:103
+#: inc/post-type/trips/trips.php:71 inc/post-type/trips/trips.php:72
+msgid "Trips"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:116
+#: inc/elementor/widgets/carousel/modern-carousel.php:134
+#: inc/elementor/widgets/carousel/modern-carousel.php:136
+#: inc/elementor/widgets/carousel/modern-carousel.php:178
+#: inc/elementor/widgets/carousel/modern-carousel.php:273
+#: inc/elementor/widgets/single-trips/overview.php:229
+#: inc/elementor/widgets/trip-destinations/faqs.php:100
+#: inc/post-type/trips/meta-box.php:310 inc/post-type/trips/meta-box.php:733
+#: inc/post-type/trips/trips.php:549
+msgid "Description"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:125
+#: inc/elementor/widgets/marquee.php:107
+#: inc/elementor/widgets/togo-video.php:212
+#: inc/elementor/widgets/carousel/modern-carousel.php:160
+#: inc/elementor/widgets/carousel/testimonials.php:170
+#: inc/post-type/trips/meta-box.php:372 inc/post-type/trips/trips.php:603
+msgid "Image"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:141
+msgid "Is Background"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:161
+#: inc/elementor/widgets/destinations.php:340
+#: inc/elementor/widgets/destinations.php:371
+#: inc/elementor/widgets/language-currency.php:229
+#: inc/elementor/widgets/carousel/base.php:370
+#: inc/elementor/widgets/carousel/base.php:405
+#: inc/elementor/widgets/carousel/modern-carousel.php:330
+#: inc/elementor/widgets/carousel/modern-carousel.php:372
+#: inc/elementor/widgets/carousel/topbar-carousel.php:282
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:154
+#: inc/elementor/widgets/single-trips/faqs.php:220
+#: inc/elementor/widgets/single-trips/share.php:190
+#: inc/elementor/widgets/single-trips/share.php:232
+#: inc/elementor/widgets/single-trips/wishlist.php:158
+#: inc/elementor/widgets/single-trips/wishlist.php:200
+msgid "Background Color"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:177
+msgid "Padding Top"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:198
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:219
+msgid "Top Filters"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:227
+msgid "Top Filter Order"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:236
+#: inc/classes/class-template.php:707 inc/post-type/trips/trips.php:618
+msgid "Location"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:237
+#: inc/classes/trip/class-togo-trip-posts.php:142
+#: inc/elementor/widgets/posts.php:233 inc/elementor/widgets/trip-grid.php:253
+#: inc/elementor/widgets/carousel/posts.php:263
+#: inc/elementor/widgets/single-trips/form-booking.php:175
+#: inc/elementor/widgets/single-trips/form-booking.php:399
+#: inc/elementor/widgets/single-trips/form-booking.php:613
+#: templates/my-account/bookings/invoice.php:147
+msgid "Date"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:238
+#: inc/elementor/widgets/single-trips/form-booking.php:407
+msgid "Guest"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:245
+#: inc/backend/customizer/options/trip/archive.php:362
+#: inc/backend/customizer/options/trip/card.php:13
+#: inc/backend/customizer/options/trip/card.php:21
+#: inc/elementor/widgets/activities-grid.php:91
+#: inc/elementor/widgets/destination.php:92 inc/elementor/widgets/posts.php:81
+#: inc/elementor/widgets/trip-grid.php:179
+#: inc/elementor/widgets/carousel/activities-carousel.php:113
+#: inc/elementor/widgets/carousel/destinations-carousel.php:113
+#: inc/elementor/widgets/carousel/posts.php:101
+#: inc/elementor/widgets/carousel/trip-carousel.php:159
+#: inc/elementor/widgets/carousel/trip-related.php:170
+#: inc/elementor/widgets/single-trips/form-booking.php:98
+#: inc/elementor/widgets/single-trips/gallery.php:111
+msgid "Layout"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:253
+msgid "Columns (> 1500px)"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:258
+#: inc/backend/customizer/options/trip/archive.php:274
+#: inc/backend/customizer/options/trip/archive.php:290
+#: inc/backend/customizer/options/trip/archive.php:306
+#: inc/backend/customizer/options/trip/archive.php:322
+msgid "Column 1"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:259
+#: inc/backend/customizer/options/trip/archive.php:275
+#: inc/backend/customizer/options/trip/archive.php:291
+#: inc/backend/customizer/options/trip/archive.php:307
+#: inc/backend/customizer/options/trip/archive.php:323
+msgid "Column 2"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:260
+#: inc/backend/customizer/options/trip/archive.php:276
+#: inc/backend/customizer/options/trip/archive.php:292
+#: inc/backend/customizer/options/trip/archive.php:308
+#: inc/backend/customizer/options/trip/archive.php:324
+msgid "Column 3"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:261
+#: inc/backend/customizer/options/trip/archive.php:277
+#: inc/backend/customizer/options/trip/archive.php:293
+#: inc/backend/customizer/options/trip/archive.php:309
+#: inc/backend/customizer/options/trip/archive.php:325
+msgid "Column 4"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:262
+#: inc/backend/customizer/options/trip/archive.php:278
+#: inc/backend/customizer/options/trip/archive.php:294
+#: inc/backend/customizer/options/trip/archive.php:310
+#: inc/backend/customizer/options/trip/archive.php:326
+msgid "Column 5"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:269
+msgid "Columns (> 1200px)"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:285
+msgid "Columns (> 992px)"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:301
+msgid "Columns (> 767px)"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:317
+msgid "Columns (> 320px)"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:333
+#: inc/post-type/trips/meta-box.php:386
+msgid "Maps"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:341
+msgid "Enable Maps"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:354
+#: inc/elementor/widgets/trip-grid.php:294
+#: inc/widgets/includes/products-filter.php:1269
+msgid "Filters"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:367
+msgid "Left Filter"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:368
+msgid "Top Filter"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:375
+msgid "Number Items Preview"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:396
+msgid "Filter Content Default"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:401
+msgid "Close"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:402
+msgid "Open"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:409
+msgid "Open First Item"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:429
+msgid "Order items"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:430
+msgid "Controls the order of filter items."
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:442
+#: inc/classes/trip/class-togo-trip-posts.php:348
+#: inc/post-type/bookings/bookings.php:124
+#: inc/post-type/bookings/bookings.php:143
+#: inc/post-type/bookings/bookings.php:365
+#: inc/post-type/trips/meta-box.php:616 inc/post-type/trips/trips.php:636
+#: inc/widgets/includes/products-filter.php:205
+#: inc/widgets/includes/products-filter.php:1443
+#: templates/my-account/bookings/bookings.php:55
+msgid "Price"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:443
+#: inc/elementor/widgets/trip-grid.php:322 inc/post-type/trips/trips.php:440
+#: inc/post-type/trips/trips.php:441
+msgid "Types"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:444
+#: inc/elementor/widgets/activities-grid.php:128
+#: inc/elementor/widgets/trip-grid.php:312
+#: inc/elementor/widgets/carousel/activities-carousel.php:159
+#: inc/post-type/trips/trips.php:429 inc/post-type/trips/trips.php:430
+msgid "Activities"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:445
+#: inc/elementor/widgets/trip-grid.php:332 inc/post-type/trips/trips.php:451
+#: inc/post-type/trips/trips.php:452
+msgid "Durations"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:446
+msgid "Time Of Day"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:447
+#: inc/elementor/widgets/trip-grid.php:352 inc/post-type/trips/trips.php:473
+#: inc/post-type/trips/trips.php:474
+msgid "Languages"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:454
+msgid "Pagination"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:462
+msgid "Align"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:467
+#: inc/elementor/controls/group-control-button.php:76
+#: inc/elementor/controls/group-control-tooltip.php:49
+#: inc/elementor/widgets/canvas-menu.php:95
+#: inc/elementor/widgets/minicart.php:90 inc/elementor/widgets/posts.php:172
+#: inc/elementor/widgets/search-modal.php:53
+#: inc/elementor/widgets/togo-video.php:359
+#: inc/elementor/widgets/togo-video.php:402
+#: inc/elementor/widgets/togo-video.php:517
+#: inc/elementor/widgets/togo-video.php:626
+#: inc/elementor/widgets/carousel/posts.php:176
+#: inc/elementor/widgets/carousel/testimonials.php:242
+#: inc/elementor/widgets/carousel/topbar-carousel.php:256
+msgid "Left"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:468
+#: inc/elementor/widgets/posts.php:173
+#: inc/elementor/widgets/togo-video.php:360
+#: inc/elementor/widgets/togo-video.php:403
+#: inc/elementor/widgets/togo-video.php:518
+#: inc/elementor/widgets/togo-video.php:627
+#: inc/elementor/widgets/carousel/posts.php:177
+#: inc/elementor/widgets/carousel/testimonials.php:246
+#: inc/elementor/widgets/carousel/topbar-carousel.php:260
+msgid "Center"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:469
+#: inc/elementor/controls/group-control-button.php:80
+#: inc/elementor/controls/group-control-tooltip.php:47
+#: inc/elementor/widgets/canvas-menu.php:99
+#: inc/elementor/widgets/minicart.php:94 inc/elementor/widgets/posts.php:174
+#: inc/elementor/widgets/search-modal.php:57
+#: inc/elementor/widgets/togo-video.php:361
+#: inc/elementor/widgets/togo-video.php:404
+#: inc/elementor/widgets/togo-video.php:519
+#: inc/elementor/widgets/togo-video.php:628
+#: inc/elementor/widgets/carousel/posts.php:178
+#: inc/elementor/widgets/carousel/testimonials.php:250
+#: inc/elementor/widgets/carousel/topbar-carousel.php:264
+msgid "Right"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/archive.php:476
+msgid "Show Pagination Info"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:5
+msgid "Trip Card"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:26
+#: inc/elementor/widgets/activities-grid.php:160
+#: inc/elementor/widgets/destinations-grid.php:145
+#: inc/elementor/widgets/posts.php:85
+#: inc/elementor/widgets/carousel/posts.php:105
+#: inc/elementor/widgets/single-trips/gallery.php:102
+msgid "Grid"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:27
+#: inc/elementor/widgets/posts.php:84
+#: inc/elementor/widgets/carousel/posts.php:104
+#: inc/elementor/widgets/single-trips/overview.php:142
+msgid "List"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:34
+msgid "Grid Style"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:39
+#: inc/elementor/widgets/trip-grid.php:183
+#: inc/elementor/widgets/carousel/trip-carousel.php:163
+#: inc/elementor/widgets/carousel/trip-related.php:174
+#: inc/elementor/widgets/single-trips/form-booking.php:102
+msgid "01"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:40
+#: inc/elementor/widgets/trip-grid.php:184
+#: inc/elementor/widgets/carousel/trip-carousel.php:164
+#: inc/elementor/widgets/carousel/trip-related.php:175
+#: inc/elementor/widgets/single-trips/form-booking.php:103
+msgid "02"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:41
+#: inc/elementor/widgets/trip-grid.php:185
+#: inc/elementor/widgets/carousel/trip-carousel.php:165
+#: inc/elementor/widgets/carousel/trip-related.php:176
+#: inc/elementor/widgets/single-trips/form-booking.php:104
+msgid "03"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:42
+#: inc/elementor/widgets/trip-grid.php:186
+#: inc/elementor/widgets/carousel/trip-carousel.php:166
+#: inc/elementor/widgets/carousel/trip-related.php:177
+#: inc/elementor/widgets/single-trips/form-booking.php:105
+msgid "04"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:43
+#: inc/elementor/widgets/trip-grid.php:187
+#: inc/elementor/widgets/carousel/trip-carousel.php:167
+#: inc/elementor/widgets/carousel/trip-related.php:178
+msgid "05"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:57
+#: inc/elementor/widgets/trip-grid.php:195
+#: inc/elementor/widgets/carousel/trip-carousel.php:175
+#: inc/elementor/widgets/carousel/trip-related.php:186
+#: inc/elementor/widgets/carousel/trip-destinations/carousel.php:116
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:80
+#: inc/elementor/widgets/trip-destinations/video.php:98
+msgid "Image Size"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:67
+msgid "Enable Slider Thumbnail"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:92
+msgid "Enable Wishlist"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:105
+msgid "Enable Rating"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:118
+#: inc/elementor/widgets/search-form.php:89
+msgid "Enable Location"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:131
+msgid "Enable Duration"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:144
+#: inc/elementor/widgets/search-form.php:113
+msgid "Enable Guests"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:157
+msgid "Enable Tour Type"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:177
+#: inc/elementor/widgets/single-trips/overview.php:237
+msgid "Enable Description"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:197
+msgid "Enable Button View Tour"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/card.php:217
+msgid "Enable Map"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:5
+msgid "Single Trip"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:13
+#: templates/my-account/reviews/add-review.php:53
+#: templates/my-account/reviews/edit-review.php:70
+msgid "Review"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:21
+msgid "Review approval"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:22
+msgid "Enable review approval when user submit review"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:35
+msgid "Max Star"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:51
+#: inc/meta-box/fields/selectize/selectize.class.php:98
+msgid "Add New"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:58
+msgid "Guide"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:61
+#: inc/elementor/widgets/carousel/trip-related.php:121
+msgid "Service"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:64
+msgid "Transportation"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:67
+msgid "Organization"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/single.php:73
+#: inc/elementor/widgets/canvas-menu.php:194
+#: inc/elementor/widgets/single-trips/form-booking.php:167
+msgid "Text"
+msgstr ""
+
+#: inc/backend/customizer/options/trip/_panel.php:8
+#: inc/elementor/widgets/carousel/trip-banner.php:113
+msgid "Trip"
+msgstr ""
+
+#: inc/classes/class-ajax.php:265 inc/post-type/trips/meta-box.php:137
+msgid "Opening hours"
+msgstr ""
+
+#: inc/classes/class-ajax.php:284
+msgid "Departure time"
+msgstr ""
+
+#: inc/classes/class-ajax.php:296
+#: inc/elementor/widgets/single-trips/services.php:95
+msgid "Extra Services"
+msgstr ""
+
+#: inc/classes/class-ajax.php:334 inc/classes/class-ajax.php:426
+#, php-format
+msgid ""
+"Cancel before <span class=\"time\">%s</span> on <span class=\"date\">%s</"
+"span> for a full refund"
+msgstr ""
+
+#: inc/classes/class-ajax.php:341
+msgid "The free cancellation window has closed for this date."
+msgstr ""
+
+#: inc/classes/class-ajax.php:359
+#, php-format
+msgid "%s %s"
+msgid_plural "%s %ss"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-ajax.php:366
+#, php-format
+msgid "per group (up to %s)"
+msgstr ""
+
+#: inc/classes/class-ajax.php:381
+msgid "Book Now"
+msgstr ""
+
+#: inc/classes/class-ajax.php:387
+msgid "Add to Cart"
+msgstr ""
+
+#: inc/classes/class-ajax.php:398
+msgid "No availability found."
+msgstr ""
+
+#: inc/classes/class-ajax.php:593
+msgid "Coupon code is required."
+msgstr ""
+
+#: inc/classes/class-ajax.php:600
+msgid "Coupon applied successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:602
+msgid "Coupon code is invalid."
+msgstr ""
+
+#: inc/classes/class-ajax.php:618
+msgid "New enquiry"
+msgstr ""
+
+#: inc/classes/class-ajax.php:619
+msgid "Dear Admin,"
+msgstr ""
+
+#: inc/classes/class-ajax.php:620
+msgid ""
+"You have received a new enquiry through your website. Here are the details:"
+msgstr ""
+
+#: inc/classes/class-ajax.php:635
+msgid "Trip name"
+msgstr ""
+
+#: inc/classes/class-ajax.php:637
+msgid "Please respond to the customer at your earliest convenience."
+msgstr ""
+
+#: inc/classes/class-ajax.php:646
+msgid "Your enquiry has been sent successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:649
+msgid "Failed to send enquiry. Please try again."
+msgstr ""
+
+#: inc/classes/class-ajax.php:668
+msgid "Please login to add to wishlist."
+msgstr ""
+
+#: inc/classes/class-ajax.php:682 inc/classes/class-template.php:446
+msgid "Added to wishlist"
+msgstr ""
+
+#: inc/classes/class-ajax.php:689 inc/classes/class-template.php:449
+msgid "Add to wishlist"
+msgstr ""
+
+#: inc/classes/class-ajax.php:738 inc/classes/class-template.php:719
+#: inc/classes/class-template.php:864
+msgid "View tour"
+msgstr ""
+
+#: inc/classes/class-ajax.php:742
+#: inc/elementor/widgets/single-trips/itinerary.php:94
+#: inc/post-type/trips/meta-box.php:349 inc/post-type/trips/meta-box.php:355
+msgid "Itinerary"
+msgstr ""
+
+#: inc/classes/class-ajax.php:784 inc/classes/class-ajax.php:843
+#: inc/classes/class-ajax.php:865 inc/classes/class-ajax.php:938
+#: inc/classes/class-ajax.php:1011 inc/classes/class-ajax.php:1029
+msgid "Nonce verification failed."
+msgstr ""
+
+#: inc/classes/class-ajax.php:790
+msgid "No files selected."
+msgstr ""
+
+#: inc/classes/class-ajax.php:835
+msgid "File upload failed."
+msgstr ""
+
+#: inc/classes/class-ajax.php:855
+msgid "Image removed successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:872 inc/classes/class-ajax.php:945
+msgid "User not logged in."
+msgstr ""
+
+#: inc/classes/class-ajax.php:886 inc/classes/class-ajax.php:960
+#, php-format
+msgid "Review for %s by %s"
+msgstr ""
+
+#: inc/classes/class-ajax.php:928
+msgid "Review added successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:930
+msgid "Failed to add review."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1001
+msgid "Review updated successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1003
+msgid "Failed to update review."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1019
+msgid "Review deleted successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1021
+msgid "Failed to delete review."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1040
+msgid "Booking cancelled successfully."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1042
+msgid "Failed to cancel booking."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1076
+msgid "Login success"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1079
+msgid "Username or password is wrong. Please try again"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1124
+msgid "Register success"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1138
+msgid "Username/Email address is existing"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1154
+msgid "Enter a username or email address."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1161
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1169
+msgid "Invalid username"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1182
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1184
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1185
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1186
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1193
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1197
+msgid "The email could not be sent."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1197
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: inc/classes/class-ajax.php:1200
+msgid "Please, Check your email to get new password"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1217
+msgid "Please, re-login!"
+msgstr ""
+
+#: inc/classes/class-ajax.php:1219
+msgid "Error!"
+msgstr ""
+
+#: inc/classes/class-helper.php:186
+msgid "Monday"
+msgstr ""
+
+#: inc/classes/class-helper.php:187
+msgid "Tuesday"
+msgstr ""
+
+#: inc/classes/class-helper.php:188
+msgid "Wednesday"
+msgstr ""
+
+#: inc/classes/class-helper.php:189
+msgid "Thursday"
+msgstr ""
+
+#: inc/classes/class-helper.php:190
+msgid "Friday"
+msgstr ""
+
+#: inc/classes/class-helper.php:191
+msgid "Saturday"
+msgstr ""
+
+#: inc/classes/class-helper.php:192
+msgid "Sunday"
+msgstr ""
+
+#: inc/classes/class-helper.php:566
+msgid "from"
+msgstr ""
+
+#: inc/classes/class-helper.php:574
+msgid "person"
+msgstr ""
+
+#: inc/classes/class-helper.php:576
+msgid "group"
+msgstr ""
+
+#: inc/classes/class-helper.php:603
+msgid "-"
+msgstr ""
+
+#: inc/classes/class-helper.php:613
+msgid "United Arab Emirates dirham (د.إ) — AED"
+msgstr ""
+
+#: inc/classes/class-helper.php:614
+msgid "Afghan afghani (؋) — AFN"
+msgstr ""
+
+#: inc/classes/class-helper.php:615
+msgid "Albanian lek (Lek) — ALL"
+msgstr ""
+
+#: inc/classes/class-helper.php:616
+msgid "Armenian dram (֏) — AMD"
+msgstr ""
+
+#: inc/classes/class-helper.php:617
+msgid "Argentine peso ($) — ARS"
+msgstr ""
+
+#: inc/classes/class-helper.php:618
+msgid "Australian dollar ($) — AUD"
+msgstr ""
+
+#: inc/classes/class-helper.php:619
+msgid "Aruban florin (ƒ) — AWG"
+msgstr ""
+
+#: inc/classes/class-helper.php:620
+msgid "Azerbaijani manat (₼) — AZN"
+msgstr ""
+
+#: inc/classes/class-helper.php:621
+msgid "Bosnia and Herzegovina convertible mark (KM) — BAM"
+msgstr ""
+
+#: inc/classes/class-helper.php:622
+msgid "Bangladeshi taka (৳) — BDT"
+msgstr ""
+
+#: inc/classes/class-helper.php:623
+msgid "Bulgarian lev (лв) — BGN"
+msgstr ""
+
+#: inc/classes/class-helper.php:624
+msgid "Bahraini dinar (د.ب) — BHD"
+msgstr ""
+
+#: inc/classes/class-helper.php:625
+msgid "Burundian franc (Fr) — BIF"
+msgstr ""
+
+#: inc/classes/class-helper.php:626
+msgid "Bermudian dollar ($) — BMD"
+msgstr ""
+
+#: inc/classes/class-helper.php:627
+msgid "Brunei dollar ($) — BND"
+msgstr ""
+
+#: inc/classes/class-helper.php:628
+msgid "Bolivian boliviano (Bs) — BOB"
+msgstr ""
+
+#: inc/classes/class-helper.php:629
+msgid "Brazilian real (R$) — BRL"
+msgstr ""
+
+#: inc/classes/class-helper.php:630
+msgid "Bahamian dollar ($) — BSD"
+msgstr ""
+
+#: inc/classes/class-helper.php:631
+msgid "Bhutanese ngultrum (Nu) — BTN"
+msgstr ""
+
+#: inc/classes/class-helper.php:632
+msgid "Botswana pula (P) — BWP"
+msgstr ""
+
+#: inc/classes/class-helper.php:633
+msgid "Belarusian ruble (Br) — BYN"
+msgstr ""
+
+#: inc/classes/class-helper.php:634
+msgid "Belize dollar ($) — BZD"
+msgstr ""
+
+#: inc/classes/class-helper.php:635
+msgid "Canadian dollar ($) — CAD"
+msgstr ""
+
+#: inc/classes/class-helper.php:636
+msgid "Congolese franc (Fr) — CDF"
+msgstr ""
+
+#: inc/classes/class-helper.php:637
+msgid "Swiss franc (CHF) — CHF"
+msgstr ""
+
+#: inc/classes/class-helper.php:638
+msgid "Chilean peso ($) — CLP"
+msgstr ""
+
+#: inc/classes/class-helper.php:639
+msgid "Chinese yuan (¥) — CNY"
+msgstr ""
+
+#: inc/classes/class-helper.php:640
+msgid "Colombian peso ($) — COP"
+msgstr ""
+
+#: inc/classes/class-helper.php:641
+msgid "Costa Rican colón (₡) — CRC"
+msgstr ""
+
+#: inc/classes/class-helper.php:642
+msgid "Cuban convertible peso (CUC$) — CUC"
+msgstr ""
+
+#: inc/classes/class-helper.php:643
+msgid "Cuban peso (₱) — CUP"
+msgstr ""
+
+#: inc/classes/class-helper.php:644
+msgid "Cape Verdean escudo ($) — CVS"
+msgstr ""
+
+#: inc/classes/class-helper.php:645
+msgid "Czech koruna (Kč) — CZK"
+msgstr ""
+
+#: inc/classes/class-helper.php:646
+msgid "Djiboutian franc (Fdj) — DJF"
+msgstr ""
+
+#: inc/classes/class-helper.php:647
+msgid "Danish krone (kr) — DKK"
+msgstr ""
+
+#: inc/classes/class-helper.php:648
+msgid "Dominican peso ($) — DOP"
+msgstr ""
+
+#: inc/classes/class-helper.php:649
+msgid "Algerian dinar (دج) — DZD"
+msgstr ""
+
+#: inc/classes/class-helper.php:650
+msgid "Egyptian pound (£) — EGP"
+msgstr ""
+
+#: inc/classes/class-helper.php:651
+msgid "Eritrean nakfa (Nfk) — ERN"
+msgstr ""
+
+#: inc/classes/class-helper.php:652
+msgid "Spanish peseta (₧) — ESP"
+msgstr ""
+
+#: inc/classes/class-helper.php:653
+msgid "Ethiopian birr (ታብ) — ETB"
+msgstr ""
+
+#: inc/classes/class-helper.php:654
+msgid "Euro (€) — EUR"
+msgstr ""
+
+#: inc/classes/class-helper.php:655
+msgid "Fijian dollar ($) — FJD"
+msgstr ""
+
+#: inc/classes/class-helper.php:656
+msgid "Falkland Islands pound (£) — FKP"
+msgstr ""
+
+#: inc/classes/class-helper.php:657
+msgid "British pound sterling (£) — GBP"
+msgstr ""
+
+#: inc/classes/class-helper.php:658
+msgid "Georgian lari (₾) — GEL"
+msgstr ""
+
+#: inc/classes/class-helper.php:659
+msgid "Ghanaian cedi (₵) — GHS"
+msgstr ""
+
+#: inc/classes/class-helper.php:660
+msgid "Gibraltar pound (£) — GIP"
+msgstr ""
+
+#: inc/classes/class-helper.php:661
+msgid "Gambian dalasi (D) — GMD"
+msgstr ""
+
+#: inc/classes/class-helper.php:662
+msgid "Guinean franc (Fr) — GNF"
+msgstr ""
+
+#: inc/classes/class-helper.php:663
+msgid "Guatemalan quetzal (Q) — GTQ"
+msgstr ""
+
+#: inc/classes/class-helper.php:664
+msgid "Guyanese dollar ($) — GYD"
+msgstr ""
+
+#: inc/classes/class-helper.php:665
+msgid "Hong Kong dollar ($) — HKD"
+msgstr ""
+
+#: inc/classes/class-helper.php:666
+msgid "Honduran lempira (L) — HNL"
+msgstr ""
+
+#: inc/classes/class-helper.php:667
+msgid "Croatian kuna (kn) — HRK"
+msgstr ""
+
+#: inc/classes/class-helper.php:668
+msgid "Haitian gourde (G) — HTG"
+msgstr ""
+
+#: inc/classes/class-helper.php:669
+msgid "Hungarian forint (Ft) — HUF"
+msgstr ""
+
+#: inc/classes/class-helper.php:670
+msgid "Indonesian rupiah (Rp) — IDR"
+msgstr ""
+
+#: inc/classes/class-helper.php:671
+msgid "Israeli new shekel (₪) — ILS"
+msgstr ""
+
+#: inc/classes/class-helper.php:672
+msgid "Indian rupee (₹) — INR"
+msgstr ""
+
+#: inc/classes/class-helper.php:673
+msgid "Iraqi dinar (ع.د) — IQD"
+msgstr ""
+
+#: inc/classes/class-helper.php:674
+msgid "Iranian rial (﷼) — IRR"
+msgstr ""
+
+#: inc/classes/class-helper.php:675
+msgid "Icelandic króna (kr) — ISK"
+msgstr ""
+
+#: inc/classes/class-helper.php:676
+msgid "Jamaican dollar ($) — JMD"
+msgstr ""
+
+#: inc/classes/class-helper.php:677
+msgid "Jordanian dinar (د.ا) — JOD"
+msgstr ""
+
+#: inc/classes/class-helper.php:678
+msgid "Japanese yen (¥) — JPY"
+msgstr ""
+
+#: inc/classes/class-helper.php:679
+msgid "Kenyan shilling (Sh) — KES"
+msgstr ""
+
+#: inc/classes/class-helper.php:680
+msgid "Kyrgyzstani som (лв) — KGS"
+msgstr ""
+
+#: inc/classes/class-helper.php:681
+msgid "Cambodian riel (៛) — KHR"
+msgstr ""
+
+#: inc/classes/class-helper.php:682
+msgid "Comorian franc (Fr) — KMF"
+msgstr ""
+
+#: inc/classes/class-helper.php:683
+msgid "South Korean won (₩) — KRW"
+msgstr ""
+
+#: inc/classes/class-helper.php:684
+msgid "Kuwaiti dinar (د.ك) — KWD"
+msgstr ""
+
+#: inc/classes/class-helper.php:685
+msgid "Cayman Islands dollar ($) — KYD"
+msgstr ""
+
+#: inc/classes/class-helper.php:686
+msgid "Kazakhstani tenge (₸) — KZT"
+msgstr ""
+
+#: inc/classes/class-helper.php:687
+msgid "Laotian kip (₭) — LAK"
+msgstr ""
+
+#: inc/classes/class-helper.php:688
+msgid "Lebanese pound (ل.ل) — LBP"
+msgstr ""
+
+#: inc/classes/class-helper.php:689
+msgid "Sri Lankan rupee (රු) — LKR"
+msgstr ""
+
+#: inc/classes/class-helper.php:690
+msgid "Liberian dollar ($) — LRD"
+msgstr ""
+
+#: inc/classes/class-helper.php:691
+msgid "Lesotho loti (M) — LSL"
+msgstr ""
+
+#: inc/classes/class-helper.php:692
+msgid "Lithuanian litas (Lt) — LTL"
+msgstr ""
+
+#: inc/classes/class-helper.php:693
+msgid "Latvian lats (Ls) — LVL"
+msgstr ""
+
+#: inc/classes/class-helper.php:694
+msgid "Libyan dinar (د.ل) — LYD"
+msgstr ""
+
+#: inc/classes/class-helper.php:695
+msgid "Moroccan dirham (د.م.) — MAD"
+msgstr ""
+
+#: inc/classes/class-helper.php:696
+msgid "Moldovan leu (Lei) — MDL"
+msgstr ""
+
+#: inc/classes/class-helper.php:697
+msgid "Malagasy ariary (Ar) — MGA"
+msgstr ""
+
+#: inc/classes/class-helper.php:698
+msgid "Macedonian denar (ден) — MKD"
+msgstr ""
+
+#: inc/classes/class-helper.php:699
+msgid "Myanmar kyat (Ks) — MMK"
+msgstr ""
+
+#: inc/classes/class-helper.php:700
+msgid "Mongolian tögrög (₮) — MNT"
+msgstr ""
+
+#: inc/classes/class-helper.php:701
+msgid "Macanese pataca (P) — MOP"
+msgstr ""
+
+#: inc/classes/class-helper.php:702
+msgid "Mauritian rupee (₨) — MUR"
+msgstr ""
+
+#: inc/classes/class-helper.php:703
+msgid "Maldivian rufiyaa (Rf) — MVR"
+msgstr ""
+
+#: inc/classes/class-helper.php:704
+msgid "Malawian kwacha (K) — MWK"
+msgstr ""
+
+#: inc/classes/class-helper.php:705
+msgid "Mexican peso ($) — MXN"
+msgstr ""
+
+#: inc/classes/class-helper.php:706
+msgid "Malaysian ringgit (RM) — MYR"
+msgstr ""
+
+#: inc/classes/class-helper.php:707
+msgid "Mozambican metical (MT) — MZN"
+msgstr ""
+
+#: inc/classes/class-helper.php:708
+msgid "Namibian dollar ($) — NAD"
+msgstr ""
+
+#: inc/classes/class-helper.php:709
+msgid "Nigerian naira (₦) — NGN"
+msgstr ""
+
+#: inc/classes/class-helper.php:710
+msgid "Nicaraguan córdoba (C$) — NIO"
+msgstr ""
+
+#: inc/classes/class-helper.php:711
+msgid "Norwegian krone (kr) — NOK"
+msgstr ""
+
+#: inc/classes/class-helper.php:712
+msgid "Nepalese rupee (₨) — NPR"
+msgstr ""
+
+#: inc/classes/class-helper.php:713
+msgid "New Zealand dollar ($) — NZD"
+msgstr ""
+
+#: inc/classes/class-helper.php:714
+msgid "Omani rial (ر.ع.) — OMR"
+msgstr ""
+
+#: inc/classes/class-helper.php:715
+msgid "Panamanian balboa (B/. ) — PAB"
+msgstr ""
+
+#: inc/classes/class-helper.php:716
+msgid "Peruvian nuevo sol (S/.) — PEN"
+msgstr ""
+
+#: inc/classes/class-helper.php:717
+msgid "Papua New Guinean kina (K) — PGK"
+msgstr ""
+
+#: inc/classes/class-helper.php:718
+msgid "Philippine peso (₱) — PHP"
+msgstr ""
+
+#: inc/classes/class-helper.php:719
+msgid "Pakistani rupee (₨) — PKR"
+msgstr ""
+
+#: inc/classes/class-helper.php:720
+msgid "Polish złoty (zł) — PLN"
+msgstr ""
+
+#: inc/classes/class-helper.php:721
+msgid "Paraguayan guarani (Gs) — PYG"
+msgstr ""
+
+#: inc/classes/class-helper.php:722
+msgid "Qatari riyal (ر.ق) — QAR"
+msgstr ""
+
+#: inc/classes/class-helper.php:723
+msgid "Romanian leu (lei) — RON"
+msgstr ""
+
+#: inc/classes/class-helper.php:724
+msgid "Serbian dinar (дин) — RSD"
+msgstr ""
+
+#: inc/classes/class-helper.php:725
+msgid "Russian ruble (₽) — RUB"
+msgstr ""
+
+#: inc/classes/class-helper.php:726
+msgid "Rwandan franc (Fr) — RWF"
+msgstr ""
+
+#: inc/classes/class-helper.php:727
+msgid "Saudi riyal (ر.س) — SAR"
+msgstr ""
+
+#: inc/classes/class-helper.php:728
+msgid "Solomon Islands dollar ($) — SBD"
+msgstr ""
+
+#: inc/classes/class-helper.php:729
+msgid "Seychellois rupee (₨) — SCR"
+msgstr ""
+
+#: inc/classes/class-helper.php:730
+msgid "Swedish krona (kr) — SEK"
+msgstr ""
+
+#: inc/classes/class-helper.php:731
+msgid "Singapore dollar ($) — SGD"
+msgstr ""
+
+#: inc/classes/class-helper.php:732
+msgid "Saint Helena pound (£) — SHP"
+msgstr ""
+
+#: inc/classes/class-helper.php:733
+msgid "Sierra Leonean leone (Le) — SLL"
+msgstr ""
+
+#: inc/classes/class-helper.php:734
+msgid "Somali shilling (Sh) — SOS"
+msgstr ""
+
+#: inc/classes/class-helper.php:735
+msgid "Surinamese dollar (SR$) — SRD"
+msgstr ""
+
+#: inc/classes/class-helper.php:736
+msgid "South Sudanese pound (SS£) — SSP"
+msgstr ""
+
+#: inc/classes/class-helper.php:737
+msgid "São Tomé and Príncipe dobra (Db) — STN"
+msgstr ""
+
+#: inc/classes/class-helper.php:738
+msgid "Syrian pound (£) — SYP"
+msgstr ""
+
+#: inc/classes/class-helper.php:739
+msgid "Swazi lilangeni (E) — SZL"
+msgstr ""
+
+#: inc/classes/class-helper.php:740
+msgid "Thai baht (฿) — THB"
+msgstr ""
+
+#: inc/classes/class-helper.php:741
+msgid "Tajikistani somoni (ЅМ) — TJS"
+msgstr ""
+
+#: inc/classes/class-helper.php:742
+msgid "Turkmenistani manat (m) — TMT"
+msgstr ""
+
+#: inc/classes/class-helper.php:743
+msgid "Tunisian dinar (د.ت) — TND"
+msgstr ""
+
+#: inc/classes/class-helper.php:744
+msgid "Tongan paʻanga (T$) — TOP"
+msgstr ""
+
+#: inc/classes/class-helper.php:745
+msgid "Turkish lira (₺) — TRY"
+msgstr ""
+
+#: inc/classes/class-helper.php:746
+msgid "Trinidad and Tobago dollar (TT$) — TTD"
+msgstr ""
+
+#: inc/classes/class-helper.php:747
+msgid "New Taiwan dollar (NT$) — TWD"
+msgstr ""
+
+#: inc/classes/class-helper.php:748
+msgid "Tanzanian shilling (Sh) — TZS"
+msgstr ""
+
+#: inc/classes/class-helper.php:749
+msgid "Ukrainian hryvnia (₴) — UAH"
+msgstr ""
+
+#: inc/classes/class-helper.php:750
+msgid "Ugandan shilling (Sh) — UGX"
+msgstr ""
+
+#: inc/classes/class-helper.php:751
+msgid "United States dollar ($) — USD"
+msgstr ""
+
+#: inc/classes/class-helper.php:752
+msgid "Uruguayan peso ($) — UYU"
+msgstr ""
+
+#: inc/classes/class-helper.php:753
+msgid "Uzbekistani som (сўм) — UZS"
+msgstr ""
+
+#: inc/classes/class-helper.php:754
+msgid "Venezuelan bolívar (Bs.F) — VEF"
+msgstr ""
+
+#: inc/classes/class-helper.php:755
+msgid "Vietnamese đồng (₫) — VND"
+msgstr ""
+
+#: inc/classes/class-helper.php:756
+msgid "Vanuatu vatu (Vt) — VUV"
+msgstr ""
+
+#: inc/classes/class-helper.php:757
+msgid "Samoan tala (T) — WST"
+msgstr ""
+
+#: inc/classes/class-helper.php:758
+msgid "Central African CFA franc (Fr) — XAF"
+msgstr ""
+
+#: inc/classes/class-helper.php:759
+msgid "East Caribbean dollar ($) — XCD"
+msgstr ""
+
+#: inc/classes/class-helper.php:760
+msgid "West African CFA franc (Fr) — XOF"
+msgstr ""
+
+#: inc/classes/class-helper.php:761
+msgid "CFP franc (Fr) — XPF"
+msgstr ""
+
+#: inc/classes/class-helper.php:762
+msgid "Yemeni rial (﷼) — YER"
+msgstr ""
+
+#: inc/classes/class-helper.php:763
+msgid "South African rand (R) — ZAR"
+msgstr ""
+
+#: inc/classes/class-helper.php:764
+msgid "Zambian kwacha (K) — ZMK"
+msgstr ""
+
+#: inc/classes/class-helper.php:765
+msgid "Zimbabwean dollar (Z$) — ZWL"
+msgstr ""
+
+#: inc/classes/class-helper.php:892
+msgid "This is an email from"
+msgstr ""
+
+#: inc/classes/class-helper.php:1327
+#: inc/elementor/widgets/single-trips/form-booking.php:172
+msgid "Select"
+msgstr ""
+
+#: inc/classes/class-import.php:57
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: inc/classes/class-template.php:153 inc/elementor/widgets/base.php:114
+#: templates/my-account/bookings/bookings.php:98
+#: templates/my-account/reviews/reviews.php:88
+msgid ""
+"<svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg"
+"\"><path d=\"M15 6L9 12L15 18\" stroke=\"currentColor\" stroke-width=\"1.5\" "
+"stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+msgstr ""
+
+#: inc/classes/class-template.php:154 inc/elementor/widgets/base.php:115
+#: templates/my-account/bookings/bookings.php:99
+#: templates/my-account/reviews/reviews.php:89
+msgid ""
+"<svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg"
+"\"><path d=\"M9 18L15 12L9 6\" stroke=\"currentColor\" stroke-width=\"1.5\" "
+"stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+msgstr ""
+
+#: inc/classes/class-template.php:193
+#, php-format
+msgid "Showing %d – %d of %s tours found"
+msgstr ""
+
+#: inc/classes/class-template.php:241
+#, php-format
+msgid "%s tour maps"
+msgstr ""
+
+#: inc/classes/class-template.php:434
+msgid "Login to use"
+msgstr ""
+
+#: inc/classes/class-template.php:519 inc/classes/class-template.php:601
+#: inc/elementor/widgets/togo-video.php:737
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: inc/classes/class-template.php:778
+#: inc/elementor/widgets/carousel/trip-banner.php:161
+#: inc/elementor/widgets/carousel/trip-related.php:118
+#: inc/elementor/widgets/single-trips/overview.php:309
+msgid "Duration"
+msgstr ""
+
+#: inc/classes/class-template.php:799
+#: inc/elementor/widgets/carousel/trip-banner.php:187
+msgid "Group size"
+msgstr ""
+
+#: inc/classes/class-template.php:820
+#: inc/elementor/widgets/carousel/trip-banner.php:172
+msgid "Tour type"
+msgstr ""
+
+#: inc/classes/class-template.php:849 inc/classes/class-template.php:876
+msgid "View maps"
+msgstr ""
+
+#: inc/classes/class-template.php:888
+msgid "January"
+msgstr ""
+
+#: inc/classes/class-template.php:889
+msgid "February"
+msgstr ""
+
+#: inc/classes/class-template.php:890
+msgid "March"
+msgstr ""
+
+#: inc/classes/class-template.php:891
+msgid "April"
+msgstr ""
+
+#: inc/classes/class-template.php:892
+msgid "May"
+msgstr ""
+
+#: inc/classes/class-template.php:893
+msgid "June"
+msgstr ""
+
+#: inc/classes/class-template.php:894
+msgid "July"
+msgstr ""
+
+#: inc/classes/class-template.php:895
+msgid "August"
+msgstr ""
+
+#: inc/classes/class-template.php:896
+msgid "September"
+msgstr ""
+
+#: inc/classes/class-template.php:897
+msgid "October"
+msgstr ""
+
+#: inc/classes/class-template.php:898
+msgid "November"
+msgstr ""
+
+#: inc/classes/class-template.php:899
+msgid "December"
+msgstr ""
+
+#: inc/classes/class-template.php:911 inc/classes/class-template.php:931
+msgid "Mon"
+msgstr ""
+
+#: inc/classes/class-template.php:912 inc/classes/class-template.php:932
+msgid "Tue"
+msgstr ""
+
+#: inc/classes/class-template.php:913 inc/classes/class-template.php:933
+msgid "Wed"
+msgstr ""
+
+#: inc/classes/class-template.php:914 inc/classes/class-template.php:934
+msgid "Thu"
+msgstr ""
+
+#: inc/classes/class-template.php:915 inc/classes/class-template.php:935
+msgid "Fri"
+msgstr ""
+
+#: inc/classes/class-template.php:916 inc/classes/class-template.php:936
+msgid "Sat"
+msgstr ""
+
+#: inc/classes/class-template.php:917 inc/classes/class-template.php:937
+msgid "Sun"
+msgstr ""
+
+#: inc/classes/class-template.php:945 inc/classes/class-woo.php:244
+#: inc/elementor/widgets/single-trips/form-booking.php:455
+#: inc/elementor/widgets/single-trips/form-booking.php:484
+#: inc/elementor/widgets/single-trips/form-booking.php:688
+msgid "Apply"
+msgstr ""
+
+#: inc/classes/class-woo.php:136 inc/payment/woo/checkout.php:287
+#: inc/payment/woo/trip/payment.php:174
+#: inc/post-type/bookings/bookings.php:194
+#: inc/post-type/bookings/bookings.php:330
+msgid "Open at"
+msgstr ""
+
+#: inc/classes/class-woo.php:145 inc/payment/woo/checkout.php:296
+#: inc/payment/woo/trip/payment.php:183
+#: inc/post-type/bookings/bookings.php:196
+#: inc/post-type/bookings/bookings.php:332
+msgid "Departure at"
+msgstr ""
+
+#: inc/classes/class-woo.php:162
+#: inc/elementor/widgets/single-trips/overview.php:332
+#: inc/payment/woo/checkout.php:313 inc/payment/woo/trip/payment.php:200
+#: inc/post-type/bookings/bookings.php:205
+#: inc/post-type/bookings/bookings.php:348
+#: templates/my-account/bookings/booking-detail.php:121
+#: templates/my-account/bookings/invoice.php:82
+#, php-format
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-woo.php:241
+msgid "Enter Promo Code"
+msgstr ""
+
+#: inc/classes/class-woo.php:243
+msgid "Enter your coupon"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:96
+msgid "Where"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:97
+#: inc/elementor/widgets/search-form.php:209
+msgid "Where to?"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:105
+#: inc/elementor/widgets/search-form.php:217
+msgid "Near me"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:131
+#: inc/elementor/widgets/search-form.php:229
+msgid "No results"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:143
+#: inc/elementor/widgets/search-form.php:241
+msgid "Select dates"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:157
+msgid "Who"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:158
+#: inc/elementor/widgets/search-form.php:255
+msgid "Number of guests"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:210
+#: inc/classes/trip/class-togo-trip-posts.php:439
+msgid "Price range"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:230
+#: inc/classes/trip/class-togo-trip-posts.php:360
+#: inc/classes/trip/class-togo-trip-posts.php:459
+msgid "Min. price"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:234
+#: inc/classes/trip/class-togo-trip-posts.php:364
+#: inc/classes/trip/class-togo-trip-posts.php:463
+msgid "Max. price"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:248
+#: inc/classes/trip/class-togo-trip-posts.php:378
+#: inc/classes/trip/class-togo-trip-posts.php:477
+#: inc/elementor/widgets/trip-grid.php:342
+#: inc/elementor/widgets/carousel/trip-related.php:119
+msgid "Time of Day"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:252
+#: inc/classes/trip/class-togo-trip-posts.php:481
+#: inc/elementor/widgets/destination.php:191
+#: templates/my-account/bookings/booking-detail.php:41
+msgid "Tour"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:276
+#: inc/classes/trip/class-togo-trip-posts.php:406
+#: inc/classes/trip/class-togo-trip-posts.php:505
+msgid "Show more"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:430
+msgid "Filter"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:714
+#: inc/elementor/widgets/trip-destinations/destinations.php:229
+#: templates/loop/widgets/destination/layout-01.php:41
+#: templates/loop/widgets/destinations/carousel-02.php:36
+msgid "tour"
+msgid_plural "tours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:714
+msgid "tours"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:725
+#, php-format
+msgid "%d %s found"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:729
+msgid "Clear filter"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:734
+msgid "Sort by"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:740
+msgid "Newest"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:741
+msgid "Price: Low to High"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:742
+msgid "Price: High to Low"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:743
+msgid "Title: A to Z"
+msgstr ""
+
+#: inc/classes/trip/class-togo-trip-posts.php:744
+msgid "Title: Z to A"
+msgstr ""
+
+#: inc/elementor/class-elementor.php:96
+msgid "Togo Premium Icons"
+msgstr ""
+
+#: inc/elementor/class-elementor.php:171
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: inc/elementor/class-elementor.php:172 inc/elementor/class-elementor.php:198
+#: inc/elementor/class-elementor.php:225
+#: inc/elementor/class-widget-init.php:648
+msgid "Togo"
+msgstr ""
+
+#: inc/elementor/class-elementor.php:173 inc/elementor/class-elementor.php:199
+msgid "Elementor"
+msgstr ""
+
+#: inc/elementor/class-elementor.php:197 inc/elementor/class-elementor.php:224
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: inc/elementor/class-elementor.php:226
+msgid "PHP"
+msgstr ""
+
+#: inc/elementor/class-widget-init.php:115
+msgid "Nothing found"
+msgstr ""
+
+#: inc/elementor/class-widget-init.php:365
+msgid "Registration failed: "
+msgstr ""
+
+#: inc/elementor/class-widget-init.php:521
+msgid "Expand all"
+msgstr ""
+
+#: inc/elementor/class-widget-init.php:522
+msgid "Collapse all"
+msgstr ""
+
+#: inc/elementor/class-widget-init.php:652
+msgid "Single Trips"
+msgstr ""
+
+#: inc/elementor/class-widget-init.php:656
+msgid "Trip Destinations"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:65
+msgctxt "Border Control"
+msgid "Type"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:68
+#: inc/elementor/widgets/togo-video.php:249
+msgid "Default"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:69
+msgid "None"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:70
+msgctxt "Border Control"
+msgid "Solid"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:71
+msgctxt "Border Control"
+msgid "Double"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:72
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:73
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:74
+msgctxt "Border Control"
+msgid "Groove"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:82
+msgctxt "Border Control"
+msgid "Color"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:91
+msgctxt "Border Control"
+msgid "Width"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:100
+msgctxt "Border Control"
+msgid "Rounded"
+msgstr ""
+
+#: inc/elementor/controls/group-control-advanced-border.php:126
+msgctxt "Advanced Border Control"
+msgid "Border"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:33
+#: inc/elementor/widgets/canvas-menu.php:161
+#: inc/elementor/widgets/carousel/modern-carousel.php:301
+msgid "Button"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:39
+msgid "Button Style"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:46
+#: inc/elementor/widgets/carousel/modern-carousel.php:143
+#: inc/elementor/widgets/carousel/modern-carousel.php:145
+#: inc/elementor/widgets/carousel/modern-carousel.php:179
+msgid "Button Text"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:54
+#: inc/elementor/widgets/icon-list.php:95 inc/elementor/widgets/icons.php:85
+#: inc/elementor/widgets/image.php:89 inc/elementor/widgets/togo-video.php:123
+#: inc/elementor/widgets/togo-video.php:133
+#: inc/elementor/widgets/single-trips/itinerary.php:114
+#: inc/elementor/widgets/single-trips/tour-maps.php:115
+msgid "Link"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:59
+#: inc/elementor/widgets/register-form.php:89
+#: inc/elementor/widgets/single-trips/itinerary.php:116
+#: inc/elementor/widgets/single-trips/tour-maps.php:117
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:66
+msgid "Button Icon"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:72
+#: inc/elementor/widgets/single-trips/itinerary.php:170
+#: inc/elementor/widgets/single-trips/tour-maps.php:171
+msgid "Icon Position"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:93
+msgid "Button Size"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:97
+msgid "Extra Small"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:98
+msgid "Small"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:99
+#: inc/elementor/widgets/destinations.php:322
+#: inc/elementor/widgets/icon-list.php:230
+#: inc/elementor/widgets/carousel/base.php:358
+#: inc/elementor/widgets/carousel/modern-carousel.php:312
+#: inc/elementor/widgets/single-trips/share.php:172
+#: inc/elementor/widgets/single-trips/wishlist.php:140
+msgid "Normal"
+msgstr ""
+
+#: inc/elementor/controls/group-control-button.php:100
+msgid "Large"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:97
+msgctxt "Text Gradient Control"
+msgid "Solid"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:101
+msgctxt "Text Gradient Control"
+msgid "Gradient"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:122
+msgid "Color Type"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:130
+#: inc/elementor/controls/group-control-text-stroke.php:65
+#: inc/elementor/widgets/destination.php:161
+#: inc/elementor/widgets/destination.php:199
+#: inc/elementor/widgets/icons.php:106 inc/elementor/widgets/main-menu.php:130
+#: inc/elementor/widgets/carousel/base.php:362
+#: inc/elementor/widgets/carousel/base.php:397
+#: inc/elementor/widgets/carousel/base.php:560
+#: inc/elementor/widgets/carousel/modern-carousel.php:226
+#: inc/elementor/widgets/carousel/modern-carousel.php:254
+#: inc/elementor/widgets/carousel/modern-carousel.php:282
+#: inc/elementor/widgets/carousel/modern-carousel.php:319
+#: inc/elementor/widgets/carousel/modern-carousel.php:361
+#: inc/elementor/widgets/single-trips/cancellation.php:126
+#: inc/elementor/widgets/single-trips/faqs.php:116
+#: inc/elementor/widgets/single-trips/heading.php:89
+#: inc/elementor/widgets/single-trips/highlights.php:109
+#: inc/elementor/widgets/single-trips/ie.php:109
+#: inc/elementor/widgets/single-trips/itinerary.php:199
+#: inc/elementor/widgets/single-trips/overview.php:117
+#: inc/elementor/widgets/single-trips/reviews.php:128
+#: inc/elementor/widgets/single-trips/services.php:116
+#: inc/elementor/widgets/single-trips/tour-maps.php:200
+#: inc/elementor/widgets/trip-destinations/heading.php:89
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:121
+#: inc/elementor/widgets/trip-destinations/video.php:139
+msgid "Color"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:144
+msgid "First Color"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:155
+#: inc/elementor/controls/group-control-text-gradient.php:181
+msgctxt "Text Gradient Control"
+msgid "Location"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:170
+msgid "Second Color"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-gradient.php:196
+msgctxt "Text Gradient Control"
+msgid "Angle"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-stroke.php:74
+#: inc/elementor/widgets/single-trips/share.php:116
+#: inc/elementor/widgets/single-trips/wishlist.php:84
+msgid "Width"
+msgstr ""
+
+#: inc/elementor/controls/group-control-text-stroke.php:107
+msgctxt "Text Stroke Control"
+msgid "Text Stroke"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:32
+msgid "Tooltip Skin"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:35
+msgid "Black"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:36
+msgid "White"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:37
+msgid "Primary"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:43
+msgid "Tooltip Position"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:46
+#: inc/elementor/widgets/togo-video.php:611
+msgid "Top"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:48
+#: inc/elementor/widgets/togo-video.php:613
+msgid "Bottom"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:50
+#: inc/elementor/widgets/language-currency.php:287
+msgid "Top Left"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:51
+#: inc/elementor/widgets/language-currency.php:288
+msgid "Top Right"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:52
+#: inc/elementor/widgets/language-currency.php:289
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:53
+#: inc/elementor/widgets/language-currency.php:290
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/elementor/controls/group-control-tooltip.php:65
+msgctxt "Tooltip Control"
+msgid "Tooltip"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:47
+msgid "Activities Grid"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:83
+#: inc/elementor/widgets/breadcrumbs.php:80
+#: inc/elementor/widgets/canvas-menu.php:80
+#: inc/elementor/widgets/canvas-menu.php:126
+#: inc/elementor/widgets/destination.php:84
+#: inc/elementor/widgets/destinations-grid.php:83
+#: inc/elementor/widgets/destinations.php:148
+#: inc/elementor/widgets/icon-list.php:70
+#: inc/elementor/widgets/icon-list.php:115 inc/elementor/widgets/icons.php:69
+#: inc/elementor/widgets/icons.php:98 inc/elementor/widgets/image.php:70
+#: inc/elementor/widgets/image.php:102
+#: inc/elementor/widgets/language-currency.php:73
+#: inc/elementor/widgets/language-currency.php:210
+#: inc/elementor/widgets/login-form.php:84 inc/elementor/widgets/logo.php:82
+#: inc/elementor/widgets/mailchimp.php:79
+#: inc/elementor/widgets/main-menu.php:90
+#: inc/elementor/widgets/main-menu.php:122
+#: inc/elementor/widgets/marquee.php:94 inc/elementor/widgets/minicart.php:117
+#: inc/elementor/widgets/posts.php:75
+#: inc/elementor/widgets/register-form.php:73
+#: inc/elementor/widgets/search-form.php:81
+#: inc/elementor/widgets/search-modal.php:41
+#: inc/elementor/widgets/trip-grid.php:95
+#: inc/elementor/widgets/wishlist.php:68
+#: inc/elementor/widgets/carousel/activities-carousel.php:105
+#: inc/elementor/widgets/carousel/activities-carousel.php:189
+#: inc/elementor/widgets/carousel/destinations-carousel.php:105
+#: inc/elementor/widgets/carousel/destinations-carousel.php:182
+#: inc/elementor/widgets/carousel/modern-carousel.php:106
+#: inc/elementor/widgets/carousel/modern-carousel.php:209
+#: inc/elementor/widgets/carousel/posts.php:95
+#: inc/elementor/widgets/carousel/testimonials.php:104
+#: inc/elementor/widgets/carousel/testimonials.php:206
+#: inc/elementor/widgets/carousel/topbar-carousel.php:125
+#: inc/elementor/widgets/carousel/topbar-carousel.php:143
+#: inc/elementor/widgets/carousel/topbar-carousel.php:194
+#: inc/elementor/widgets/carousel/trip-banner.php:88
+#: inc/elementor/widgets/carousel/trip-carousel.php:105
+#: inc/elementor/widgets/carousel/trip-related.php:103
+#: inc/elementor/widgets/carousel/trip-destinations/carousel.php:108
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:96
+#: inc/elementor/widgets/my-account/my-bookings.php:86
+#: inc/elementor/widgets/my-account/my-reviews.php:88
+#: inc/elementor/widgets/my-account/my-settings.php:88
+#: inc/elementor/widgets/my-account/my-wishlist.php:78
+#: inc/elementor/widgets/single-trips/availability.php:85
+#: inc/elementor/widgets/single-trips/cancellation.php:73
+#: inc/elementor/widgets/single-trips/cancellation.php:81
+#: inc/elementor/widgets/single-trips/form-booking.php:90
+#: inc/elementor/widgets/single-trips/gallery.php:90
+#: inc/elementor/widgets/single-trips/highlights.php:134
+#: inc/elementor/widgets/single-trips/ie.php:134
+#: inc/elementor/widgets/trip-destinations/description.php:76
+#: inc/elementor/widgets/trip-destinations/destinations.php:76
+#: inc/elementor/widgets/trip-destinations/faqs.php:81
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:72
+#: inc/elementor/widgets/trip-destinations/video.php:72
+#: inc/post-type/trips/meta-box.php:367 inc/post-type/trips/trips.php:608
+msgid "Content"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:94
+#: inc/elementor/widgets/destination.php:95
+msgid "Layout 1"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:95
+#: inc/elementor/widgets/destination.php:96
+msgid "Layout 2"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:96
+msgid "Layout 3"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:108
+#: inc/elementor/widgets/carousel/activities-carousel.php:128
+#: inc/elementor/widgets/carousel/trip-related.php:115
+msgid "Activity"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:117
+#: inc/elementor/widgets/destination.php:115
+#: inc/elementor/widgets/destinations-grid.php:102
+#: inc/elementor/widgets/carousel/activities-carousel.php:137
+#: inc/elementor/widgets/carousel/destinations-carousel.php:149
+#: inc/post-type/trips/trips.php:530
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:138
+#: inc/elementor/widgets/destinations-grid.php:123
+msgid "Show Count"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:168
+#: inc/elementor/widgets/destinations-grid.php:153
+#: inc/elementor/widgets/posts.php:94 inc/elementor/widgets/trip-grid.php:115
+#: inc/elementor/widgets/my-account/my-wishlist.php:87
+msgid "Columns"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:171
+#: inc/elementor/widgets/destinations-grid.php:156
+#: inc/elementor/widgets/trip-grid.php:119
+msgid "1 Column"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:172
+#: inc/elementor/widgets/destinations-grid.php:157
+#: inc/elementor/widgets/trip-grid.php:120
+msgid "2 Columns"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:173
+#: inc/elementor/widgets/destinations-grid.php:158
+#: inc/elementor/widgets/trip-grid.php:121
+msgid "3 Columns"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:174
+#: inc/elementor/widgets/destinations-grid.php:159
+#: inc/elementor/widgets/trip-grid.php:122
+msgid "4 Columns"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:175
+#: inc/elementor/widgets/destinations-grid.php:160
+#: inc/elementor/widgets/trip-grid.php:123
+msgid "5 Columns"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:176
+#: inc/elementor/widgets/trip-grid.php:124
+msgid "6 Columns"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:185
+#: inc/elementor/widgets/destinations-grid.php:169
+#: inc/elementor/widgets/trip-grid.php:132
+#: inc/elementor/widgets/single-trips/faqs.php:149
+msgid "Row Gap"
+msgstr ""
+
+#: inc/elementor/widgets/activities-grid.php:194
+#: inc/elementor/widgets/destinations-grid.php:178
+msgid "Column Gap"
+msgstr ""
+
+#: inc/elementor/widgets/breadcrumbs.php:42
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/elementor/widgets/breadcrumbs.php:93
+msgid "Home Text"
+msgstr ""
+
+#: inc/elementor/widgets/breadcrumbs.php:95
+msgid "Home"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:33
+msgid "Canvas Menu"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:91
+#: inc/elementor/widgets/language-currency.php:284
+#: inc/elementor/widgets/minicart.php:86
+#: inc/elementor/widgets/search-modal.php:49
+#: inc/elementor/widgets/carousel/testimonials.php:162
+msgid "Position"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:111
+#: inc/elementor/widgets/canvas-menu.php:401
+#: inc/elementor/widgets/main-menu.php:99 inc/elementor/widgets/user.php:120
+msgid "Menu"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:134
+#: inc/elementor/widgets/icon-list.php:237
+#: inc/elementor/widgets/icon-list.php:268
+#: inc/elementor/widgets/minicart.php:125 inc/elementor/widgets/user.php:169
+#: inc/elementor/widgets/single-trips/faqs.php:265
+#: inc/elementor/widgets/single-trips/highlights.php:162
+#: inc/elementor/widgets/single-trips/overview.php:162
+#: inc/elementor/widgets/single-trips/share.php:201
+#: inc/elementor/widgets/single-trips/share.php:243
+#: inc/elementor/widgets/single-trips/wishlist.php:169
+#: inc/elementor/widgets/single-trips/wishlist.php:211
+msgid "Icon Color"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:145
+msgid "Icon Color Hover"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:169
+#: inc/elementor/widgets/destinations.php:79
+#: inc/elementor/widgets/destinations.php:158
+#: inc/elementor/widgets/destinations.php:221
+msgid "Enable"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:176
+msgid "Enable or disable the button."
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:186
+#: inc/elementor/widgets/icon-list.php:83 inc/elementor/widgets/icons.php:33
+#: inc/elementor/widgets/icons.php:77 inc/elementor/widgets/user.php:125
+#: inc/elementor/widgets/carousel/activities-carousel.php:148
+#: inc/elementor/widgets/single-trips/highlights.php:141
+#: inc/elementor/widgets/single-trips/itinerary.php:159
+#: inc/elementor/widgets/single-trips/tour-maps.php:160
+#: inc/post-type/trips/meta-box.php:285
+msgid "Icon"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:202
+#: inc/elementor/widgets/canvas-menu.php:286
+#: inc/elementor/widgets/canvas-menu.php:330
+#: inc/elementor/widgets/canvas-menu.php:415
+#: inc/elementor/widgets/language-currency.php:144
+#: inc/elementor/widgets/language-currency.php:188
+#: inc/elementor/widgets/user.php:139
+msgid "URL"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:215
+#: inc/elementor/widgets/language-currency.php:34
+msgid "Language & Currency"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:223
+#: inc/elementor/widgets/canvas-menu.php:280
+#: inc/elementor/widgets/canvas-menu.php:324
+#: inc/elementor/widgets/language-currency.php:81
+#: inc/elementor/widgets/language-currency.php:138
+#: inc/elementor/widgets/language-currency.php:182
+msgid "Label"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:226
+#: inc/elementor/widgets/language-currency.php:84
+msgid "EN / USD"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:233
+#: inc/elementor/widgets/language-currency.php:91
+msgid "Enable Language"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:239
+#: inc/elementor/widgets/language-currency.php:97
+msgid "Multilingual plugins need to be enabled (eg WPML, Polylang....)"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:246
+#: inc/elementor/widgets/language-currency.php:104
+msgid "Enable Currency"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:252
+#: inc/elementor/widgets/language-currency.php:110
+msgid ""
+"Plugin: FOX - Currency Switcher Professional for WooCommerce need to be "
+"installed and activated"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:264
+#: inc/elementor/widgets/language-currency.php:122
+#: inc/elementor/widgets/language-currency.php:333
+#: inc/elementor/widgets/carousel/trip-related.php:120
+#: inc/elementor/widgets/single-trips/overview.php:356
+msgid "Language"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:275
+#: inc/elementor/widgets/language-currency.php:133
+msgid "Language List"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:293
+#: inc/elementor/widgets/language-currency.php:151
+msgid "English (EN)"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:308
+#: inc/elementor/widgets/language-currency.php:166
+msgid "Currency"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:319
+#: inc/elementor/widgets/language-currency.php:177
+msgid "Currency List"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:352 inc/elementor/widgets/user.php:71
+#: inc/elementor/widgets/user.php:161
+msgid "Not Logged In"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:360 inc/elementor/widgets/user.php:79
+msgid "Not Logged In URL"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:379 inc/elementor/widgets/user.php:98
+#: inc/elementor/widgets/user.php:206
+msgid "Logged In"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:387
+#: inc/elementor/widgets/user.php:106
+msgid "Logged In URL"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:406
+#: inc/elementor/widgets/destination.php:153
+#: inc/elementor/widgets/icon-list.php:88
+#: inc/elementor/widgets/icon-list.php:90
+#: inc/elementor/widgets/marquee.php:116 inc/elementor/widgets/marquee.php:118
+#: inc/elementor/widgets/posts.php:234
+#: inc/elementor/widgets/togo-video.php:293
+#: inc/elementor/widgets/togo-video.php:330
+#: inc/elementor/widgets/trip-grid.php:254 inc/elementor/widgets/user.php:130
+#: inc/elementor/widgets/carousel/modern-carousel.php:245
+#: inc/elementor/widgets/carousel/posts.php:264
+#: inc/elementor/widgets/my-account/my-settings.php:97
+#: inc/post-type/trips/meta-box.php:294 inc/post-type/trips/meta-box.php:360
+#: inc/widgets/includes/popular-posts.php:15
+#: inc/widgets/includes/products-filter.php:1262
+#: templates/my-account/bookings/bookings.php:53
+msgid "Title"
+msgstr ""
+
+#: inc/elementor/widgets/canvas-menu.php:408
+#: inc/elementor/widgets/user.php:132
+msgid "Menu Item"
+msgstr ""
+
+#: inc/elementor/widgets/destination.php:48
+#: inc/elementor/widgets/destination.php:105
+#: inc/elementor/widgets/destinations-grid.php:93
+#: inc/elementor/widgets/carousel/destinations-carousel.php:140
+#: inc/elementor/widgets/carousel/trip-related.php:116
+msgid "Destination"
+msgstr ""
+
+#: inc/elementor/widgets/destination.php:126
+msgid "Show number of trips"
+msgstr ""
+
+#: inc/elementor/widgets/destination.php:145
+#: inc/elementor/widgets/marquee.php:139 inc/elementor/widgets/posts.php:115
+#: inc/elementor/widgets/search-form.php:135
+#: inc/elementor/widgets/carousel/posts.php:119
+#: inc/elementor/widgets/carousel/testimonials.php:112
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:135
+#: inc/elementor/widgets/my-account/my-reviews.php:101
+#: inc/elementor/widgets/my-account/my-settings.php:112
+#: inc/elementor/widgets/single-trips/heading.php:72
+#: inc/elementor/widgets/single-trips/highlights.php:154
+#: inc/elementor/widgets/single-trips/ie.php:162
+#: inc/elementor/widgets/trip-destinations/description.php:127
+#: inc/elementor/widgets/trip-destinations/destinations.php:176
+#: inc/elementor/widgets/trip-destinations/heading.php:72
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:104
+#: inc/elementor/widgets/trip-destinations/video.php:122
+msgid "Style"
+msgstr ""
+
+#: inc/elementor/widgets/destination.php:172
+#: inc/elementor/widgets/icons.php:117
+msgid "Hover Color"
+msgstr ""
+
+#: inc/elementor/widgets/destinations-grid.php:47
+msgid "Destinations Grid"
+msgstr ""
+
+#: inc/elementor/widgets/destinations-grid.php:113
+#: inc/elementor/widgets/destinations.php:171
+#: inc/elementor/widgets/trip-grid.php:302
+#: inc/elementor/widgets/carousel/destinations-carousel.php:160
+#: inc/post-type/trips/trips.php:418 inc/post-type/trips/trips.php:419
+msgid "Destinations"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:33
+msgid "Mega Destinations"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:71
+msgid "Top Destination"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:85
+msgid "Enable top destination"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:94
+msgid "Top Destinations"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:98
+msgid "Select locations to display"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:106
+#: inc/elementor/widgets/destinations.php:120
+#: inc/elementor/widgets/destinations.php:196
+msgid "View All"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:118
+msgid "View All Label"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:127
+msgid "View All URL"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:164
+msgid "Enable destinations"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:175
+msgid "Select destinations to display"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:183
+msgid "Max Items"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:189
+msgid "Maximum number of child items to display"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:213
+#: inc/elementor/widgets/destinations.php:287
+msgid "Banner"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:233
+msgid "Banner Image"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:244
+msgid "Banner Title"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:246
+msgid "Togo Travel Booking WordPress"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:253
+msgid "Banner Description"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:255
+msgid "The most complete Tour Management System"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:262
+msgid "Banner Link Text"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:264
+msgid "Get it now"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:271
+msgid "Banner Link"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:298
+#: inc/elementor/widgets/icon-list.php:248
+#: inc/elementor/widgets/icon-list.php:279
+#: inc/elementor/widgets/marquee.php:266
+#: inc/elementor/widgets/togo-video.php:346
+#: inc/elementor/widgets/my-account/my-settings.php:130
+msgid "Title Color"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:309
+msgid "Description Color"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:329
+#: inc/elementor/widgets/destinations.php:360
+#: inc/elementor/widgets/language-currency.php:218
+#: inc/elementor/widgets/togo-video.php:504
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:176
+msgid "Text Color"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:353
+#: inc/elementor/widgets/icon-list.php:261
+#: inc/elementor/widgets/carousel/base.php:393
+#: inc/elementor/widgets/carousel/modern-carousel.php:354
+#: inc/elementor/widgets/single-trips/share.php:214
+#: inc/elementor/widgets/single-trips/wishlist.php:182
+msgid "Hover"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:414
+#: inc/elementor/widgets/destinations.php:447
+msgid "Top destinations"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:482
+#, php-format
+msgid "Top destinations in %s"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:500
+msgid "No destinations found"
+msgstr ""
+
+#: inc/elementor/widgets/destinations.php:504
+msgid "View all"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:47
+msgid "Forgot Password Form"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:89
+#: inc/elementor/widgets/register-form.php:140
+msgid "Labels"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:97
+msgid "User Label"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:99
+#: inc/elementor/widgets/login-form.php:161
+msgid "Username or Email"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:107
+#: inc/elementor/widgets/login-form.php:192
+#: inc/elementor/widgets/register-form.php:188
+msgid "Submit Label"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:109
+msgid "Reset Password"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:122
+#: inc/elementor/widgets/login-form.php:220
+#: inc/elementor/widgets/register-form.php:203
+msgid "Messages"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:130
+msgid "User Empty Error"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:132
+msgid "Please enter a username or email address."
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:140
+msgid "User Invalid Error"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:142
+msgid "No user found with that email or username."
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:150
+msgid "Reset Link Error"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:152
+msgid "There was an error generating the password reset link."
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:160
+msgid "Send Password Error"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:162
+msgid "Failed to send password reset email."
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:170
+msgid "Send Password Success"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:172
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:185
+#: inc/elementor/widgets/forgot-password-form.php:203
+#: inc/elementor/widgets/register-form.php:338
+#: inc/elementor/widgets/register-form.php:374
+msgid "Email Template"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:193
+#: inc/elementor/widgets/register-form.php:328
+#: inc/elementor/widgets/register-form.php:364
+msgid "Email Subject"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:195
+msgid "Password Reset Request"
+msgstr ""
+
+#: inc/elementor/widgets/forgot-password-form.php:206
+msgid ""
+"HTML is supported. {{user_login}} will be replaced with the user login. "
+"{{user_email}} will be replaced with the user email. {{reset_link}} will be "
+"replaced with the password reset link."
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:34
+msgid "Icon List"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:78
+#: inc/elementor/widgets/marquee.php:102
+#: inc/elementor/widgets/trip-grid.php:171
+#: inc/elementor/widgets/carousel/modern-carousel.php:171
+#: inc/elementor/widgets/carousel/topbar-carousel.php:152
+#: inc/elementor/widgets/carousel/trip-carousel.php:151
+#: inc/elementor/widgets/carousel/trip-related.php:162
+msgid "Items"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:123
+#: inc/elementor/widgets/carousel/testimonials.php:238
+msgid "Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:127
+msgid "Vertical"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:131
+msgid "Horizontal"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:143
+msgid "Gap"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:164
+#: inc/elementor/widgets/carousel/base.php:170
+msgid "Space Between"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:181
+#: inc/elementor/widgets/marquee.php:183
+msgid "Icon Gap"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:198
+#: inc/elementor/widgets/minicart.php:136 inc/elementor/widgets/user.php:180
+msgid "Icon Size"
+msgstr ""
+
+#: inc/elementor/widgets/icon-list.php:220
+#: inc/elementor/widgets/marquee.php:255
+#: inc/elementor/widgets/single-trips/cancellation.php:138
+#: inc/elementor/widgets/single-trips/faqs.php:128
+#: inc/elementor/widgets/single-trips/heading.php:81
+#: inc/elementor/widgets/single-trips/highlights.php:121
+#: inc/elementor/widgets/single-trips/ie.php:121
+#: inc/elementor/widgets/single-trips/itinerary.php:211
+#: inc/elementor/widgets/single-trips/overview.php:129
+#: inc/elementor/widgets/single-trips/reviews.php:140
+#: inc/elementor/widgets/single-trips/services.php:128
+#: inc/elementor/widgets/single-trips/tour-maps.php:212
+#: inc/elementor/widgets/trip-destinations/heading.php:81
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:113
+#: inc/elementor/widgets/trip-destinations/video.php:131
+msgid "Typography"
+msgstr ""
+
+#: inc/elementor/widgets/icons.php:128
+#: inc/elementor/widgets/carousel/base.php:340
+msgid "Size"
+msgstr ""
+
+#: inc/elementor/widgets/image.php:34
+msgid "Modern Image"
+msgstr ""
+
+#: inc/elementor/widgets/image.php:78
+#: inc/meta-box/fields/image/image.class.php:56
+msgid "Choose Image"
+msgstr ""
+
+#: inc/elementor/widgets/image.php:110 inc/elementor/widgets/marquee.php:226
+#: inc/elementor/widgets/togo-video.php:167
+#: inc/elementor/widgets/single-trips/share.php:137
+#: inc/elementor/widgets/single-trips/wishlist.php:105
+msgid "Height"
+msgstr ""
+
+#: inc/elementor/widgets/image.php:136
+msgid "Line Background Color"
+msgstr ""
+
+#: inc/elementor/widgets/language-currency.php:240
+#: inc/elementor/widgets/carousel/activities-carousel.php:200
+#: inc/elementor/widgets/carousel/destinations-carousel.php:193
+#: inc/elementor/widgets/carousel/testimonials.php:214
+#: inc/elementor/widgets/carousel/topbar-carousel.php:236
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:143
+#: inc/elementor/widgets/single-trips/faqs.php:187
+#: inc/elementor/widgets/trip-destinations/description.php:135
+#: inc/elementor/widgets/trip-destinations/destinations.php:184
+msgid "Padding"
+msgstr ""
+
+#: inc/elementor/widgets/language-currency.php:251
+#: inc/elementor/widgets/language-currency.php:300
+#: inc/elementor/widgets/carousel/base.php:439
+#: inc/elementor/widgets/single-trips/share.php:158
+#: inc/elementor/widgets/single-trips/wishlist.php:126
+msgid "Border Radius"
+msgstr ""
+
+#: inc/elementor/widgets/language-currency.php:263
+msgid "Border"
+msgstr ""
+
+#: inc/elementor/widgets/language-currency.php:276
+msgid "Sub Content"
+msgstr ""
+
+#: inc/elementor/widgets/language-currency.php:347
+msgid "Currencies"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:47
+msgid "Login Form"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:92
+#: inc/elementor/widgets/login-form.php:181
+msgid "Remember me"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:104
+msgid "Enable Forgot Password"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:116
+#: inc/elementor/widgets/register-form.php:81
+msgid "Redirect To"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:127
+msgid "Forgot Password URL"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:151
+msgid "Fields"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:159
+#: inc/elementor/widgets/register-form.php:148
+msgid "Username Label"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:169
+#: inc/elementor/widgets/register-form.php:168
+msgid "Password Label"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:171
+#: inc/elementor/widgets/register-form.php:170
+#: templates/my-account/settings/password.php:70
+#: templates/my-account/settings/password.php:78
+#: templates/my-account/settings/settings.php:72
+msgid "Password"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:179
+msgid "Remember Label"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:194
+msgid "Login"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:202
+msgid "Forgot Password Label"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:204
+msgid "Forgot Password?"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:228
+#: inc/elementor/widgets/register-form.php:211
+msgid "Username Empty"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:230
+msgid "Username or Email is required"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:238
+#: inc/elementor/widgets/register-form.php:221
+msgid "Username Invalid"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:240
+msgid "Username or Email is invalid"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:248
+#: inc/elementor/widgets/register-form.php:251
+msgid "Password Empty"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:250
+msgid "Password is required"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:258
+msgid "Login Invalid"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:260
+msgid "Invalid username or password"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:268
+msgid "Login Send"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:270
+#: inc/elementor/widgets/register-form.php:294
+msgid "Sending user info,please wait..."
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:278
+msgid "Login Success"
+msgstr ""
+
+#: inc/elementor/widgets/login-form.php:280
+msgid "Login successful! Redirecting..."
+msgstr ""
+
+#: inc/elementor/widgets/logo.php:47
+msgid "Logo"
+msgstr ""
+
+#: inc/elementor/widgets/logo.php:88
+msgid "Logo Style"
+msgstr ""
+
+#: inc/elementor/widgets/logo.php:91
+msgid "Light"
+msgstr ""
+
+#: inc/elementor/widgets/logo.php:92
+msgid "Dark"
+msgstr ""
+
+#: inc/elementor/widgets/logo.php:98
+msgid "Max Width"
+msgstr ""
+
+#: inc/elementor/widgets/mailchimp.php:47
+msgid "Mailchimp Widget"
+msgstr ""
+
+#: inc/elementor/widgets/mailchimp.php:88
+msgid "Mailchimp Shortcode"
+msgstr ""
+
+#: inc/elementor/widgets/main-menu.php:45
+msgid "Main Menu"
+msgstr ""
+
+#: inc/elementor/widgets/main-menu.php:141
+msgid "Color Hover"
+msgstr ""
+
+#: inc/elementor/widgets/main-menu.php:152
+msgid "Item Padding"
+msgstr ""
+
+#: inc/elementor/widgets/marquee.php:48
+msgid "Marquee"
+msgstr ""
+
+#: inc/elementor/widgets/marquee.php:147
+#: inc/elementor/widgets/carousel/base.php:545
+#: inc/elementor/widgets/carousel/trip-related.php:117
+#: inc/elementor/widgets/single-trips/form-booking.php:164
+#: inc/elementor/widgets/single-trips/gallery.php:98
+msgid "Type"
+msgstr ""
+
+#: inc/elementor/widgets/marquee.php:150
+msgid "Left to Right"
+msgstr ""
+
+#: inc/elementor/widgets/marquee.php:151
+msgid "Right to Left"
+msgstr ""
+
+#: inc/elementor/widgets/marquee.php:160
+msgid "Item Gap"
+msgstr ""
+
+#: inc/elementor/widgets/marquee.php:206
+msgid "Speed"
+msgstr ""
+
+#: inc/elementor/widgets/minicart.php:36
+msgid "Mini Cart"
+msgstr ""
+
+#: inc/elementor/widgets/minicart.php:76
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/elementor/widgets/minicart.php:232
+msgid "Your Cart"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:34
+msgid "Modern Posts"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:86
+msgid "Grid 2"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:87
+msgid "Big First"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:121
+#: inc/elementor/widgets/carousel/posts.php:125
+msgid "Hide Description"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:137
+#: inc/elementor/widgets/carousel/posts.php:141
+msgid "Hide Read More"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:153
+#: inc/elementor/widgets/carousel/posts.php:157
+msgid "Hide Pagination"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:169
+#: inc/elementor/widgets/carousel/posts.php:173
+msgid "Pagination Align"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:199
+#: inc/elementor/widgets/carousel/posts.php:229
+msgid "Query"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:205 inc/elementor/widgets/trip-grid.php:103
+#: inc/elementor/widgets/carousel/posts.php:235
+#: inc/elementor/widgets/carousel/trip-related.php:129
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:206
+#: inc/elementor/widgets/carousel/posts.php:236
+msgid "Enter the number of posts to display"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:214
+#: inc/elementor/widgets/carousel/posts.php:244
+msgid "Categories"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:222
+#: inc/elementor/widgets/carousel/posts.php:252
+msgid "Tags"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:230 inc/elementor/widgets/trip-grid.php:249
+#: inc/elementor/widgets/carousel/posts.php:260
+#: inc/widgets/includes/products-filter.php:1441
+msgid "Order By"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:235 inc/elementor/widgets/trip-grid.php:255
+#: inc/elementor/widgets/carousel/posts.php:265
+msgid "Random"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:236
+#: inc/elementor/widgets/carousel/posts.php:266
+msgid "Comment Count"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:243 inc/elementor/widgets/trip-grid.php:241
+#: inc/elementor/widgets/trip-grid.php:263
+#: inc/elementor/widgets/carousel/posts.php:273
+msgid "Order"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:246
+#: inc/elementor/widgets/carousel/posts.php:276
+msgid "ASC"
+msgstr ""
+
+#: inc/elementor/widgets/posts.php:247
+#: inc/elementor/widgets/carousel/posts.php:277
+msgid "DESC"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:34
+msgid "Register Form"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:90
+msgid ""
+"Redirect to another page after successful registration. Leave it blank to "
+"redirect to the home page."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:97
+msgid "Send Email To Admin"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:109
+msgid "Send Email To User"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:121
+msgid "Minimum Password Length"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:150
+msgid "Username"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:158
+msgid "Email Label"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:160
+#: inc/elementor/widgets/single-trips/form-booking.php:168
+#: inc/elementor/widgets/single-trips/form-booking.php:217
+#: templates/my-account/bookings/booking-detail.php:69
+#: templates/my-account/settings/settings.php:109
+msgid "Email"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:178
+msgid "Password Confirm Label"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:180
+msgid "Password Confirm"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:190
+msgid "Register"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:213
+msgid "Username cannot be empty."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:223
+msgid "Username already exists."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:231
+msgid "Email Empty"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:233
+msgid "Email cannot be empty."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:241
+msgid "Email Invalid"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:243
+msgid "Email already exists."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:253
+msgid "Password cannot be empty."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:261
+msgid "Password Length"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:263
+msgid "Password must be at least {{minimum_password_length}} characters."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:264
+msgid "{{minimum_password_length}} is the minimum password length."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:272
+msgid "Password Confirm Empty"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:274
+msgid "Password confirm cannot be empty."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:282
+msgid "Password Confirm Invalid"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:284
+#: templates/my-account/settings/password.php:56
+msgid "Passwords do not match."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:292
+msgid "Register Send"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:302
+msgid "Register Success"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:304
+msgid "Registration successful! Redirecting..."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:317
+msgid "Admin Email Template"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:330
+#: inc/elementor/widgets/register-form.php:366
+msgid "User Registration"
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:341
+#: inc/elementor/widgets/register-form.php:377
+msgid ""
+"HTML tags are allowed. {{user_login}} will be replaced with the user login. "
+"{{user_email}} will be replaced with the user email. {{user_password}} will "
+"be replaced with the user password."
+msgstr ""
+
+#: inc/elementor/widgets/register-form.php:353
+msgid "User Email Template"
+msgstr ""
+
+#: inc/elementor/widgets/search-form.php:42
+msgid "Search Form"
+msgstr ""
+
+#: inc/elementor/widgets/search-form.php:101
+msgid "Enable Date"
+msgstr ""
+
+#: inc/elementor/widgets/search-form.php:143
+msgid "Field Height"
+msgstr ""
+
+#: inc/elementor/widgets/search-form.php:166
+msgid "SVG Width"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:18
+msgid "Search Modal"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:77
+#: inc/meta-box/fields/radio/radio.class.php:58
+#: inc/widgets/includes/products-filter.php:690
+#: inc/widgets/includes/products-filter.php:693
+msgid "Search"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:84
+#: inc/elementor/widgets/single-trips/form-booking.php:157
+msgid "Placeholder"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:86
+#: inc/elementor/widgets/search-modal.php:159
+msgid "Search..."
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:93
+msgid "Post Type"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:97
+msgid "Post"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:98
+msgid "Product"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:106
+msgid "Minimum Characters"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:111
+msgid "Minimum number of characters to start searching"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:118
+msgid "Number of Items"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:123
+msgid "Number of items to display"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:130
+msgid "Enable View All"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:136
+msgid "Enable view all results"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:143
+msgid "View All Text"
+msgstr ""
+
+#: inc/elementor/widgets/search-modal.php:145
+msgid "View All Results"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:53
+msgid "Togo Video"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:93 inc/post-type/trips/trips.php:536
+msgid "Video"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:99
+msgid "Source"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:103
+msgid "Hosted Video"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:104
+msgid "YouTube"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:105
+msgid "Vimeo"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:113
+#: inc/post-type/trips/meta-box.php:256
+msgid "Video URL"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:141
+msgid "Autoplay"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:147
+msgid "Loop"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:153
+msgid "Mute"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:159
+msgid "Player Controls"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:195
+#: inc/elementor/widgets/togo-video.php:201
+msgid "Image Overlay"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:225
+#: inc/elementor/widgets/togo-video.php:260
+msgid "Play Icon"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:234
+msgid "Show Play Icon"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:245
+msgid "Play Icon Type"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:250
+msgid "Icon Library"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:251
+#: inc/elementor/widgets/togo-video.php:270
+msgid "Custom SVG"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:284
+msgid "Overlay Content"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:295
+msgid "Unforgettable travel experiences with a positive impact."
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:303
+#: inc/elementor/widgets/togo-video.php:373
+#: inc/elementor/widgets/carousel/modern-carousel.php:116
+#: inc/elementor/widgets/carousel/modern-carousel.php:118
+#: inc/elementor/widgets/carousel/modern-carousel.php:176
+#: inc/elementor/widgets/carousel/modern-carousel.php:217
+msgid "Subtitle"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:305
+msgid "Connecting your journey with purpose"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:313
+msgid "Play Button Title"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:315
+#: inc/elementor/widgets/togo-video.php:667
+#: inc/elementor/widgets/togo-video.php:806
+msgid "Play Video"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:337
+#: inc/elementor/widgets/carousel/trip-carousel.php:204
+#: inc/elementor/widgets/my-account/my-settings.php:122
+msgid "Title Typography"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:356
+msgid "Title Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:380
+msgid "Subtitle Typography"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:389
+msgid "Subtitle Color"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:399
+msgid "Subtitle Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:416
+msgid "Play Button"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:422
+msgid "Play Button Color"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:432
+msgid "Play Icon Color"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:442
+msgid "Play Button Size"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:461
+msgid "Play Button Padding"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:478
+msgid "Play Button Shadow"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:488
+msgid "Play Button Text"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:495
+msgid "Text Typography"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:514
+msgid "Text Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:529
+msgid "Text Margin"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:549
+msgid "Overlay Container"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:555
+msgid "Content Width"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:572
+msgid "Overlay Padding"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:590
+msgid "Overlay Margin"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:608
+msgid "Vertical Align"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:612
+msgid "Middle"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:623
+msgid "Horizontal Align"
+msgstr ""
+
+#: inc/elementor/widgets/togo-video.php:681
+msgid "No video source available. Please add a video URL."
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:48
+msgid "Trip Grid"
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:198
+#: inc/elementor/widgets/carousel/trip-carousel.php:178
+#: inc/elementor/widgets/carousel/trip-related.php:189
+msgid "Enter the image size in the format width x height (e.g., 600x450)."
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:215
+#: inc/elementor/widgets/carousel/trip-carousel.php:195
+msgid "Items Style"
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:267
+msgid "Ascending"
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:268
+msgid "Descending"
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:362
+#: inc/post-type/bookings/bookings.php:123
+#: inc/post-type/bookings/bookings.php:142
+#: inc/post-type/bookings/bookings.php:353 inc/post-type/trips/trips.php:484
+#: inc/post-type/trips/trips.php:485
+msgid "Services"
+msgstr ""
+
+#: inc/elementor/widgets/trip-grid.php:460
+msgid "No trips found."
+msgstr ""
+
+#: inc/elementor/widgets/user.php:33
+msgid "User"
+msgstr ""
+
+#: inc/elementor/widgets/user.php:214
+msgid "Avatar Size"
+msgstr ""
+
+#: inc/elementor/widgets/wishlist.php:33
+msgid "Wishlist"
+msgstr ""
+
+#: inc/elementor/widgets/wishlist.php:76
+msgid "Wishlist URL"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/activities-carousel.php:49
+msgid "Activities Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/activities-carousel.php:116
+#: inc/elementor/widgets/carousel/destinations-carousel.php:116
+#: inc/elementor/widgets/carousel/testimonials.php:115
+msgid "Style 1"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/activities-carousel.php:117
+#: inc/elementor/widgets/carousel/destinations-carousel.php:117
+#: inc/elementor/widgets/carousel/testimonials.php:116
+msgid "Style 2"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:125
+msgid "Carousel Options"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:133
+msgid "Transition"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:136
+msgid "Slide"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:137
+msgid "Fade"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:147
+msgid "Slides Per View"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:186
+msgid "Transition Duration"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:196
+msgid "Auto Play"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:197
+msgid ""
+"Delay between transitions (in ms). For e.g: 3000. Leave blank to disabled. "
+"Input 1 to make smooth transition."
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:207
+msgid "Infinite Loop"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:217
+msgid "Centered"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:229
+msgid "Show Full Right"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:231
+msgid "Only works if loop is disabled"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:242
+msgid "Touchable"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:243
+msgid "Click and drag to change slides"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:253
+msgid "Mousewheel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:262
+msgid "Navigation"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:272
+msgid "Arrows"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:281
+msgid "Custom Arrows"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:292
+msgid "Next Button Class"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:295
+msgid "Add custom class to the next arrow. Ex: arrow-next"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:305
+msgid "Previous Button Class"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:308
+msgid "Add custom class to the previous arrow. Ex: arrow-prev"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:319
+msgid "Dots"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:332
+msgid "Carousel Arrows"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:378
+#: inc/elementor/widgets/carousel/base.php:413
+#: inc/elementor/widgets/carousel/modern-carousel.php:341
+#: inc/elementor/widgets/carousel/modern-carousel.php:383
+#: inc/elementor/widgets/single-trips/faqs.php:208
+#: inc/elementor/widgets/single-trips/share.php:179
+#: inc/elementor/widgets/single-trips/share.php:221
+#: inc/elementor/widgets/single-trips/wishlist.php:147
+#: inc/elementor/widgets/single-trips/wishlist.php:189
+msgid "Border Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:430
+msgid "Border Width"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:458
+msgid "Next Button Position"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:475
+msgid "Previous Button Position"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:506
+msgid "Carousel Dots"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:517
+msgid "Absolute Dots"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:526
+msgid "Spacing Between Dots"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:548
+msgid "Bullets"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:549
+msgid "Fraction"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/base.php:550
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/destinations-carousel.php:49
+msgid "Destinations Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/destinations-carousel.php:126
+msgid "Item Interleaved"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/destinations-carousel.php:207
+msgid "Item Height"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/modern-carousel.php:50
+msgid "Modern Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/modern-carousel.php:152
+msgid "Button Link"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/posts.php:34
+msgid "Modern Posts Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/posts.php:190
+msgid "Image Width"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:48
+msgid "Modern Testimonials"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:127
+#: inc/post-type/trips/trips.php:595
+msgid "Star"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:138
+#: inc/elementor/widgets/carousel/testimonials.php:140
+msgid "Testimonial Heading"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:146
+msgid "Testimonial Text"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:148
+#: inc/elementor/widgets/carousel/testimonials.php:185
+msgid "This is a testimonial text."
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:154
+msgid "Author"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:156
+#: inc/elementor/widgets/carousel/testimonials.php:186
+msgid "John Doe"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:164
+msgid "CEO, Company Name"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:180
+msgid "Testimonials"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:226
+#: inc/elementor/widgets/single-trips/availability.php:114
+msgid "Margin"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:262
+msgid "Author Inline"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:275
+msgid "Heading Typography"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:284
+msgid "Content Typography"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:293
+msgid "Name Typography"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/testimonials.php:302
+msgid "Position Typography"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/topbar-carousel.php:40
+msgid "Topbar Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/topbar-carousel.php:132
+msgid "Show Close Button"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/topbar-carousel.php:159
+#: inc/elementor/widgets/carousel/topbar-carousel.php:162
+#: inc/elementor/widgets/carousel/topbar-carousel.php:165
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: inc/elementor/widgets/carousel/topbar-carousel.php:205
+msgid "Slider Max Width"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/topbar-carousel.php:252
+msgid "Content Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/topbar-carousel.php:298
+msgid "Content Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-banner.php:33
+msgid "Trip Banner"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-banner.php:190
+msgid "guests"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-banner.php:197
+msgid "Book tour"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-carousel.php:48
+msgid "Trip Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-carousel.php:130
+msgid "Select Trips"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-related.php:47
+msgid "Trip Related Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-related.php:111
+msgid "Related By"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-related.php:141
+msgid "Random Order"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-related.php:274
+msgid "No related trips found."
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/carousel.php:38
+msgid "Trip Destinations - Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:42
+msgid "Trip Destinations - Rates"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:104
+msgid "Enable Heading"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:118
+msgid "Regards from travelers"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:119
+#: inc/elementor/widgets/trip-destinations/destinations.php:88
+#: inc/elementor/widgets/trip-destinations/faqs.php:92
+msgid "{term_name} will be replaced with the term name"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:165
+msgid "Heading Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:187
+msgid "Item Border Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:198
+msgid "Item Background Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:209
+msgid "Icon Star Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:220
+msgid "Progress Bar First Color"
+msgstr ""
+
+#: inc/elementor/widgets/carousel/trip-destinations/rates.php:231
+msgid "Progress Bar Second Color"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:39
+msgid "My Bookings"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:95
+msgid "Show Filter"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:108
+msgid "Posts per page"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:133
+#: templates/my-account/bookings/bookings.php:84
+msgid "Invoice"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:142
+msgid "Company Name"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:153
+msgid "Company Address"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:164
+msgid "Company Phone"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-bookings.php:175
+msgid "Company Email"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-reviews.php:41
+msgid "My Reviews"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-settings.php:41
+msgid "My Settings"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-settings.php:99
+msgid "Profile details"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-wishlist.php:40
+msgid "My Wishlist"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-wishlist.php:90
+msgid "1"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-wishlist.php:91
+msgid "2"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-wishlist.php:92
+msgid "3"
+msgstr ""
+
+#: inc/elementor/widgets/my-account/my-wishlist.php:93
+msgid "4"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/availability.php:43
+msgid "Trip - Availability"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/availability.php:92
+msgid "Loading title"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/availability.php:94
+msgid "Loading available options..."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/availability.php:106
+msgid "Content Style"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/cancellation.php:43
+msgid "Trip - Cancellation"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/cancellation.php:83
+#, php-format
+msgid ""
+"You can cancel up to %s hours in advance of the experience for a full refund."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/cancellation.php:84
+#, php-format
+msgid "%s will be replaced with the cancellation time."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/cancellation.php:105
+msgid "Cancellation policy"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:43
+msgid "Trip - Faqs"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:95
+msgid "Frequently asked questions"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:141
+msgid "Accordion"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:168
+msgid "Radius"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:231
+msgid "Question Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:242
+msgid "Question Hover Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/faqs.php:254
+msgid "Answer Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:43
+msgid "Trip - Form Booking"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:113
+msgid "Affiliate Link"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:134
+#: inc/elementor/widgets/single-trips/form-booking.php:152
+#: inc/elementor/widgets/single-trips/form-booking.php:604
+msgid "Enquiry"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:142
+msgid "Short Description"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:144
+msgid "Have a question before booking? Message us to learn more."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:158
+#: inc/elementor/widgets/single-trips/form-booking.php:205
+msgid "First name"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:169
+msgid "Tel"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:170
+msgid "Checkbox"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:171
+msgid "Radio"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:173
+msgid "Textarea"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:174
+msgid "Number"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:180
+#: inc/widgets/includes/products-filter.php:1272
+msgid "Options"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:182
+msgid "Enter options separated by a comma."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:189
+msgid "Required"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:195
+msgid "Half-row Width"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:211
+msgid "Last name"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:222
+#: templates/my-account/bookings/booking-detail.php:73
+#: templates/my-account/settings/settings.php:113
+msgid "Phone"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:227
+msgid "Your question"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:287
+#: inc/elementor/widgets/single-trips/form-booking.php:497
+#: inc/elementor/widgets/single-trips/form-booking.php:801
+msgid "Make enquiry"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:377
+#: inc/elementor/widgets/single-trips/form-booking.php:587
+#: inc/elementor/widgets/single-trips/form-booking.php:782
+msgid "Send enquiry"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:416
+#, php-format
+msgid "You can select between %s to %s travelers in total."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:418
+#, php-format
+msgid "You can select up to %s travelers in total."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:433
+#: inc/elementor/widgets/single-trips/form-booking.php:435
+#: inc/elementor/widgets/single-trips/form-booking.php:638
+#: inc/elementor/widgets/single-trips/form-booking.php:640
+msgid "Age "
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:438
+#: inc/elementor/widgets/single-trips/form-booking.php:469
+#: inc/elementor/widgets/single-trips/form-booking.php:644
+#: inc/elementor/widgets/single-trips/form-booking.php:673
+msgid "Min. "
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:438
+#: inc/elementor/widgets/single-trips/form-booking.php:469
+#: inc/elementor/widgets/single-trips/form-booking.php:644
+#: inc/elementor/widgets/single-trips/form-booking.php:673
+msgid "Max. "
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:454
+#: inc/elementor/widgets/single-trips/form-booking.php:483
+#: inc/elementor/widgets/single-trips/form-booking.php:687
+msgid "Please select guests"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:467
+#: inc/elementor/widgets/single-trips/form-booking.php:671
+msgid "Traveler"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:496
+#: inc/elementor/widgets/single-trips/form-booking.php:698
+msgid "Check availability"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:603
+msgid "Book"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/form-booking.php:800
+msgid "Book now"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:61
+msgid "Trip - Gallery"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:103
+msgid "Carousel"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:115
+msgid "Layout 01"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:116
+msgid "Layout 02"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:117
+msgid "Layout 03"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:128
+msgid "Image Radius"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:142
+msgid "Image Height"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/gallery.php:242
+msgid "All photos"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/heading.php:43
+msgid "Trip - Heading"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/highlights.php:43
+msgid "Trip - Highlights"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/highlights.php:88
+#: inc/post-type/trips/meta-box.php:317 inc/post-type/trips/meta-box.php:322
+msgid "Highlights"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/ie.php:43
+msgid "Trip - Includes/Excludes"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/ie.php:88
+#: inc/post-type/trips/meta-box.php:330
+msgid "Includes/Excludes"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/ie.php:141
+msgid "Icon Includes"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/ie.php:149
+msgid "Icon Excludes"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/ie.php:170
+msgid "Icon Includes Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/ie.php:181
+msgid "Icon Excludes Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:43
+msgid "Trip - Itinerary"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:102
+#: inc/elementor/widgets/single-trips/tour-maps.php:103
+msgid "Enable Link"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:129
+#: inc/elementor/widgets/single-trips/tour-maps.php:130
+msgid "Link Title"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:143
+#: inc/elementor/widgets/single-trips/tour-maps.php:144
+msgid "Custom Class"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:149
+#: inc/elementor/widgets/single-trips/tour-maps.php:150
+msgid "Add custom class for link. Separator is a space."
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:174
+#: inc/elementor/widgets/single-trips/tour-maps.php:175
+msgid "Before"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/itinerary.php:175
+#: inc/elementor/widgets/single-trips/tour-maps.php:176
+msgid "After"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/location.php:43
+msgid "Trip - Location"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/mini-review.php:43
+msgid "Trip - Mini Review"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:43
+msgid "Trip - Overview"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:96
+#: inc/post-type/trips/meta-box.php:274 inc/post-type/trips/meta-box.php:280
+msgid "Overview"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:150
+msgid "Enable List"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:173
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:184
+msgid "Label Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:195
+msgid "Value Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:207
+msgid "Label Typography"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:216
+msgid "Value Typography"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:249
+msgid "Enable Read More"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:313
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/single-trips/overview.php:314
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/single-trips/overview.php:316
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/single-trips/overview.php:317
+#, php-format
+msgid "%d night"
+msgid_plural "%d nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/single-trips/overview.php:326
+msgid "Travelers"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:340
+msgid "Tour Type"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/overview.php:398
+#: inc/payment/woo/classes/class-wc-product.php:1948
+msgid "Read more"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:31
+msgid "Trip - Reviews"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:75
+msgid "Customer reviews"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:88
+#: inc/post-type/reviews/meta-box.php:70 inc/post-type/reviews/reviews.php:60
+#: inc/post-type/reviews/reviews.php:61
+msgid "Reviews"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:95
+msgid "Overall Title"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:97
+msgid "Overall rating"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:105
+msgid "Summary Title"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:107
+msgid "Review summary"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:231
+#, php-format
+msgid "On %s"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/reviews.php:293
+#, php-format
+msgid "(%s review)"
+msgid_plural "(%s reviews)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/single-trips/services.php:43
+msgid "Trip - Services"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:43
+msgid "Trip - Share"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:77
+#: inc/elementor/widgets/single-trips/share.php:108
+#: inc/elementor/widgets/single-trips/wishlist.php:76
+msgid "Share"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:85
+msgid "Choose Brands"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:88
+msgid "Facebook"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:89
+msgid "X"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:90
+msgid "Linkedin"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:91
+msgid "Pinterest"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:92
+msgid "Instagram"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:258
+msgid "Popup Title"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/share.php:260
+#: inc/elementor/widgets/single-trips/share.php:276
+msgid "Share this:"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:43
+msgid "Trip - Tour Maps"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:95
+msgid "Tour maps"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:225
+msgid "Map"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:233
+msgid "Marker Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:244
+msgid "Marker Background Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:255
+msgid "Marker Border Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:267
+msgid "Line Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:276
+msgid "Arrow Color"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:285
+msgid "Arrow Speed"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/tour-maps.php:297
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/elementor/widgets/single-trips/wishlist.php:43
+msgid "Trip - Wishlist"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/description.php:42
+msgid "Trip Destinations - Description"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/description.php:84
+msgid "Hide Link 01"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/description.php:103
+msgid "Hide Link 02"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/description.php:177
+msgid "Best time to visit"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/description.php:180
+msgid "Best thing to do"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/destinations.php:42
+msgid "Trip Destinations - Destinations"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/destinations.php:84
+msgid "Listing Heading Text"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/destinations.php:95
+msgid "Hide Filter"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/destinations.php:114
+msgid "Hide Sort"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/destinations.php:133
+msgid "Hide Pagination Info"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/destinations.php:152
+msgid "Hide Map"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/faqs.php:40
+msgid "Trip Destinations - FAQs"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/faqs.php:91
+msgid "FAQ’s about {term_name}"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/faqs.php:102
+msgid "Have more questions? Contact us."
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/heading.php:43
+msgid "Trip Destinations - Heading"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:43
+msgid "Trip Destinations - Thumbnail"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/thumbnail.php:90
+#: inc/elementor/widgets/trip-destinations/video.php:108
+msgid "Show Title"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/video.php:43
+msgid "Trip Destinations - Video"
+msgstr ""
+
+#: inc/elementor/widgets/trip-destinations/video.php:80
+msgid "Video Height"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:51
+#: inc/meta-box/controls/taxonomy.php:48
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:52
+#: inc/meta-box/controls/taxonomy.php:45
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:53
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:54
+#: inc/meta-box/controls/taxonomy.php:46
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:55
+#: inc/meta-box/controls/taxonomy.php:40
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:56
+#: inc/meta-box/controls/taxonomy.php:53
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:57
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:58
+#: inc/meta-box/controls/taxonomy.php:42
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:59
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:60
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:61
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:62
+#, php-format
+msgid "Filter %s list"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:63
+#: inc/meta-box/controls/taxonomy.php:55
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: inc/meta-box/controls/post-type.php:64
+#: inc/meta-box/controls/taxonomy.php:56
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:41
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:43
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:44
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:47
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:49
+#, php-format
+msgid "New %s New"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:50
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:51
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:52
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: inc/meta-box/controls/taxonomy.php:54
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: inc/meta-box/controls/theme-options.php:285
+msgid "Settings saved"
+msgstr ""
+
+#: inc/meta-box/controls/theme-options.php:288
+msgid "There has been an error when update options"
+msgstr ""
+
+#: inc/meta-box/fields/field.php:60
+msgid "+ Add more"
+msgstr ""
+
+#: inc/meta-box/fields/file/file.class.php:14
+msgid "Select File"
+msgstr ""
+
+#: inc/meta-box/fields/file/file.class.php:15
+msgid "Use these files"
+msgstr ""
+
+#: inc/meta-box/fields/file/file.class.php:26
+#: inc/meta-box/fields/image/image.class.php:58
+msgid "Remove"
+msgstr ""
+
+#: inc/meta-box/fields/file/file.class.php:55
+msgid "+ Add File"
+msgstr ""
+
+#: inc/meta-box/fields/gallery/gallery.class.php:41
+msgid "+ Add Images"
+msgstr ""
+
+#: inc/meta-box/fields/image/image.class.php:55
+msgid "No image"
+msgstr ""
+
+#: inc/meta-box/fields/map/map.class.php:45
+msgid "Enter an address..."
+msgstr ""
+
+#: inc/meta-box/fields/map/map.class.php:54
+msgid "Find Address"
+msgstr ""
+
+#: inc/meta-box/fields/radio/radio.class.php:49
+msgid "Select Icon"
+msgstr ""
+
+#: inc/meta-box/fields/selectize/selectize.class.php:93
+#: inc/post-type/trips/meta-box.php:552 inc/post-type/trips/meta-box.php:581
+#: templates/my-account/reviews/review-item.php:125
+msgid "Edit"
+msgstr ""
+
+#: inc/meta-box/templates/theme-option-end.php:5
+#: inc/meta-box/templates/theme-option-start.php:12
+msgid "Save Options"
+msgstr ""
+
+#: inc/payment/woo/checkout.php:248
+msgid "Details"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-order-item.php:64
+msgid "Invalid tax class"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-order-item.php:76
+msgid "Invalid product ID"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-order-item.php:88
+msgid "Invalid variation ID"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-order-item.php:197
+msgid "Invalid product"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-order-item.php:216
+msgid "Backordered"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:842
+msgid "Invalid catalog visibility option."
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:882
+msgid "Invalid or duplicated SKU."
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:973
+msgid "Invalid product tax status."
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:1325
+#, php-format
+msgid ""
+"The downloadable file %1$s cannot be used as it does not have an allowed "
+"file type. Allowed types include: %2$s"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:1334
+#, php-format
+msgid ""
+"The downloadable file %s cannot be used as it does not exist on the server."
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:1938
+msgid "Add to cart"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:1960
+#, php-format
+msgid "Read more about &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:2132
+msgid "Out of stock"
+msgstr ""
+
+#: inc/payment/woo/classes/class-wc-product.php:2134
+#: inc/payment/woo/classes/class-wc-product.php:2136
+msgid "Available on backorder"
+msgstr ""
+
+#: inc/payment/woo/trip/payment.php:219
+#, php-format
+msgid "We’ll hold your spot for <span>%d</span> minutes."
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:70
+#: inc/post-type/bookings/bookings.php:71
+msgid "Bookings"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:120
+#: inc/post-type/bookings/bookings.php:139
+msgid "Booking Date"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:121
+#: inc/post-type/bookings/bookings.php:140
+#: inc/post-type/bookings/bookings.php:312
+msgid "Booking Time"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:122
+#: inc/post-type/bookings/bookings.php:141
+#: inc/post-type/bookings/bookings.php:340
+msgid "Guests"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:125
+#: inc/post-type/bookings/bookings.php:144
+#: inc/post-type/bookings/bookings.php:373
+msgid "Payment Method"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:126
+#: inc/post-type/bookings/bookings.php:145
+#: inc/post-type/bookings/bookings.php:377
+#: inc/post-type/trips/meta-box.php:487
+#: templates/my-account/bookings/bookings.php:56
+msgid "Status"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:263
+msgid "Booking Details"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:314
+msgid "Client Name"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:318
+msgid "Date of Trip"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:320
+msgid "Client Phone"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:324
+msgid "Time of Trip"
+msgstr ""
+
+#: inc/post-type/bookings/bookings.php:336
+msgid "Client Email"
+msgstr ""
+
+#: inc/post-type/footer/footer.php:61 inc/post-type/footer/footer.php:62
+msgid "Footer"
+msgstr ""
+
+#: inc/post-type/header/header.php:61 inc/post-type/header/header.php:62
+msgid "Header"
+msgstr ""
+
+#: inc/post-type/mega-menu/mega-menu.php:49
+#: inc/post-type/mega-menu/mega-menu.php:50
+msgid "Mega Menus"
+msgstr ""
+
+#: inc/post-type/reviews/meta-box.php:60
+msgid "Review Settings"
+msgstr ""
+
+#: inc/post-type/reviews/meta-box.php:76
+msgid "Trip ID"
+msgstr ""
+
+#: inc/post-type/reviews/meta-box.php:82
+#: templates/my-account/reviews/add-review.php:57
+#: templates/my-account/reviews/edit-review.php:74
+msgid "Images"
+msgstr ""
+
+#: inc/post-type/top-bar/top-bar.php:61 inc/post-type/top-bar/top-bar.php:62
+msgid "Top Bar"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:75
+msgid "Please enter package name."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:76 inc/post-type/trips/meta-box.php:85
+msgid "Please enter start date."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:77
+msgid "Please enter price for adults."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:78
+msgid "Please select at least 1 date."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:79
+msgid "Please select at least 1 time."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:80
+msgid "Please enter a value greater than"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:81
+msgid "Please enter a value of 0."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:82
+msgid "Please enter min and max values ​​for the above row."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:83 inc/post-type/trips/meta-box.php:762
+msgid "Create a pricing schedule"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:84 inc/post-type/trips/meta-box.php:1022
+msgid "Create a schedule"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:86
+msgid "Please enter end date greater than start date."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:87
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:103
+msgid "Trip Settings"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:118
+msgid "Pricing Type"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:121 inc/post-type/trips/trips.php:645
+msgid "Per Person"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:122
+msgid "Per Group"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:133
+msgid "Trip Time"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:136
+msgid "Start times"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:138
+msgid "Many days"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:145
+msgid "Duration (Hours)"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:154
+msgid "Duration (Minutes)"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:163
+msgid "Duration (Days)"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:172
+msgid "Duration (Nights)"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:187
+msgid "Minimum Travelers"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:192
+msgid "Minimum number of people allowed on the trip"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:196
+msgid "Maximum Travelers"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:201
+msgid "Maximum number of people allowed on the trip"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:219
+msgid "Enable Cancellation Time"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:220
+msgid "Free cancellation available until the tour start date."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:231
+msgid "Cancellation Time"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:232
+msgid "Hours"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:245
+msgid "Schedule & Pricing"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:251 inc/post-type/trips/trips.php:543
+msgid "Gallery"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:257
+msgid "Input only URL (YouTube, Vimeo, MP4)"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:262
+msgid "Video Image"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:267
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:301
+msgid "Value"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:324
+msgid "Each highlight on a new line."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:335
+msgid "Includes"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:337
+msgid "Each include on a new line."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:341
+msgid "Excludes"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:343
+msgid "Each exclude on a new line."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:377
+#: templates/my-account/settings/settings.php:129
+msgid "Address"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:391
+msgid "Pickup point (or departure point)."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:398 inc/post-type/trips/meta-box.php:404
+#: inc/post-type/trips/trips.php:570
+msgid "FAQs"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:409 inc/post-type/trips/trips.php:575
+msgid "Question"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:416 inc/post-type/trips/trips.php:582
+msgid "Answer"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:439
+msgid "Enable Min and Max Guests"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:490
+#: templates/my-account/reviews/review-item.php:64
+msgid "Waiting for approval"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:491
+#: templates/my-account/reviews/review-item.php:67
+msgid "Published"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:553 inc/post-type/trips/meta-box.php:582
+#: templates/my-account/reviews/review-item.php:131
+#: templates/my-account/reviews/reviews.php:110
+msgid "Delete"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:575 inc/post-type/trips/meta-box.php:1430
+msgid "no end date"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:653
+msgid "Days"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:661 inc/post-type/trips/meta-box.php:688
+msgid "Times"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:670
+msgid "Opening Hours"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:700
+msgid "Add a pricing schedule"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:707 inc/post-type/trips/meta-box.php:716
+msgid "Create a package"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:707 inc/post-type/trips/meta-box.php:752
+msgid "Create"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:707
+msgid "Add a package"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:727 inc/post-type/trips/trips.php:613
+#: inc/widgets/widget-areas/views/widget-area-box.php:21
+msgid "Name"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:773
+msgid "When does your schedule start?"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:774
+msgid ""
+"Creating a schedule with no end date will set your prices in effect "
+"indefinitely."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:778
+msgid "Start Date"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:782
+msgid "End Date"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:793
+msgid "Pricing"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:795
+msgid "Enable tiered pricing"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:799
+msgid "Example tiered pricing structure:"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:805
+msgid "0-5 adult tickets: $10/person"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:811
+msgid "6-12 adult tickets: $7/person"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:817
+msgid "13-15 adult tickets: $4/person"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:827
+msgid "Minimum Guests"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:828
+msgid "Maximum Guests"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:829
+msgid "Regular Price"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:830
+msgid "Sale Price"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:921
+msgid "Select the days these prices apply"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:937
+msgid "Add the times when these prices apply"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:947
+msgid "Add Time"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1115 inc/post-type/trips/meta-box.php:1123
+#: inc/post-type/trips/meta-box.php:1131 inc/post-type/trips/meta-box.php:1139
+#: inc/post-type/trips/meta-box.php:1147 inc/post-type/trips/meta-box.php:1176
+#: inc/post-type/trips/meta-box.php:1184 inc/post-type/trips/meta-box.php:1192
+#: inc/post-type/trips/meta-box.php:1200 inc/post-type/trips/meta-box.php:1208
+msgid "The selected date already exists in another schedule."
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1164
+msgid "Schedule has been updated"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1223
+msgid "Schedule has been created"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1253 inc/post-type/trips/meta-box.php:1283
+msgid "Package name already exists"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1274
+msgid "Package updated successfully"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1303
+msgid "Package created successfully"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1328
+msgid "Edit Package: "
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1329
+msgid "Update Package"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1363 inc/post-type/trips/meta-box.php:1400
+msgid "Package deleted successfully"
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1476
+msgid "Edit Schedule: "
+msgstr ""
+
+#: inc/post-type/trips/meta-box.php:1477
+msgid "Update Schedule"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:98
+msgid "Trip Permalink"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:105
+msgid "Trip base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:113
+msgid "Trip destination base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:121
+msgid "Trip activities base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:129
+msgid "Trip types base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:137
+msgid "Trip durantions base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:145
+msgid "Trip time of day base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:153
+msgid "Trip languages base"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:212
+msgid "Set the base slug for the Trips post type."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:225
+msgid "Set the base slug for the Trips Destinations taxonomy."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:238
+msgid "Set the base slug for the Trips Activities taxonomy."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:250
+msgid "Set the base slug for the Trips Types taxonomy."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:262
+msgid "Set the base slug for the Trips Durantions taxonomy."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:274
+msgid "Set the base slug for the Trips Time of Day taxonomy."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:286
+msgid "Set the base slug for the Trips Languages taxonomy."
+msgstr ""
+
+#: inc/post-type/trips/trips.php:407 inc/post-type/trips/trips.php:408
+msgid "Pricing Categories"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:462 inc/post-type/trips/trips.php:463
+msgid "Time of day"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:498 inc/post-type/trips/trips.php:524
+#: inc/post-type/trips/trips.php:627
+msgid "Taxonomy Setting"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:507
+msgid "Min Age"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:513
+msgid "Max Age"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:555
+msgid "Link 01"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:562
+msgid "Link 02"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:590
+msgid "Rates"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:641
+msgid "Suffix Price"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:646
+msgid "Per Hour"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:647
+msgid "Per Package"
+msgstr ""
+
+#: inc/post-type/trips/trips.php:655
+msgid "Icon Image"
+msgstr ""
+
+#: inc/widgets/widget-config.php:220
+msgid "Click to browse icon"
+msgstr ""
+
+#: inc/widgets/widget-config.php:220
+msgid "Browse..."
+msgstr ""
+
+#: inc/widgets/widget-config.php:236
+msgid "Click to browse image"
+msgstr ""
+
+#: inc/widgets/widget-config.php:236
+msgid "Upload image"
+msgstr ""
+
+#: inc/widgets/widget-custom-class.php:11
+msgid "CSS Class"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:8
+msgid "Popular posts widget"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:10
+msgid "Togo - Popular Posts"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:14
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:20
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:25
+msgid "Show post categories"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:30
+msgid "Show post date"
+msgstr ""
+
+#: inc/widgets/includes/popular-posts.php:111
+msgid "Featured"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:40
+msgid "Togo - Products Filter"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:43
+msgid "WooCommerce products filter."
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:218
+#, php-format
+msgid "Rated %d star"
+msgid_plural "Rated %d stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/includes/products-filter.php:320
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:326
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:328
+#: inc/widgets/includes/products-filter.php:527
+msgid "All Products"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:519
+msgid "Best Sellers"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:520
+msgid "New Products"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:521
+msgid "Sale Products"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:522
+msgid "Hot Products"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:545
+msgid "Default sorting"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:546
+msgid "Sort by popularity"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:547
+msgid "Sort by average rating"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:548
+msgid "Sort by latest"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:549
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:550
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:584
+msgid "On Sale"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:593
+msgid "In Stock"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:916
+msgid "Any"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1280
+msgid "There is no filter yet."
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1290
+msgid "Add a new filter"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1302
+msgid "Use ajax for filtering"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1309
+msgid "Filtering products instantly (no buttons required)"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1319
+msgid "Filter buttons position"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1322
+msgid "Bottom of form"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1323
+msgid "Bottom of filter items"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1333
+msgid "Update URL"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1366
+msgid "Remove filter"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1442
+msgid "Group"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1444
+msgid "Attributes"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1445
+msgid "Rating"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1446
+msgid "Product Status"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1501
+msgid "Slider"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1502
+#: inc/widgets/includes/products-filter.php:1573
+msgid "Ranges"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1505
+msgid "Auto"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1506
+#: inc/widgets/includes/products-filter.php:1512
+#: inc/widgets/includes/products-filter.php:1516
+msgid "Dropdown"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1507
+#: inc/widgets/includes/products-filter.php:1517
+msgid "Vertical List"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1508
+#: inc/widgets/includes/products-filter.php:1518
+msgid "Horizontal List"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1509
+#: inc/widgets/includes/products-filter.php:1513
+#: inc/widgets/includes/products-filter.php:1519
+msgid "Checkbox List"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1550
+msgid "Filter Name"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1554
+msgid "Filter By"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1560
+msgid "Attribute"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1568
+msgid "Display Type"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1574
+msgid ""
+"Each range on a line, separate by the <code>-</code> symbol. Do not include "
+"the currency symbol."
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1582
+msgid "Selection Type"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1584
+msgid "Single select"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1585
+msgid "Multiple select"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1594
+msgid "Query Type"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1596
+msgid "AND"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1597
+msgid "OR"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1605
+msgid "Collapsible"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1613
+msgid "Show product counts"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1621
+msgid "Show the search box"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1629
+msgid "Limit the height of items list (scrollable)"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1637
+msgid "Show empty categories"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1644
+msgid "Disable on sale"
+msgstr ""
+
+#: inc/widgets/includes/products-filter.php:1651
+msgid "Disable in stock"
+msgstr ""
+
+#: inc/widgets/widget-areas/widget-areas.php:39
+msgid "Are you sure to delete this widget areas?"
+msgstr ""
+
+#: inc/widgets/widget-areas/views/widget-area-box.php:16
+#: inc/widgets/widget-areas/views/widget-area-box.php:24
+msgid "Create Widget Area"
+msgstr ""
+
+#: templates/content-none.php:13
+msgid "We couldn’t find any results. Please try adjusting your search."
+msgstr ""
+
+#: templates/loop/widgets/activities/layout-1.php:46
+#: templates/loop/widgets/activities/layout-2.php:55
+#: templates/loop/widgets/destinations/grid-01.php:46
+msgid "trip"
+msgid_plural "trips"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/loop/widgets/activities-carousel/layout-01.php:56
+msgid "View Tours"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:23
+msgid "Order status"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:29
+msgid "Order Summary"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:33
+msgid "Order ID"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:37
+#: templates/my-account/bookings/bookings.php:54
+msgid "Order Date"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:57
+msgid "Billing details"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:61
+#: templates/my-account/settings/settings.php:101
+msgid "First Name"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:65
+#: templates/my-account/settings/settings.php:105
+msgid "Last Name"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:81
+#: templates/my-account/bookings/invoice.php:159
+msgid "Back to bookings"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:85
+#: templates/my-account/bookings/booking-detail.php:152
+msgid "Cancel booking"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:91
+msgid "Price Breakdown"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:142
+#: templates/my-account/bookings/invoice.php:124
+msgid "Subtotal"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:156
+msgid "Are you sure you want to cancel this booking?"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:160
+#: templates/my-account/reviews/reviews.php:108
+msgid "Cancel"
+msgstr ""
+
+#: templates/my-account/bookings/booking-detail.php:162
+msgid "Agree"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:40
+msgid "All"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:41
+msgid "Completed"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:42
+msgid "Pending"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:43
+msgid "Processing"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:44
+msgid "On Hold"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:45
+msgid "Cancelled"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:52
+msgid "#ID"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:83
+msgid "Detail"
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:105
+msgid "No orders found."
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:106
+msgid "You have not made any orders yet."
+msgstr ""
+
+#: templates/my-account/bookings/bookings.php:107
+#: templates/my-account/wishlist/wishlist.php:23
+msgid "Find tours"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:32
+#, php-format
+msgid "Address: %s"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:33
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:34
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:39
+msgid "Bill to"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:40
+msgid "Customer name:"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:42
+msgid "Customer Email:"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:45
+msgid "Customer Phone:"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:49
+#, php-format
+msgid "Invoice number: %s"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:50
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:55
+msgid "Particulars"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:58
+#: templates/my-account/bookings/invoice.php:127
+msgid "Total"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:125
+msgid "Discount"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:126
+msgid "Tax"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:137
+msgid "Payment details"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:139
+#: templates/my-account/bookings/invoice.php:152
+msgid "Payment method"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:143
+msgid "Payment amount"
+msgstr ""
+
+#: templates/my-account/bookings/invoice.php:163
+msgid "Print"
+msgstr ""
+
+#: templates/my-account/reviews/add-review.php:35
+msgid "Leave a review for"
+msgstr ""
+
+#: templates/my-account/reviews/add-review.php:54
+#: templates/my-account/reviews/edit-review.php:71
+msgid "Write your review here"
+msgstr ""
+
+#: templates/my-account/reviews/add-review.php:70
+#: templates/my-account/reviews/edit-review.php:104
+msgid "Submit"
+msgstr ""
+
+#: templates/my-account/reviews/edit-review.php:42
+msgid "Edit review for"
+msgstr ""
+
+#: templates/my-account/reviews/review-item.php:56
+msgid "In tour"
+msgstr ""
+
+#: templates/my-account/reviews/review-item.php:116
+msgid "On"
+msgstr ""
+
+#: templates/my-account/reviews/review-item.php:140
+msgid "Leave a review"
+msgstr ""
+
+#: templates/my-account/reviews/review-thankyou.php:18
+msgid "Your review is awaiting approval."
+msgstr ""
+
+#: templates/my-account/reviews/review-thankyou.php:19
+msgid "We will notify you when your review is approved."
+msgstr ""
+
+#: templates/my-account/reviews/review-thankyou.php:20
+#: templates/my-account/reviews/review-thankyou.php:25
+msgid "Go back to reviews"
+msgstr ""
+
+#: templates/my-account/reviews/review-thankyou.php:23
+msgid "Your review has been submitted successfully."
+msgstr ""
+
+#: templates/my-account/reviews/review-thankyou.php:24
+msgid "Thank you for your review."
+msgstr ""
+
+#: templates/my-account/reviews/reviews.php:35
+#: templates/my-account/wishlist/wishlist.php:21
+msgid "No tours booked...yet!"
+msgstr ""
+
+#: templates/my-account/reviews/reviews.php:36
+msgid "Book a Tour"
+msgstr ""
+
+#: templates/my-account/reviews/reviews.php:100
+msgid "Delete Review"
+msgstr ""
+
+#: templates/my-account/reviews/reviews.php:104
+msgid "Are you sure you want to delete this review?"
+msgstr ""
+
+#: templates/my-account/settings/password.php:45
+msgid "Your password has been changed successfully."
+msgstr ""
+
+#: templates/my-account/settings/password.php:50
+msgid ""
+"Password must contain at least one uppercase letter, one lowercase letter, "
+"one number, and one special character."
+msgstr ""
+
+#: templates/my-account/settings/password.php:62
+msgid "Current password is incorrect."
+msgstr ""
+
+#: templates/my-account/settings/password.php:69
+#: templates/my-account/settings/settings.php:71
+msgid "Basic Info"
+msgstr ""
+
+#: templates/my-account/settings/password.php:74
+msgid "Current Password"
+msgstr ""
+
+#: templates/my-account/settings/password.php:82
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/my-account/settings/password.php:87
+msgid "Save"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:56
+msgid "Your settings have been saved successfully."
+msgstr ""
+
+#: templates/my-account/settings/settings.php:89
+msgid "Change avatar"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:90
+msgid "PNG or JPG"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:95
+#: templates/my-account/settings/settings.php:96
+msgid "Upload"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:117
+msgid "Birthday"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:121
+msgid "Country"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:125
+msgid "City"
+msgstr ""
+
+#: templates/my-account/settings/settings.php:134
+msgid "Save Changes"
+msgstr ""
+
+#: templates/my-account/wishlist/wishlist.php:22
+msgid "Select the heart icon to save the tours you liked."
+msgstr ""

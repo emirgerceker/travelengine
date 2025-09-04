@@ -1,0 +1,42 @@
+.togo-st-ie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(24);
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 0 0 calc(50% - rem(12));
+    max-width: calc(50% - rem(12));
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    height: 100%;
+    li {
+      display: flex;
+      gap: rem(8);
+      flex: 0 0 100%;
+      max-width: 100%;
+      align-items: flex-start;
+      .togo-svg-icon svg {
+        width: rem(24);
+        margin-top: -1px;
+        color: var(--togo-tone-color-03);
+      }
+    }
+    &.excludes {
+      .togo-svg-icon svg {
+        color: var(--togo-tone-color-01);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .togo-st-ie {
+    ul {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}

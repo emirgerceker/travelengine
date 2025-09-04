@@ -1,0 +1,107 @@
+.page-template-my-account {
+  padding-left: rem(240);
+  header.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: rem(240);
+    width: 100%;
+    border-bottom: 1px solid var(--togo-border-color-04);
+  }
+  .dashboard-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: rem(240);
+    padding: rem(24);
+    border-right: 1px solid var(--togo-border-color-02);
+    z-index: 9;
+    background-color: var(--e-global-color-secondary);
+    ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      row-gap: rem(24);
+      li {
+        a {
+          display: flex;
+          align-items: center;
+          gap: rem(8);
+        }
+        svg {
+          width: rem(22);
+        }
+        &.current-menu-item a {
+          color: var(--togo-accent-color);
+        }
+      }
+    }
+    .dashboard-nav-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: rem(32);
+    }
+    .dashboard-nav-close {
+      cursor: pointer;
+      &:hover {
+        color: var(--togo-text-color-01);
+      }
+    }
+  }
+  &.admin-bar {
+    .dashboard-nav,
+    header.site-header {
+      top: 32px;
+    }
+  }
+  .dashboard-main {
+    background-color: var(--togo-border-color-03);
+    padding-top: rem(83);
+    overflow: hidden;
+    min-height: 100vh;
+  }
+  &.hide-dashboard {
+    padding-left: rem(42);
+    .site-logo {
+      display: none;
+    }
+    .dashboard-nav {
+      width: rem(42);
+      padding: rem(24) 0;
+      .dashboard-nav-top {
+        justify-content: center;
+      }
+      ul li a {
+        font-size: 0;
+        gap: 0;
+        justify-content: center;
+      }
+      .dashboard-nav-close {
+        transform: rotate(180deg);
+      }
+    }
+    header.site-header {
+      padding-left: rem(42);
+    }
+  }
+  .site-footer .copyright-text {
+    padding: rem(20) 0 rem(30);
+    background-color: var(--togo-border-color-03);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-template-my-account {
+    padding-left: 0;
+    header.site-header {
+      padding-left: 0;
+    }
+    .dashboard-nav {
+      display: none;
+    }
+  }
+}

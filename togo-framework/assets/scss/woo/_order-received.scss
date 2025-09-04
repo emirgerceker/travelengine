@@ -1,0 +1,32 @@
+.reservation-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(4);
+  margin-top: rem(8);
+  .item {
+    display: flex;
+    align-items: center;
+    .togo-svg-icon {
+      margin-right: rem(8);
+    }
+    svg {
+      width: rem(20);
+    }
+  }
+  .values {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .value {
+    font-weight: 400;
+    font-size: rem(14);
+    &:after {
+      content: ",";
+      margin-right: rem(5);
+    }
+    &:last-child:after {
+      content: "";
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.togo-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: rem(12);
+  margin-top: rem(60);
+  &-center {
+    justify-content: center;
+  }
+  &-right {
+    justify-content: flex-end;
+  }
+  span,
+  a {
+    height: rem(36);
+    width: rem(36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--togo-text-color-01);
+    font-weight: 500;
+    border: 1px solid transparent;
+  }
+  a.next,
+  a.prev {
+    border: 1px solid var(--togo-border-color-04);
+    &:hover {
+      border-color: var(--togo-accent-color);
+    }
+  }
+  a:hover {
+    color: var(--togo-accent-color);
+  }
+  span {
+    background-color: var(--togo-accent-color);
+    color: var(--togo-text-color-04);
+    border-color: var(--togo-accent-color);
+  }
+  svg {
+    width: rem(20);
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: rem(12);
+    padding: 0;
+    margin: 0;
+  }
+}
+.tour-pagination-info {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  &-center {
+    justify-content: center;
+  }
+  &-right {
+    justify-content: flex-end;
+  }
+}

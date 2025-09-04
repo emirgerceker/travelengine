@@ -1,0 +1,21 @@
+.togo-st-mini-review {
+  a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .togo-svg-icon svg {
+    width: 18px;
+    path {
+      fill: var(--e-global-color-accent);
+      stroke: unset;
+    }
+  }
+  .togo-st-mini-review-score {
+    color: var(--e-global-color-accent);
+    font-weight: 500;
+  }
+  .togo-st-mini-review-count {
+    color: var(--e-global-color-text);
+  }
+}

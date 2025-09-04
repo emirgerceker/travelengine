@@ -1,0 +1,83 @@
+.elementor-widget-togo-activities-carousel {
+  .togo-activity-grid-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    &:hover > .togo-activity-grid-image > a > img {
+      transform: scale(1.1);
+    }
+    &.togo-activity-layout-2 {
+      position: relative;
+      .togo-activity-grid-image > a,
+      .togo-activity-grid-image > a > img {
+        border-radius: 50%;
+        position: relative;
+      }
+      .togo-activity-grid-image > a::before {
+        content: "";
+        background: rgba(17, 17, 17, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        transition: all 0.3s;
+      }
+      .togo-activity-grid-content {
+        background-color: unset;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        a {
+          color: var(--togo-text-color-04);
+        }
+      }
+    }
+  }
+  .togo-activity-grid-image {
+    position: relative;
+    > a {
+      border-radius: rem(200) rem(200) 0 0;
+      overflow: hidden;
+      display: flex;
+      > img {
+        width: 100%;
+        border-radius: rem(200) rem(200) 0 0;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    .togo-activity-grid-icon {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 50%);
+      background-color: #fff;
+      border-radius: 50%;
+      width: rem(60);
+      height: rem(60);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+      padding: rem(12);
+    }
+  }
+  .togo-activity-grid-content {
+    text-align: center;
+    background-color: #f2f7f8;
+    padding: rem(24) rem(20);
+    flex: 1;
+    h3 {
+      font-size: rem(20);
+      margin-bottom: rem(8);
+    }
+    .togo-activity-grid-description {
+      margin-bottom: rem(16);
+    }
+  }
+}

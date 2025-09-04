@@ -1,0 +1,28 @@
+.page-loading-effect {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999999;
+	overflow: hidden;
+	transition: opacity .5s;
+
+	.page-loading-inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+body.loaded {
+
+	.page-loading-effect {
+		opacity: 0;
+	}
+}

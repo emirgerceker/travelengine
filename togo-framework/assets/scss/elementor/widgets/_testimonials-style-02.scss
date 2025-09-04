@@ -1,0 +1,60 @@
+.togo-testimonials-carousel {
+  .togo-testimonial-style-02 {
+    text-align: unset;
+    .togo-testimonial-star {
+      margin-bottom: 12px;
+      display: flex;
+    }
+    .togo-testimonial-content {
+      margin-bottom: 34px;
+
+      .togo-testimonial-heading {
+        font-size: 18px;
+        margin-bottom: 22px;
+        font-family: "Marcellus", sans-serif;
+        text-align: left;
+      }
+      p {
+        font-size: 18px;
+        font-family: "Outfit", sans-serif;
+        text-align: left;
+      }
+    }
+    .togo-testimonial-author {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 13px;
+
+      .togo-testimonial-image {
+        img {
+          width: 64px;
+          height: 64px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+    }
+    .togo-testimonial-meta {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 4px;
+
+      span {
+        display: block;
+      }
+      .togo-testimonial-name {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+        text-align: left;
+      }
+      .togo-testimonial-position {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}

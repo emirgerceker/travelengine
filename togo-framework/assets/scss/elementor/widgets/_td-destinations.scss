@@ -1,0 +1,31 @@
+.tax-togo_trip_destinations {
+  .elementor-widget-togo-td-destinations .site-content {
+    padding: 0;
+  }
+}
+.elementor-widget-togo-td-destinations {
+  padding: rem(68) 0;
+  .trip-wrapper-content.with-maps {
+    display: block;
+    .site-content {
+      min-height: unset;
+      + .trip-destinations-heading {
+        margin-top: rem(68);
+      }
+    }
+    .view-full-map {
+      display: none;
+    }
+    .map-container {
+      flex: 0 0 100%;
+      width: 100%;
+      #togo-map {
+        min-height: rem(550);
+      }
+    }
+  }
+  .trip-destinations-heading {
+    text-align: center;
+    margin-bottom: rem(28);
+  }
+}

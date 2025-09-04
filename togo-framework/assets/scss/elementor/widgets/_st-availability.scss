@@ -1,0 +1,373 @@
+.list-availability {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(24);
+  margin-top: rem(24);
+  margin-bottom: rem(24);
+  .item-availability {
+    border: rem(1) solid var(--togo-border-color-04);
+    border-radius: rem(16);
+    display: flex;
+    justify-content: stretch;
+    &.no-availability {
+      padding: rem(24);
+    }
+    &.is-active {
+      border-color: var(--togo-accent-color);
+      .item-availability__description,
+      .item-availability__price ul {
+        display: block;
+      }
+      .item-availability__price .togo-button {
+        display: inline-flex;
+      }
+      .trip-times,
+      .trip-cancellation-time,
+      .opening-hours,
+      .many-days,
+      .trip-services {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+    .item-availability__description,
+    .trip-times,
+    .item-availability__price ul,
+    .item-availability__price .togo-button,
+    .trip-cancellation-time,
+    .opening-hours,
+    .many-days,
+    .trip-services {
+      display: none;
+    }
+  }
+  .item-availability__radio {
+    padding: rem(24) rem(10) rem(24) rem(24);
+    label {
+      display: block;
+      margin-top: rem(4);
+    }
+    input {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+    span {
+      display: block;
+      width: rem(18);
+      height: rem(18);
+      border-radius: 50%;
+      border: rem(2) solid var(--togo-border-color-01);
+      background-color: #fff;
+      position: relative;
+    }
+    input:checked + span {
+      border-color: var(--togo-accent-color);
+    }
+    input:checked + span::before {
+      content: "";
+      width: rem(6);
+      height: rem(6);
+      border-radius: 50%;
+      background-color: var(--togo-accent-color);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .item-availability__info {
+    flex: 1;
+    padding: rem(24) rem(30) rem(24) 0;
+    border-right: 1px solid var(--togo-border-color-04);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    > label {
+      font-size: rem(18);
+      font-weight: 500;
+      font-family: var(--togo-heading-font-family);
+      line-height: rem(26);
+      color: var(--togo-text-color-01);
+      cursor: pointer;
+    }
+  }
+  .item-availability__price {
+    padding: rem(24) rem(24) rem(24) rem(40);
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    max-width: 30%;
+    ul {
+      order: 2;
+      list-style: none;
+      padding: 0;
+      margin: rem(12) 0 rem(12) 0;
+      text-align: right;
+      li {
+        margin-bottom: rem(4);
+        font-size: rem(14);
+        :last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .total-price {
+      order: 1;
+      font-size: rem(18);
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+      font-family: var(--togo-heading-font-family);
+      text-align: right;
+    }
+    .book-now {
+      order: 3;
+      justify-content: center;
+      margin-bottom: rem(12);
+      &.loading {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+    .add-to-cart {
+      justify-content: center;
+      order: 4;
+      &.loading {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+  }
+  .trip-times {
+    margin-top: rem(24);
+    display: flex;
+    gap: 8px;
+    flex: 1;
+    flex-wrap: wrap;
+    label {
+      display: inline-block;
+      cursor: pointer;
+    }
+    input {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+    span {
+      height: rem(36);
+      border-radius: rem(8);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 rem(14);
+      border: 1px solid var(--togo-border-color-01);
+      color: var(--togo-text-color-01);
+      white-space: nowrap;
+    }
+    input:checked + span {
+      background-color: var(--togo-accent-color);
+      border-color: var(--togo-accent-color);
+      color: #fff;
+    }
+  }
+  .opening-hours {
+    margin-top: rem(8);
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(8);
+    &__day {
+      flex: 0 0 rem(120);
+      max-width: rem(120);
+    }
+    .opening-hours-item {
+      display: flex;
+      gap: 8px;
+    }
+  }
+  .trip-services {
+    margin-top: rem(24);
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(12);
+    .trip-service {
+      display: flex;
+      gap: rem(12);
+      border-bottom: 1px solid var(--togo-border-color-04);
+      padding-bottom: rem(12);
+      label {
+        cursor: pointer;
+      }
+    }
+    .trip-service__input {
+      margin-top: rem(3);
+      span {
+        width: rem(18);
+        height: rem(18);
+        border-radius: rem(4);
+        border: rem(2) solid var(--togo-border-color-05);
+        display: block;
+        position: relative;
+        &:after {
+          content: "";
+          width: rem(10);
+          height: rem(10);
+          border-radius: rem(2);
+          background-color: transparent;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      input:checked + span {
+        border-color: var(--togo-accent-color);
+        &:after {
+          background-color: var(--togo-accent-color);
+        }
+      }
+      input {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+      }
+    }
+    .trip-service__name {
+      label {
+        font-size: rem(16);
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+        font-family: var(--togo-heading-font-family);
+      }
+    }
+    .trip-service__description {
+      font-size: rem(14);
+      line-height: rem(20);
+    }
+    .trip-service__label {
+      flex: 1;
+    }
+    .trip-service__price {
+      flex: 0 0 30%;
+      max-width: 30%;
+      text-align: right;
+      .trip-service__price-label {
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+    }
+    .quantity {
+      flex: 0 0 rem(70);
+      max-width: rem(70);
+      margin-left: auto;
+      margin-top: rem(8);
+    }
+    .quantity-input {
+      display: flex;
+      align-items: center;
+      .minus,
+      .plus {
+        flex: 0 0 rem(17);
+        width: rem(17);
+        height: rem(17);
+        border-radius: 50%;
+        border: 1px solid var(--togo-primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: rem(16);
+        color: var(--togo-icon-color-01);
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          background-color: var(--togo-primary-color);
+          color: #fff;
+        }
+      }
+    }
+    /* Hide arrows in Chrome, Safari, Edge, and Opera */
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Hide arrows in Firefox */
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+
+    input[type="number"] {
+      padding: 0;
+      min-height: unset;
+      border: 0;
+      text-align: center;
+      font-family: var(--togo-heading-font-family);
+      background-color: transparent;
+    }
+    .quantity-button {
+      text-align: right;
+      .notice {
+        font-size: rem(14);
+        margin-bottom: rem(10);
+        display: none;
+        &.error {
+          color: var(--togo-tone-color-01);
+        }
+      }
+      .apply-guest {
+        height: rem(42);
+        border-radius: rem(24);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--togo-accent-color);
+        color: var(--togo-text-color-04);
+        padding: 0 rem(24);
+      }
+    }
+  }
+  .many-days {
+    margin-top: rem(8);
+    display: flex;
+    gap: 5px;
+  }
+  .trip-cancellation-time-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+  }
+  .trip-cancellation-time {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: rem(24);
+    .togo-svg-icon {
+      color: var(--togo-text-color-01);
+    }
+    svg {
+      width: 22px;
+    }
+    p {
+      font-size: rem(14);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list-availability {
+    .item-availability {
+      flex-wrap: wrap;
+    }
+    .item-availability__radio,
+    .item-availability__info,
+    .item-availability__price {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: rem(12) rem(24);
+    }
+    .item-availability__info {
+      padding: 0 rem(24);
+    }
+  }
+}

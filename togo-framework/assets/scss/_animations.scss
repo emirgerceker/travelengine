@@ -1,0 +1,109 @@
+@keyframes togoAnimationFadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes togoAnimationFadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(30px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes togoAnimationFadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes togoAnimationFadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes togoAnimationSpin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes togoAnimationJump {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-3%);
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  &.animated-slow {
+    animation-duration: 2s;
+  }
+  &.animated-fast {
+    animation-duration: 0.5s;
+  }
+}
+
+.togo-fade-in-up {
+  animation-name: togoAnimationFadeInUp;
+}
+
+.togo-fade-in-right {
+  animation-name: togoAnimationFadeInRight;
+}
+
+.togo-fade-in-left {
+  animation-name: togoAnimationFadeInLeft;
+}
+
+.togo-fade-in-down {
+  animation-name: togoAnimationFadeInDown;
+}
+
+.togo-spin {
+  animation-name: togoAnimationSpin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  &.animated {
+    animation-duration: 3s;
+    &.animated-slow {
+      animation-duration: 4s;
+    }
+    &.animated-fast {
+      animation-duration: 2s;
+    }
+  }
+}
+
+.togo-jump {
+  animation-name: togoAnimationJump;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

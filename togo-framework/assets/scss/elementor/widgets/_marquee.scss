@@ -1,0 +1,32 @@
+.togo-marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  min-height: rem(42);
+
+  .togo-marquee-inner {
+    display: inline-flex;
+    white-space: nowrap;
+    gap: rem(32);
+    position: absolute;
+    top: 0;
+    left: 0; // Mặc định cho right-to-left
+    right: auto;
+    will-change: transform;
+  }
+
+  &.left-to-right {
+    .togo-marquee-inner {
+      left: auto; // Đổi sang right để chạy từ trái sang phải
+      right: 0;
+      justify-content: flex-start;
+    }
+  }
+
+  .togo-marquee-item {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: rem(16);
+  }
+}

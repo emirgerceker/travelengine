@@ -1,0 +1,1056 @@
+.post-type-archive-togo_trip,
+.tax-togo_trip_destinations,
+.tax-togo_trip_activities,
+.tax-togo_trip_types,
+.tax-togo_trip_durations,
+.tax-togo_trip_tod,
+.tax-togo_trip_languages {
+  .togo-breadcrumb {
+    margin-bottom: rem(16);
+  }
+  .page-title {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &.has-background {
+      .togo-breadcrumb {
+        li,
+        li a {
+          color: var(--togo-text-color-04);
+          font-size: rem(14);
+          font-weight: 400;
+          line-height: rem(20);
+        }
+      }
+      .page-title_heading {
+        color: var(--togo-text-color-04);
+      }
+    }
+  }
+  .page-title_heading {
+    font-size: rem(36);
+    line-height: rem(44);
+    font-weight: 500;
+  }
+  .page-title_description {
+    color: var(--togo-text-color-04);
+    margin-top: rem(4);
+  }
+  .page-title_inner {
+    display: flex;
+    justify-content: space-between;
+    .page-title_content {
+      flex: 0 0 70%;
+      max-width: 70%;
+      padding-right: rem(30);
+    }
+    .page-title_image {
+      flex: 1;
+    }
+  }
+  .elementor-widget-togo-td-destinations {
+    .site-content {
+      background-color: #fff;
+    }
+  }
+  .site-content {
+    display: flex;
+    align-items: flex-start;
+    gap: rem(24);
+    flex-wrap: wrap;
+    padding: rem(40) rem(48);
+    background-color: #fbfbfb;
+    .togo-trip-filter.layout-left {
+      max-width: rem(320);
+      width: 100%;
+      border: 1px solid var(--togo-border-color-04);
+      border-radius: rem(16);
+      -webkit-box-shadow: rem(0) rem(4) rem(15) rem(0) rgba(0, 0, 0, 0.05);
+      -moz-box-shadow: rem(0) rem(4) rem(15) rem(0) rgba(0, 0, 0, 0.05);
+      box-shadow: rem(0) rem(4) rem(15) rem(0) rgba(0, 0, 0, 0.05);
+    }
+    .trip-wrapper {
+      flex: 1;
+    }
+  }
+  .trip-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: rem(-12);
+    margin-right: rem(-12);
+    row-gap: rem(24);
+    .type-trip {
+      padding-left: rem(12);
+      padding-right: rem(12);
+    }
+    .togo-notice {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+.togo-swiper .swiper-wrapper {
+  .type-trip {
+    height: 100%;
+  }
+}
+.togo-trip-filter {
+  .filter-item {
+    padding: rem(24);
+    border-bottom: 1px solid var(--togo-border-color-04);
+    &:last-child {
+      border-bottom: none;
+    }
+    .filter-item__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      h4 {
+        font-size: rem(18);
+        line-height: rem(26);
+        font-weight: 500;
+      }
+      &:hover {
+        color: var(--togo-accent-color);
+        h4,
+        svg {
+          color: var(--togo-accent-color);
+        }
+      }
+      svg {
+        transition: all 0.3s ease;
+        color: var(--togo-text-color-01);
+      }
+    }
+    .filter-item__content {
+      margin-top: rem(16);
+    }
+    &.active {
+      .filter-item__top svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .range-slider {
+    position: relative;
+    width: 100%;
+    height: rem(24);
+    text-align: center;
+    margin-bottom: rem(16);
+    input {
+      pointer-events: none;
+      position: absolute;
+      overflow: hidden;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      outline: none;
+      height: rem(24);
+      margin: 0;
+      padding: 0;
+    }
+    input::-webkit-slider-thumb {
+      pointer-events: all;
+      position: relative;
+      z-index: 1;
+      outline: 0;
+    }
+    input::-moz-range-thumb {
+      pointer-events: all;
+      position: relative;
+      z-index: 10;
+      -moz-appearance: none;
+      width: rem(24);
+    }
+    input::-moz-range-track {
+      position: relative;
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 1);
+      border: 0;
+    }
+    input:last-of-type::-moz-range-track {
+      -moz-appearance: none;
+      background: none transparent;
+      border: 0;
+    }
+    input[type="range"]::-moz-focus-outer {
+      border: 0;
+    }
+    input[type="range"] {
+      -webkit-appearance: none;
+      background: none;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: rem(6);
+      border: none;
+      border-radius: rem(10);
+      background: transparent;
+    }
+
+    input[type="range"]::-ms-track {
+      height: rem(6);
+      background: transparent;
+      border: none;
+      border-radius: rem(10);
+    }
+
+    input[type="range"]::-moz-range-track {
+      height: rem(6);
+      background: transparent;
+      border: none;
+      border-radius: rem(10);
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      border: none;
+      height: rem(24);
+      width: rem(24);
+      border-radius: 50%;
+      background: var(--togo-text-color-04);
+      margin-top: rem(-9);
+      position: relative;
+      z-index: 10000;
+      border: 1px solid var(--togo-border-color-02);
+    }
+
+    input[type="range"]::-ms-thumb {
+      -webkit-appearance: none;
+      border: none;
+      height: rem(24);
+      width: rem(24);
+      border-radius: 50%;
+      background: var(--togo-text-color-04);
+      margin-top: rem(-9);
+      position: relative;
+      z-index: 10000;
+      border: 1px solid var(--togo-border-color-02);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      -webkit-appearance: none;
+      border: none;
+      height: rem(24);
+      width: rem(24);
+      border-radius: 50%;
+      background: var(--togo-text-color-04);
+      margin-top: rem(-9);
+      position: relative;
+      z-index: 10000;
+      border: 1px solid var(--togo-border-color-02);
+    }
+
+    input[type="range"]:focus {
+      outline: none;
+    }
+    .full-range,
+    .incl-range {
+      width: 100%;
+      height: rem(6);
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+      background: var(--togo-border-color-02);
+      border-radius: rem(10);
+    }
+
+    .incl-range {
+      background: var(--togo-accent-color);
+    }
+  }
+  .range-preview {
+    display: flex;
+    .min-price,
+    .max-price {
+      flex: 0 0 50%;
+      width: 50%;
+      span {
+        font-size: rem(16);
+        line-height: rem(24);
+        color: var(--togo-text-color-01);
+        font-weight: 500;
+        margin-bottom: rem(8);
+        display: block;
+      }
+      .show-min-price,
+      .show-max-price {
+        height: rem(42);
+        width: 100%;
+        border: 1px solid var(--togo-border-color-04);
+        border-radius: rem(8);
+        padding: 0 rem(12);
+        font-size: rem(16);
+        font-family: var(--togo-body-font-family);
+        color: var(--togo-text-color-02);
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        color: var(--togo-text-color-01);
+      }
+    }
+    .min-price {
+      padding-right: rem(9);
+    }
+    .max-price {
+      padding-left: rem(9);
+    }
+  }
+  .filter-checkbox {
+    margin-bottom: rem(12);
+    &:last-child {
+      margin-bottom: 0;
+    }
+    label {
+      display: inline-flex;
+      position: relative;
+      padding-left: rem(30);
+      cursor: pointer;
+      &:hover {
+        color: var(--togo-accent-color);
+      }
+    }
+    input {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+    input:checked ~ .check-square {
+      display: block;
+    }
+    .togo-svg-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .label {
+      line-height: rem(24);
+    }
+    .square {
+      color: var(--togo-icon-color-04);
+      transition: all 0.3s ease;
+    }
+    .check-square {
+      display: none;
+      color: var(--togo-border-color-01);
+    }
+    &.show {
+      display: block !important;
+    }
+  }
+  .show-more {
+    display: flex;
+    align-items: center;
+    a {
+      text-decoration: underline;
+      font-weight: 500;
+    }
+    .togo-svg-icon {
+      margin-left: rem(4);
+    }
+    svg {
+      width: rem(16);
+      color: var(--togo-border-color-01);
+      transition: all 0.3s ease;
+    }
+    &.active {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &.close {
+    .filter-item.yes {
+      .filter-item__content {
+        display: block;
+      }
+    }
+    .filter-item__content {
+      display: none;
+    }
+  }
+  &.layout-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(8);
+    .filter-item {
+      position: relative;
+      padding: 0;
+      border-bottom: 0;
+      &:hover .filter-item__select,
+      &.active .filter-item__select {
+        border-color: var(--togo-border-color-01);
+      }
+    }
+    .filter-item__select {
+      display: flex;
+      align-items: center;
+      height: rem(38);
+      padding: 0 rem(18) 0 rem(20);
+      gap: rem(8);
+      border-radius: rem(20);
+      border: 1px solid var(--togo-border-color-02);
+      color: var(--togo-text-color-01);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      svg {
+        width: rem(18);
+      }
+    }
+    .filter-item__content {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: rem(240);
+      background-color: #fff;
+      margin: 0;
+      z-index: 99;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: rem(8);
+      padding: rem(16);
+      display: none;
+      margin-top: rem(12);
+    }
+  }
+  &.layout-left + .trip-wrapper .open-filter-canvas {
+    display: none;
+  }
+}
+.trip-list-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(24);
+  gap: rem(8);
+  flex-wrap: wrap;
+  .trip-list-header__count {
+    flex: 1;
+  }
+  .trip-list-header__clear-filter {
+    text-decoration: underline;
+    color: var(--togo-text-color-01);
+  }
+}
+.trip-list-header__sort {
+  position: relative;
+  &:hover .trip-list-header__sort-label,
+  &.active .trip-list-header__sort-label {
+    border-color: var(--togo-border-color-01);
+  }
+  .trip-list-header__sort-label {
+    display: flex;
+    align-items: center;
+    height: rem(38);
+    padding: 0 rem(18) 0 rem(20);
+    gap: rem(8);
+    border-radius: rem(20);
+    border: 1px solid var(--togo-border-color-02);
+    color: var(--togo-text-color-01);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .togo-svg-icon svg {
+    width: rem(18);
+  }
+  .trip-list-header__sort-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: rem(18) 0;
+    margin: 0;
+    list-style: none;
+    width: rem(240);
+    border: 1px solid var(--togo-border-color-04);
+    border-radius: rem(8);
+    margin-top: rem(12);
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    display: none;
+    background-color: #fff;
+    z-index: 99;
+    a {
+      padding: rem(6) rem(24);
+      font-weight: 500;
+      display: block;
+      line-height: rem(24);
+    }
+    li.active {
+      a {
+        background-color: rgba(var(--togo-accent-color-unrgb), 0.05);
+        color: var(--togo-accent-color);
+        position: relative;
+      }
+      .togo-svg-icon {
+        position: absolute;
+        left: rem(5);
+        top: rem(7);
+        svg {
+          width: rem(17);
+        }
+      }
+    }
+  }
+}
+.open-filter-canvas {
+  display: flex;
+  align-items: center;
+  height: rem(38);
+  padding: 0 rem(18) 0 rem(20);
+  gap: rem(8);
+  border-radius: rem(20);
+  border: 1px solid var(--togo-border-color-02);
+  color: var(--togo-text-color-01);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  .togo-svg-icon svg {
+    width: rem(18);
+  }
+  &.active,
+  &:hover {
+    border-color: var(--togo-border-color-01);
+  }
+}
+.filter-canvas-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  .filter-canvas-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .layout-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: rem(270);
+    height: 100vh;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0px rem(4) rem(15) 0px rgba(0, 0, 0, 0.05);
+    overflow: auto;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+  }
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    .layout-canvas {
+      transform: translateX(0);
+    }
+  }
+}
+body.admin-bar {
+  .filter-canvas-wrapper {
+    top: rem(32);
+    .layout-canvas {
+      height: calc(100vh - rem(32));
+    }
+  }
+}
+.trip-wrapper-content {
+  &.with-maps {
+    display: flex;
+    .site-content {
+      flex: 1;
+    }
+    .map-container {
+      flex: 0 0 30%;
+      width: 30%;
+      transition: all 0.3s;
+    }
+    &.full-maps {
+      .site-content {
+        display: none;
+      }
+      .map-container {
+        flex: 1;
+        width: 100%;
+        height: 100vh;
+      }
+      .view-full-map svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.map-container {
+  position: relative;
+  .view-full-map {
+    position: absolute;
+    top: rem(24);
+    left: rem(24);
+    z-index: 1;
+    width: rem(36);
+    height: rem(36);
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 rem(3) rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--togo-border-color-04);
+    cursor: pointer;
+    svg {
+      width: rem(18);
+    }
+    &:hover {
+      background-color: var(--togo-accent-color);
+      border-color: var(--togo-accent-color);
+      color: #fff;
+    }
+  }
+  #togo-map {
+    position: sticky !important;
+    top: 0;
+    height: 100vh;
+  }
+}
+.custom-marker {
+  width: rem(18);
+  height: rem(18);
+  background-color: #fff;
+  border: rem(3) solid var(--togo-accent-color);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 rem(3) rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: transparent;
+  &.clicked {
+    background-color: var(--togo-accent-color);
+  }
+}
+.marker-popup {
+  position: absolute;
+  box-shadow: 0 rem(2) rem(6) rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  display: none;
+  border-radius: rem(16);
+  font-size: rem(16);
+  font-family: var(--togo-body-font-family);
+  width: fit-content;
+  z-index: 99;
+  .trip-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    .trip-gallery,
+    .trip-video {
+      flex: 0 0 rem(150) !important;
+      width: rem(150) !important;
+      border-radius: rem(16) 0 0 rem(16);
+      .trip-gallery-slider,
+      .trip-video-thumbnail {
+        height: rem(180);
+      }
+      .swiper-slide img {
+        height: 100% !important;
+        object-fit: cover;
+      }
+    }
+    .trip-thumbnail,
+    .trip-video {
+      flex: 0 0 rem(150) !important;
+      width: rem(150) !important;
+      border-radius: rem(16) 0 0 rem(16);
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .trip-wishlist {
+      right: auto;
+      left: rem(98);
+    }
+    .trip-title a {
+      max-width: rem(150);
+      display: block;
+      word-wrap: break-word;
+    }
+  }
+}
+.togo-modal.togo-modal-itinerary {
+  .togo-modal-content {
+    padding: 0;
+    border-radius: rem(16);
+    display: flex;
+    justify-content: stretch;
+    max-width: rem(1024);
+  }
+  .togo-st-tour-maps {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .togo-modal-inner {
+    flex: 1;
+    padding: rem(24);
+  }
+  .togo-modal-header {
+    margin-bottom: rem(20);
+    padding-bottom: rem(20);
+    border-bottom: rem(1) solid var(--togo-border-color-04);
+    display: block;
+    .togo-modal-header-top,
+    .togo-modal-header-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .togo-modal-header-top {
+      margin-bottom: rem(12);
+      gap: rem(24);
+    }
+  }
+  .togo-st-itinerary {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .togo-st-itinerary-item-text {
+      font-size: rem(16);
+    }
+    .togo-st-itinerary-item-content {
+      padding-top: rem(12);
+      padding-bottom: rem(12);
+    }
+  }
+  .togo-st-tour-maps-map {
+    height: 100%;
+  }
+  .trip-price {
+    .prefix {
+      color: var(--togo-text-color-03);
+      margin-right: rem(4);
+    }
+    ins {
+      text-decoration: unset;
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+    }
+    .suffix {
+      color: var(--togo-text-color-02);
+    }
+  }
+  .togo-modal-body > h2 {
+    font-size: rem(18);
+    font-weight: 500;
+    margin-bottom: rem(20);
+  }
+}
+.trip-search-form {
+  display: flex;
+  justify-content: space-between;
+  border-radius: rem(40);
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  padding: rem(10) rem(10) rem(10) 0;
+  margin-top: rem(16);
+  .form-field {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem(8);
+    padding-left: rem(20);
+    padding-right: rem(12);
+    border-left: 1px solid var(--togo-border-color-04);
+    position: relative;
+    &:first-child {
+      border-left: 0;
+    }
+    label {
+      font-size: rem(14);
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+      display: block;
+      line-height: normal;
+    }
+    input {
+      width: 100%;
+      border: 0;
+      padding: 0;
+      min-height: auto;
+      border-radius: 0;
+    }
+    .field-location__input,
+    .field-dates__input,
+    .field-guests__input {
+      flex: 1;
+    }
+    .field-guests__input input[type="number"] {
+      -moz-appearance: textfield;
+    }
+    .field-guests__input input[type="number"]::-webkit-inner-spin-button,
+    .field-guests__input input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+  .field-location__remove,
+  .field-dates__remove,
+  .field-guests__remove {
+    display: none;
+    width: rem(20);
+    height: rem(20);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--togo-border-color-04);
+    svg {
+      width: rem(12);
+    }
+    &:hover {
+      border-color: var(--togo-border-color-01);
+      color: var(--togo-text-color-01);
+    }
+  }
+  .field-icon {
+    color: var(--togo-text-color-01);
+    display: flex;
+  }
+  .no-result {
+    color: var(--togo-text-color-01);
+  }
+  button[type="submit"] {
+    flex: 0 0 rem(40);
+    width: rem(40);
+    height: rem(40);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--togo-accent-color);
+    color: var(--togo-text-color-04);
+    border: 0;
+    svg {
+      width: rem(22);
+    }
+  }
+  .field-location__result {
+    position: absolute;
+    top: calc(100% + rem(12));
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: rem(8);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    z-index: 9;
+    display: none;
+    .near-me {
+      display: flex;
+      align-items: center;
+      gap: rem(8);
+      color: var(--togo-text-color-01);
+      padding: rem(16);
+      cursor: pointer;
+      .near-me__icon {
+        display: flex;
+      }
+      svg {
+        width: rem(20);
+      }
+    }
+    .location-list {
+      padding: rem(16);
+      border-top: 1px solid var(--togo-border-color-04);
+      max-height: rem(300);
+      overflow-y: auto;
+      overflow-x: hidden;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: rem(12);
+        ul {
+          margin-top: rem(12);
+          padding-left: rem(24);
+          border-left: 1px solid var(--togo-border-color-04);
+          li {
+            position: relative;
+            &::before {
+              content: "";
+              position: absolute;
+              top: rem(8);
+              left: rem(-24);
+              width: rem(16);
+              height: rem(1);
+              background-color: var(--togo-border-color-04);
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .calendar-wrapper {
+    right: auto;
+    left: 0;
+    .calendar {
+      overflow: hidden;
+    }
+    #calendar-prev {
+      .next-month {
+        display: none;
+      }
+    }
+    .calendar-header {
+      h6 {
+        font-size: rem(18);
+        font-weight: 500;
+      }
+    }
+    .calendar-days {
+      margin-bottom: rem(16);
+      .day-name {
+        text-align: center;
+      }
+    }
+    .calendar-days,
+    .calendar-dates {
+      column-gap: 0;
+      row-gap: rem(12);
+    }
+    .calendar-dates > div {
+      width: rem(40);
+      height: rem(40);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .calendar-dates .date {
+      padding-bottom: 0;
+      &:before {
+        height: rem(40);
+        width: rem(40);
+      }
+      &.in-range {
+        background-color: rgba(var(--togo-accent-color-unrgb), 0.1);
+      }
+      &.in-range.first-range,
+      &.in-range.last-range {
+        color: var(--togo-text-color-04);
+        &:before {
+          background-color: var(--togo-accent-color);
+          border-color: var(--togo-accent-color);
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+      &.in-range.first-range {
+        border-radius: 50% 0 0 50%;
+      }
+      &.in-range.last-range {
+        border-radius: 0 50% 50% 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .post-type-archive-togo_trip,
+  .tax-togo_trip_destinations,
+  .tax-togo_trip_activities,
+  .tax-togo_trip_types,
+  .tax-togo_trip_durations,
+  .tax-togo_trip_tod,
+  .tax-togo_trip_languages {
+    .page-title_inner .page-title_content {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 0;
+    }
+  }
+  .togo-trip-filter {
+    &.layout-left {
+      display: none;
+    }
+    &.layout-left + .trip-wrapper .open-filter-canvas {
+      display: inline-flex;
+    }
+  }
+  .trip-wrapper-content {
+    &.with-maps {
+      .map-container {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .trip-search-form .calendar-wrapper {
+    #calendar-prev .next-month {
+      display: block;
+      & + span {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .post-type-archive-togo_trip,
+  .tax-togo_trip_destinations,
+  .tax-togo_trip_activities,
+  .tax-togo_trip_types,
+  .tax-togo_trip_durations,
+  .tax-togo_trip_tod,
+  .tax-togo_trip_languages {
+    .site-content {
+      padding: rem(32) rem(16);
+    }
+    .trip-list {
+      margin: 0;
+      .type-trip {
+        padding: 0;
+      }
+    }
+  }
+  .trip-list-header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .trip-list-header__clear-filter {
+      flex: 1;
+    }
+    > .togo-trip-filter {
+      display: none;
+    }
+    .trip-list-header__count {
+      display: none;
+    }
+  }
+  .trip-search-form {
+    flex-direction: column;
+    border-radius: rem(16);
+    padding: 0;
+    overflow: hidden;
+    .form-field {
+      padding: rem(12) rem(16);
+      border-bottom: 1px solid var(--togo-border-color-04);
+    }
+    button[type="submit"] {
+      width: 100%;
+      border-radius: 0 0 rem(8) rem(8);
+      height: rem(48);
+    }
+  }
+}

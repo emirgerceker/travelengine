@@ -1,0 +1,22 @@
+.togo-st-heading-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  .togo-st-heading {
+    font-size: rem(24);
+    line-height: rem(30);
+    font-weight: 500;
+  }
+  .togo-st-heading-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    span {
+      text-decoration: underline;
+    }
+    svg {
+      width: 20px;
+    }
+  }
+}

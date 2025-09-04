@@ -1,0 +1,25 @@
+.woocommerce-order {
+  .woocommerce-order-details__title,
+  .woocommerce-column__title {
+    font-size: rem(24);
+    margin-bottom: rem(16);
+  }
+  table.shop_table th,
+  table.shop_table td {
+    border: 0;
+    &:first-child {
+      border-right: 1px solid var(--togo-border-color-04);
+    }
+  }
+  .woocommerce-customer-details address {
+    padding: rem(12) !important;
+    p {
+      margin-bottom: 0;
+      margin-top: rem(8);
+      position: relative;
+      &:before {
+        top: rem(-4);
+      }
+    }
+  }
+}

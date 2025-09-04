@@ -1,0 +1,584 @@
+a {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+  outline-offset: unset;
+  border: 0;
+  box-shadow: none;
+}
+#trip_metabox .inside {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border: 1px solid #111;
+  color: #111;
+  border-radius: 4px;
+}
+.btn.loading:after {
+  content: "";
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-top: 2px solid #111;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  width: 12px;
+  display: block;
+  height: 12px;
+}
+.btn:focus {
+  border: 1px solid #111;
+}
+.btn:hover {
+  background-color: #111;
+  color: #fff;
+}
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
+  width: 100%;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+textarea {
+  height: auto;
+}
+/* Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.modal.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+.modal .modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 4px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 2;
+  max-width: 750px;
+  width: 100%;
+}
+.modal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.modal .close-modal {
+  cursor: pointer;
+  display: flex;
+}
+.modal .modal-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: #111;
+}
+.modal-body .form-flex {
+  display: flex;
+}
+.modal-body .form-flex.flex-col-2 .form-field {
+  flex: 0 0 calc(50% - 10px);
+  max-width: calc(50% - 10px);
+}
+.modal-body .form-flex.flex-col-2 .form-field:first-child {
+  padding-right: 10px;
+}
+.modal-body .form-flex.flex-col-2 .form-field:last-child {
+  padding-left: 10px;
+}
+.modal-body .form-flex.flex-col-2 .form-field input {
+  width: 100%;
+}
+.modal-body .form-group {
+  margin-bottom: 20px;
+}
+.modal-body .form-group h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+}
+.modal-body .form-group .form-head {
+  margin-bottom: 12px;
+}
+.modal-body .form-group .form-head h4 {
+  margin-bottom: 2px;
+}
+.modal-body .form-radio {
+  display: flex;
+  margin-bottom: 12px;
+}
+.modal-body .form-radio > input {
+  margin-top: 4px;
+  width: auto;
+  border-radius: 50%;
+}
+.modal-body .form-radio .form-label {
+  flex: 1;
+  margin-left: 5px;
+}
+.modal-body .form-group .form-radio label {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.modal-body .form-radio p {
+  margin: 0;
+}
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+.group-price {
+  background: aliceblue;
+  padding: 4px;
+  border-spacing: 10px;
+}
+.group-price th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+}
+.group-price .group-price-title {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+}
+.modal-body .form-checkbox input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+.modal-body .form-checkbox label {
+  display: inline-block;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal-body .form-checkbox input:checked + label {
+  background-color: #111;
+  color: #fff;
+}
+.modal-body .form-checkbox label:hover {
+  background-color: #111;
+  color: #fff;
+}
+.modal-body .form-flex.flex-inline {
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.field-time {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.time-wrapper {
+  position: relative;
+}
+.time-wrapper .remove-time {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time-wrapper .remove-time svg {
+  width: 12px;
+}
+.field-time input {
+  width: auto;
+}
+.field-time-clone {
+  display: none;
+}
+.add-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #111;
+}
+.add-time:hover {
+  color: var(--e-button-context-color-dark);
+}
+.add-time svg {
+  width: 20px;
+}
+.button.save-schedule,
+.button.create-package {
+  padding: 6px 24px;
+  background-color: #111;
+  border-color: #111;
+}
+.modal-body .form-group label {
+  margin-bottom: 10px;
+  display: inline-flex;
+}
+.modal-notice {
+  display: none;
+}
+.modal-notice.error {
+  display: block;
+  margin-bottom: 20px;
+  color: red;
+}
+.modal-notice.updated {
+  display: block;
+  margin-bottom: 20px;
+  color: green;
+}
+.package-panel {
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+}
+.package-panel.is-loading {
+  position: relative;
+}
+.package-panel.is-loading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+}
+.package-panel.is-loading:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-top: 2px solid #111;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  width: 16px;
+  display: block;
+  height: 16px;
+  z-index: 2;
+}
+.package-panel .package-title {
+  margin: 0;
+}
+.package-panel .package-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 10px 12px;
+}
+.package-panel .package-header .action-delete-package {
+  color: red;
+}
+.package-panel .package-header .package-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.package-panel .package-body {
+  padding: 12px;
+}
+.package-panel .package-description p {
+  margin: 0 0 12px 0;
+}
+.package-panel .package-description ul {
+  list-style: disc;
+  padding-left: 16px;
+  margin: 0 0 12px 0;
+}
+.package-panel .package-description + .open-modal {
+  display: block;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+span.required {
+  color: red;
+  margin-left: 5px;
+}
+.tooltip {
+  position: relative;
+  display: inline-flex;
+  cursor: help;
+}
+.tooltip .tooltip-content {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #111;
+  color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  width: 220px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.tooltip:hover .tooltip-content {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+.tooltip .tooltip-content:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #111 transparent transparent transparent;
+}
+.tooltip .tooltip-content h6 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.tooltip .tooltip-content ul {
+  margin: 0;
+}
+.tiered-pricing,
+.tooltip .tooltip-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tiered-pricing {
+  margin-bottom: 20px;
+}
+.tiered-pricing input[type="checkbox"] {
+  margin: 0;
+  width: 1rem;
+}
+.tiered-pricing label {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  cursor: pointer;
+}
+.modal-body .form-group .tiered-pricing label {
+  margin: 0;
+}
+.group-price {
+  width: 100%;
+}
+.group-price input[type="number"]:focus {
+  box-shadow: unset;
+  outline: unset;
+}
+.group-price input[type="number"].error {
+  border-color: red;
+}
+.group-price .clone {
+  display: none;
+}
+.remove_group_price {
+  color: red;
+}
+.remove_group_price:hover {
+  color: red;
+}
+.group-price tr th:nth-child(2),
+.group-price tr th:nth-child(3),
+.group-price tr th:nth-child(6),
+.group-price tr td:nth-child(2),
+.group-price tr td:nth-child(3),
+.group-price tr td:nth-child(6) {
+  display: none;
+}
+.group-price.is-tiered tr th:nth-child(2),
+.group-price.is-tiered tr th:nth-child(3),
+.group-price.is-tiered tr th:nth-child(6),
+.group-price.is-tiered tr td:nth-child(2),
+.group-price.is-tiered tr td:nth-child(3),
+.group-price.is-tiered tr td:nth-child(6) {
+  display: table-cell;
+}
+.package-schedule {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+.package-schedule h4 {
+  margin: 0;
+}
+.package-schedule .top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+.package-schedule .action-delete-schedule {
+  color: red;
+}
+.package-schedule .actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.package-schedule .center > div + div {
+  margin-top: 8px;
+}
+.package-schedule .center .days .line {
+  margin-top: 5px;
+}
+.package-schedule .center .days .line b {
+  display: inline-block;
+  margin-right: 5px;
+}
+.package-schedule .days span:not(.name):after {
+  content: ",";
+  margin-right: 4px;
+}
+.package-schedule .days span:not(.name):last-child:after {
+  content: "";
+  margin: 0;
+}
+.package-schedule.is-loading {
+  position: relative;
+}
+.package-schedule.is-loading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+}
+.package-schedule.is-loading:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-top: 2px solid #111;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  width: 16px;
+  display: block;
+  height: 16px;
+  z-index: 2;
+}
+.opening-hours .opening-hours-item,
+.opening-hours .opening-hours-item .time {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.opening-hours .opening-hours-item {
+  align-items: flex-start;
+}
+.opening-hours .opening-hours-item input[type="checkbox"] {
+  width: 1rem;
+}
+.opening-hours .opening-hours-item + .opening-hours-item {
+  margin-top: 12px;
+}
+.opening-hours .opening-hours-item .time {
+  gap: 8px;
+}
+.opening-hours .opening-hours-item .time + .time {
+  margin-top: 12px;
+}
+.opening-hours .opening-hours-item .day-name {
+  flex: 0 0 100px;
+  max-width: 100px;
+  margin-top: 7px;
+}
+.remove_opening-hours-time {
+  color: red;
+}
+.many-days input {
+  width: auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

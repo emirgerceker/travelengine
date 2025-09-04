@@ -1,0 +1,119 @@
+.desktop-menu {
+  height: 100%;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    column-gap: 24px;
+  }
+  .sub-menu {
+    position: absolute;
+    top: calc(100% + 20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    transform: translateY(10px);
+    pointer-events: none;
+    &.mega-menu {
+      left: 0;
+      position: fixed;
+      width: 100%;
+      top: 67px;
+    }
+    &.simple-menu {
+      width: 220px;
+      background-color: #fff;
+      border: 1px solid var(--togo-border-color-04);
+      border-radius: 0 0 16px 16px;
+      box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+      -webkit-box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+      -moz-box-shadow: 1px 9px 26px 0px rgba(0, 0, 0, 0.04);
+      padding: 16px 0;
+      a {
+        padding: 8px 24px;
+      }
+      li:hover {
+        > a {
+          background-color: rgba(var(--togo-accent-color-rgb), 0.05);
+          color: var(--togo-accent-color);
+        }
+        > .sub-menu {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(0);
+          pointer-events: all;
+          top: 100%;
+          .sub-menu {
+            top: 0 !important;
+          }
+        }
+      }
+      li.menu-item-has-children a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .togo-svg-icon {
+        transform: rotate(-90deg);
+      }
+      .simple-menu {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        margin-top: -1px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+        transform: translateX(10px);
+        pointer-events: none;
+      }
+    }
+  }
+  .menu-item {
+    height: 100%;
+    position: relative;
+    > a {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      transition: all 0.3s;
+      font-size: 16px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    &:hover > {
+      a {
+        color: var(--togo-accent-color);
+        &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          height: calc(100% + 20px);
+          width: 100%;
+        }
+      }
+      .sub-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: all;
+        top: 100%;
+        .sub-menu {
+          top: 0 !important;
+        }
+      }
+    }
+  }
+  .togo-svg-icon {
+    width: 16px;
+    margin-left: 2px;
+  }
+}

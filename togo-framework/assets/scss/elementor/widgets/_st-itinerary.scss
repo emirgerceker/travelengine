@@ -1,0 +1,82 @@
+.togo-st-itinerary {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 2px;
+    bottom: 18px;
+    border-left: 2px dashed #eee;
+    z-index: 1;
+  }
+  .togo-st-itinerary-item:last-child {
+    .togo-st-itinerary-item-text {
+      border-bottom: 0;
+    }
+  }
+  .togo-st-itinerary-item-title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &.is-active {
+      .togo-st-itinerary-item-text svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .togo-st-itinerary-item-icon {
+    margin-right: 16px;
+    flex: 0 0 32px;
+    max-width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    &::before {
+      content: "";
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      display: block;
+      border: 2px solid var(--togo-accent-color);
+      background-color: #fff;
+    }
+    &.togo-svg-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      color: #fff;
+      background-color: var(--togo-accent-color);
+      &::before {
+        display: none;
+      }
+      svg {
+        width: 20px;
+      }
+    }
+  }
+  .togo-st-itinerary-item-text {
+    flex: 1;
+    font-size: rem(18);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: rem(11);
+    padding-bottom: rem(11);
+    border-bottom: 1px solid var(--e-global-color-b5ee1f5, #eee);
+    svg {
+      transition: all 0.3s;
+    }
+  }
+  .togo-st-itinerary-item-content {
+    padding-left: 48px;
+    padding-top: 20px;
+    display: none;
+    img {
+      margin: 0 0 16px 0;
+    }
+  }
+}

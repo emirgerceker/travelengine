@@ -1,0 +1,32 @@
+.togo-td-description {
+  max-width: rem(650);
+  margin: 0 auto;
+  text-align: center;
+  &__links {
+    margin-top: rem(30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem(20);
+    .togo-button:first-child {
+      border-color: var(--togo-accent-color);
+      color: var(--togo-accent-color);
+    }
+  }
+  .togo-button {
+    .togo-svg-icon {
+      margin-left: rem(8);
+    }
+    svg {
+      width: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .togo-td-description {
+    &__links {
+      flex-direction: column;
+    }
+  }
+}

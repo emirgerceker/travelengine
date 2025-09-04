@@ -1,0 +1,127 @@
+.elementor-widget-togo-destination {
+  .togo-destination.layout-01 {
+    position: relative;
+    border-radius: rem(160);
+    overflow: hidden;
+    > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .togo-destination-thumbnail {
+      overflow: hidden;
+      img {
+        width: 100%;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    &:hover {
+      .togo-destination-thumbnail img {
+        transform: scale(1.1);
+      }
+    }
+    .togo-destination-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.5) 50%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+    }
+    .togo-destination-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+      > a:hover .name {
+        color: var(--togo-accent-color);
+      }
+      .name {
+        font-size: rem(20);
+        font-weight: 500;
+        color: var(--togo-text-color-04);
+        margin-bottom: rem(8);
+        display: flex;
+        transition: all 0.3s ease-in-out;
+      }
+      .count {
+        color: var(--togo-text-color-04);
+      }
+    }
+  }
+  .togo-destination.layout-02 {
+    border-radius: rem(16);
+    overflow: hidden;
+    .togo-destination-content {
+      position: absolute;
+      top: rem(32);
+      left: rem(32);
+      right: rem(32);
+      bottom: rem(32);
+    }
+    .togo-destination-meta {
+      display: flex;
+      flex-direction: column;
+      gap: rem(4);
+      a:hover span {
+        color: var(--togo-accent-color);
+      }
+      .parent {
+        text-transform: uppercase;
+        color: var(--togo-text-color-04);
+      }
+      .name {
+        font-size: rem(28);
+        color: var(--togo-text-color-04);
+      }
+    }
+    .togo-destination-thumbnail {
+      position: relative;
+      overflow: hidden;
+      img {
+        width: 100%;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #000000;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.3) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+    }
+    &:hover {
+      .togo-destination-thumbnail img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,3332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-10 17:10+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:36
+msgid "Not Found Image"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "Comment (%1$s)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:75
+msgid "Comment"
+msgstr ""
+
+#: comments.php:79
+msgid "Name"
+msgstr ""
+
+#: comments.php:80 inc/admin/customizer/options/sharing.php:25
+#: inc/admin/customizer/options/sharing.php:48
+#: inc/classes/class-togo-templates.php:423
+#: inc/classes/class-togo-templates.php:425
+msgid "Email"
+msgstr ""
+
+#: comments.php:81
+msgid "Website"
+msgstr ""
+
+#: comments.php:84
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:87
+msgid "Post Comment"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:14
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:18
+msgid "Search"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:8
+#: inc/admin/customizer/options/advanced.php:15
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:23
+msgid "Back To Top"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:28
+#: inc/admin/customizer/options/advanced.php:41
+msgid "OFF"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:29
+#: inc/admin/customizer/options/advanced.php:42
+msgid "ON"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:36
+msgid "Content Protected"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:49
+msgid "API"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:57
+msgid "Google Map API"
+msgstr ""
+
+#: inc/admin/customizer/options/advanced.php:61
+msgid "This sets the Google Map API."
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:8
+#: inc/admin/customizer/options/button/border-line.php:24
+#: inc/admin/customizer/options/button/full-filled.php:24
+#: inc/admin/customizer/options/button/underline.php:24
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:227
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:15
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:25
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:35
+msgid "Accent Color"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:45
+msgid "Text Color 01"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:46
+#: inc/admin/customizer/options/color.php:57
+#: inc/admin/customizer/options/color.php:68
+#: inc/admin/customizer/options/color.php:79
+#: inc/admin/customizer/options/color.php:90
+#: inc/admin/customizer/options/color.php:101
+msgid "Use for heading, sub text, link..."
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:56
+msgid "Text Color 02"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:67
+msgid "Text Color 03"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:78
+msgid "Text Color 04"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:89
+msgid "Text Color 05"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:100
+msgid "Text Color 06"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:111
+msgid "Border Color 01"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:112
+#: inc/admin/customizer/options/color.php:123
+#: inc/admin/customizer/options/color.php:134
+#: inc/admin/customizer/options/color.php:145
+#: inc/admin/customizer/options/color.php:156
+msgid "Use for shadows, borders and lines..."
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:122
+msgid "Border Color 02"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:133
+msgid "Border Color 03"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:144
+msgid "Border Color 04"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:155
+msgid "Border Color 05"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:166
+msgid "Icon Color 01"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:167
+#: inc/admin/customizer/options/color.php:178
+#: inc/admin/customizer/options/color.php:189
+#: inc/admin/customizer/options/color.php:200
+#: inc/admin/customizer/options/color.php:211
+msgid "Use for icons."
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:177
+msgid "Icon Color 02"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:188
+msgid "Icon Color 03"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:199
+msgid "Icon Color 04"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:210
+msgid "Icon Color 05"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:221
+msgid "Tone 01"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:222
+#: inc/admin/customizer/options/color.php:233
+#: inc/admin/customizer/options/color.php:244
+msgid "Use for alternative states."
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:232
+msgid "Tone 02"
+msgstr ""
+
+#: inc/admin/customizer/options/color.php:243
+msgid "Tone 03"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:8
+#: inc/admin/customizer/options/currency.php:15
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:19
+msgid "This controls what currency symbol is used."
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:26
+msgid "Currency Position"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:30
+msgid "This controls position of currency symbol."
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:32
+#: inc/admin/customizer/options/blog/archive.php:106
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:139
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:151
+#: inc/admin/kirki/field/class-kirki-field-spacing.php:39
+#: inc/classes/class-togo-metabox.php:221
+msgid "Left"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:33
+#: inc/admin/customizer/options/blog/archive.php:108
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:140
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:163
+#: inc/admin/kirki/field/class-kirki-field-spacing.php:40
+#: inc/classes/class-togo-metabox.php:222
+msgid "Right"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:34
+msgid "Left with Space"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:35
+msgid "Right with Space"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:42
+msgid "Thousand Separator"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:46
+msgid "This sets the thousand separator of displayed price."
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:52
+msgid "Decimal Separator"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:56
+msgid "This sets the decimal separator of displayed price."
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:62
+msgid "Number of Decimals"
+msgstr ""
+
+#: inc/admin/customizer/options/currency.php:66
+msgid "This sets the number of decimals point shown in displayed price."
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:9
+#: inc/classes/class-togo-metabox.php:231
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:16
+msgid "Footer Customize"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:24
+msgid "Enable Footer"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:29
+#: inc/admin/customizer/options/footer.php:52
+#: inc/admin/customizer/options/notices.php:29
+#: inc/admin/customizer/options/blog/single.php:148
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:30
+#: inc/admin/customizer/options/footer.php:53
+#: inc/admin/customizer/options/notices.php:30
+#: inc/admin/customizer/options/blog/single.php:149
+msgid "Show"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:37
+#: inc/classes/class-togo-metabox.php:248
+msgid "Footer Type"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:47
+msgid "Display Copyright"
+msgstr ""
+
+#: inc/admin/customizer/options/footer.php:60
+msgid "Copyright"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:9
+#: inc/admin/customizer/options/page.php:16
+#: inc/admin/customizer/options/blog/archive.php:138
+#: inc/admin/customizer/options/blog/single.php:156
+#: inc/classes/class-togo-metabox.php:126
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:16
+msgid "Header Customize"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:24
+#: inc/admin/customizer/options/page.php:24
+msgid "Top Bar"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:25
+msgid "Select top bar that displays on site."
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:35
+#: inc/admin/customizer/options/page.php:35
+#: inc/admin/customizer/options/blog/archive.php:157
+#: inc/admin/customizer/options/blog/single.php:176
+msgid "Header Style"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:36
+msgid "Select header style that displays on site."
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:46
+#: inc/classes/class-togo-metabox.php:162
+msgid "Header Overlay"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:51
+#: inc/admin/customizer/options/header.php:64
+#: inc/admin/customizer/options/shop/cart.php:25
+#: inc/classes/class-togo-metabox.php:118
+#: inc/classes/class-togo-metabox.php:166
+#: inc/classes/class-togo-metabox.php:178
+#: inc/classes/class-togo-metabox.php:241
+msgid "No"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:52
+#: inc/admin/customizer/options/header.php:65
+#: inc/admin/customizer/options/shop/cart.php:26
+#: inc/classes/class-togo-metabox.php:117
+#: inc/classes/class-togo-metabox.php:167
+#: inc/classes/class-togo-metabox.php:179
+#: inc/classes/class-togo-metabox.php:240
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/customizer/options/header.php:59
+#: inc/classes/class-togo-metabox.php:174
+msgid "Header Float"
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:8
+msgid "Import / Export"
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:15
+#: inc/admin/customizer/options/io.php:19
+msgid "Import"
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:16
+msgid ""
+"Click the button below to import the customization settings for this theme."
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:25
+#: inc/admin/customizer/options/io.php:29
+#: inc/admin/customizer/options/io.php:40
+#: inc/admin/panel/sections/section-export.php:17
+#: inc/admin/panel/sections/section-export.php:28
+#: inc/admin/panel/sections/section-export.php:39
+#: inc/admin/panel/sections/section-export.php:50
+#: inc/admin/panel/sections/section-export.php:62
+#: inc/admin/panel/sections/section-export.php:75
+#: inc/admin/panel/sections/section-export.php:90
+#: inc/admin/panel/sections/section-export.php:103
+msgid "Export"
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:26
+#: inc/admin/customizer/options/io.php:37
+msgid ""
+"Click the button below to export the customization settings for this theme."
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:36
+msgid "Export for Demo"
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:47
+#: inc/admin/customizer/settings/functions.php:59
+#: inc/admin/kirki/controls/php/class-kirki-control-slider.php:73
+msgid "Reset"
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:48
+msgid ""
+"Click the button below to reset the customization settings for this theme."
+msgstr ""
+
+#: inc/admin/customizer/options/io.php:51
+msgid "Reset Options"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:9
+#: inc/admin/customizer/options/blog/archive.php:123
+#: inc/classes/class-togo-metabox.php:47 inc/classes/class-togo-metabox.php:53
+#: inc/classes/class-togo-metabox.php:193
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:16
+msgid "Layout Type"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:30
+msgid "Boxed Width"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:60
+#: inc/admin/customizer/options/page404.php:15
+msgid "Background"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:68
+msgid "Body Background"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:84
+msgid "Content Background"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:107
+msgid "Body BG Image"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:123
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:101
+msgid "Background Size"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:129
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:110
+msgid "Auto"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:130
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:104
+msgid "Cover"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:131
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:107
+msgid "Contain"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:132
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:186
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:202
+msgid "Initial"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:145
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:151
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:76
+msgid "No Repeat"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:152
+msgid "Repeat"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:153
+msgid "Repeat X"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:154
+msgid "Repeat Y"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:167
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:85
+msgid "Background Position"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:173
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:87
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Left Top"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:174
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:88
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:123
+msgid "Left Center"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:175
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:89
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:176
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:90
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:125
+msgid "Right Top"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:177
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:91
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Right Center"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:178
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:92
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:127
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:179
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:93
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:128
+msgid "Center Top"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:180
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:94
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:129
+msgid "Center Center"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:181
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:95
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:130
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:194
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:117
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:200
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:120
+msgid "Scroll"
+msgstr ""
+
+#: inc/admin/customizer/options/layout.php:201
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:123
+msgid "Fixed"
+msgstr ""
+
+#: inc/admin/customizer/options/logo.php:9
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer/options/logo.php:16
+msgid "Logo Max Width"
+msgstr ""
+
+#: inc/admin/customizer/options/logo.php:30
+msgid "Logo Dark"
+msgstr ""
+
+#: inc/admin/customizer/options/logo.php:39
+msgid "Logo Dark Retina"
+msgstr ""
+
+#: inc/admin/customizer/options/logo.php:48
+msgid "Logo Light"
+msgstr ""
+
+#: inc/admin/customizer/options/logo.php:57
+msgid "Logo Light Retina"
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:8
+#: inc/admin/customizer/options/notices.php:15
+msgid "Notices"
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:23
+msgid "Cookie Notice"
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:24
+msgid "The notice about cookie auto show when a user visits the site."
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:37
+msgid "Messages"
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:38
+msgid "Enter the messages that displays for cookie notice."
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:41
+msgid ""
+"We use cookies to ensure that we give you the best experience on our "
+"website. If you continue to use this site we will assume that you are happy "
+"with it."
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:47
+msgid "Button Text"
+msgstr ""
+
+#: inc/admin/customizer/options/notices.php:50
+msgid "Accept all cookies"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:9
+#: inc/admin/customizer/options/page.php:109
+#: inc/admin/customizer/options/page.php:117
+#: inc/admin/customizer/options/blog/archive.php:90
+#: inc/admin/customizer/options/blog/single.php:132
+#: inc/admin/customizer/options/shop/archive.php:5
+#: inc/classes/class-togo-metabox.php:187
+msgid "Page Title"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:16
+msgid "Page Title Type"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:26
+msgid "Home Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:27
+msgid "Enter text that displays on front latest posts page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:30
+#: inc/admin/customizer/options/page-title.php:100
+#: inc/admin/customizer/options/blog/_panel.php:8
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:36
+msgid "Archive Category Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:37
+msgid "Enter text prefix that displays on archive category page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:40
+msgid "Category: "
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:46
+msgid "Archive Tag Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:47
+msgid "Enter text prefix that displays on archive tag page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:50
+msgid "Tag: "
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:56
+msgid "Archive Author Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:57
+msgid "Enter text prefix that displays on archive author page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:60
+msgid "Author: "
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:66
+msgid "Archive Year Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:67
+msgid "Enter text prefix that displays on archive year page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:70
+msgid "Year: "
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:76
+msgid "Archive Month Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:77
+msgid "Enter text prefix that displays on archive month page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:80
+msgid "Month: "
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:86
+msgid "Archive Day Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:87
+msgid "Enter text prefix that displays on archive day page."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:90
+msgid "Day: "
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:96
+msgid "Single Blog Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:97
+msgid ""
+"Enter text that displays on single blog posts. Leave blank to use post title."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:106
+msgid "Archive Portfolio Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:107
+msgid "Enter text that displays on archive portfolio pages."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:110
+msgid "Portfolios"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:116
+msgid "Single Portfolio Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:117
+msgid ""
+"Enter text that displays on single portfolio pages. Leave blank to use "
+"portfolio title."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:120
+msgid "Portfolio"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:126
+msgid "Single Product Heading"
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:127
+msgid ""
+"Enter text that displays on single product pages. Leave blank to use product "
+"title."
+msgstr ""
+
+#: inc/admin/customizer/options/page-title.php:130
+msgid "Our Shop"
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:9
+msgid "Page"
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:25
+msgid "Select top bar that displays on blog archive pages."
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:36
+#: inc/admin/customizer/options/blog/archive.php:158
+#: inc/admin/customizer/options/blog/single.php:177
+msgid "Select header style that displays on blog archive pages."
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:46
+#: inc/admin/customizer/options/page.php:69
+#: inc/admin/customizer/options/blog/archive.php:36
+#: inc/admin/customizer/options/blog/single.php:56
+#: inc/admin/customizer/options/shop/archive.php:30
+#: inc/classes/class-togo-metabox.php:202
+#: inc/classes/class-togo-metabox.php:208
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:54
+#: inc/admin/customizer/options/blog/archive.php:21
+#: inc/admin/customizer/options/blog/single.php:34
+#: inc/admin/customizer/options/shop/archive.php:15
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:70
+#: inc/admin/customizer/options/blog/archive.php:37
+#: inc/admin/customizer/options/blog/single.php:57
+msgid "Select sidebar that will display on blog archive pages."
+msgstr ""
+
+#: inc/admin/customizer/options/page.php:87
+#: inc/admin/customizer/options/blog/archive.php:54
+#: inc/admin/customizer/options/blog/single.php:79
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:8
+msgid "404 Page"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:16
+msgid "Controls outer background area in boxed mode."
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:37
+#: inc/admin/customizer/options/pre-loading.php:23
+#: inc/admin/customizer/options/pre-loading.php:113
+msgid "Image"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:46
+msgid "Title"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:47
+msgid "Controls the title that display on error 404 page."
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:50
+msgid "Page not found!"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:56
+msgid "Text"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:57
+msgid "Controls the text that display below title"
+msgstr ""
+
+#: inc/admin/customizer/options/page404.php:60
+msgid ""
+"This could be because of a typo, an out of date link, or that the page you "
+"requested doesn't exist."
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:9
+msgid "Pre Loading"
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:16
+msgid "Type Loading Effect"
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:21
+#: inc/admin/customizer/options/button/border-line.php:94
+#: inc/admin/customizer/options/button/full-filled.php:94
+#: inc/admin/customizer/options/button/underline.php:94
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:182
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:198
+#: inc/classes/class-togo-page-title.php:109
+#: inc/classes/class-togo-theme.php:240
+msgid "None"
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:22
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:30
+#: inc/admin/customizer/options/button/border-line.php:41
+#: inc/admin/customizer/options/button/full-filled.php:41
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:52
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:46
+msgid "Shape Color"
+msgstr ""
+
+#: inc/admin/customizer/options/pre-loading.php:83
+msgid "Animation Type"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:8
+msgid "Social Sharing"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:15
+msgid "Sharing Links"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:16
+msgid "Check to the box to enable social share links."
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:21
+#: inc/admin/customizer/options/sharing.php:44
+#: inc/admin/customizer/options/socials.php:16
+#: inc/classes/class-togo-profile.php:57
+#: inc/classes/class-togo-templates.php:383
+#: inc/classes/class-togo-templates.php:385
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:22
+#: inc/admin/customizer/options/sharing.php:45
+#: inc/admin/customizer/options/socials.php:25
+#: inc/classes/class-togo-profile.php:61
+#: inc/classes/class-togo-templates.php:393
+#: inc/classes/class-togo-templates.php:395
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:23
+#: inc/admin/customizer/options/sharing.php:46
+#: inc/admin/customizer/options/socials.php:70
+#: inc/classes/class-togo-templates.php:413
+#: inc/classes/class-togo-templates.php:415
+msgid "Linkedin"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:24
+#: inc/admin/customizer/options/sharing.php:47
+#: inc/classes/class-togo-templates.php:403
+#: inc/classes/class-togo-templates.php:405
+msgid "Tumblr"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:32
+msgid "Order"
+msgstr ""
+
+#: inc/admin/customizer/options/sharing.php:33
+msgid "Controls the order of social share links."
+msgstr ""
+
+#: inc/admin/customizer/options/site_identity.php:8
+msgid "Site Identity"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:9
+msgid "Socials"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:34
+#: inc/classes/class-togo-profile.php:65
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:43
+#: inc/classes/class-togo-profile.php:77
+msgid "Youtube"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:52
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:61
+#: inc/classes/class-togo-profile.php:47
+msgid "Skype"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:79
+#: inc/classes/class-togo-profile.php:73
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:88
+msgid "Slack"
+msgstr ""
+
+#: inc/admin/customizer/options/socials.php:97
+msgid "RSS"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:28
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:36
+msgid "Body Font"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:44
+#: inc/admin/customizer/options/typography.php:78
+#: inc/admin/customizer/options/button/general.php:35
+msgid "Font Settings"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:45
+msgid "These settings control the typography for all body text."
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:70
+msgid "Heading Font"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:79
+msgid "These settings control the typography for all heading text."
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:97
+msgid "Font size"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:98
+msgid "H1"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:113
+msgid "H2"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:128
+msgid "H3"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:143
+msgid "H4"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:158
+msgid "H5"
+msgstr ""
+
+#: inc/admin/customizer/options/typography.php:173
+msgid "H6"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:5
+#: inc/admin/customizer/options/blog/archive.php:13
+msgid "Blog Archive"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:100
+msgid "Pagination Position"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:107
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:141
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:157
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:115
+msgid "Blog Card"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:129
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:138
+#: inc/admin/kirki/controls/views/image.php:36
+#: inc/admin/kirki/field/class-kirki-field-image.php:55
+#: inc/classes/class-togo-helper.php:191 inc/classes/class-togo-metabox.php:56
+#: inc/classes/class-togo-metabox.php:165
+#: inc/classes/class-togo-metabox.php:177
+#: inc/classes/class-togo-metabox.php:223
+#: inc/classes/class-togo-page-title.php:111
+#: inc/classes/class-togo-theme.php:236
+msgid "Default"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:130
+msgid "Grid"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:131
+msgid "List"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:146
+#: inc/admin/customizer/options/blog/single.php:164
+msgid "Top Bar Style"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/archive.php:147
+msgid "Select top bar style that displays on blog archive pages."
+msgstr ""
+
+#: inc/admin/customizer/options/blog/single.php:5
+#: inc/admin/customizer/options/blog/single.php:13
+msgid "Single Post"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/single.php:21
+msgid "Style"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/single.php:26
+msgid "Style 01"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/single.php:27
+msgid "Style 02"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/single.php:142
+msgid "Share"
+msgstr ""
+
+#: inc/admin/customizer/options/blog/single.php:165
+msgid "Select top_bar style that displays on blog archive pages."
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:7
+#: inc/admin/customizer/options/button/border-line.php:16
+msgid "Border Line"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:29
+#: inc/admin/customizer/options/button/border-line.php:46
+#: inc/admin/customizer/options/button/border-line.php:110
+#: inc/admin/customizer/options/button/full-filled.php:29
+#: inc/admin/customizer/options/button/full-filled.php:46
+#: inc/admin/customizer/options/button/full-filled.php:110
+#: inc/admin/customizer/options/button/underline.php:29
+#: inc/admin/customizer/options/button/underline.php:46
+msgid "Normal"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:30
+#: inc/admin/customizer/options/button/border-line.php:47
+#: inc/admin/customizer/options/button/border-line.php:111
+#: inc/admin/customizer/options/button/full-filled.php:30
+#: inc/admin/customizer/options/button/full-filled.php:47
+#: inc/admin/customizer/options/button/full-filled.php:111
+#: inc/admin/customizer/options/button/underline.php:30
+#: inc/admin/customizer/options/button/underline.php:47
+msgid "Hover"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:58
+#: inc/admin/customizer/options/button/full-filled.php:58
+#: inc/admin/customizer/options/button/underline.php:58
+msgid "Padding"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:73
+#: inc/admin/customizer/options/button/full-filled.php:73
+#: inc/admin/customizer/options/button/underline.php:73
+msgid "Radius"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:88
+#: inc/admin/customizer/options/button/full-filled.php:88
+#: inc/admin/customizer/options/button/underline.php:88
+msgid "Border"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:95
+#: inc/admin/customizer/options/button/full-filled.php:95
+#: inc/admin/customizer/options/button/underline.php:95
+msgid "Solid"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:96
+#: inc/admin/customizer/options/button/full-filled.php:96
+#: inc/admin/customizer/options/button/underline.php:96
+msgid "Double"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:97
+#: inc/admin/customizer/options/button/full-filled.php:97
+#: inc/admin/customizer/options/button/underline.php:97
+msgid "Dashed"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:98
+#: inc/admin/customizer/options/button/full-filled.php:98
+#: inc/admin/customizer/options/button/underline.php:98
+msgid "Groove"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:105
+#: inc/admin/customizer/options/button/full-filled.php:105
+#: inc/admin/customizer/options/button/underline.php:41
+msgid "Border Color"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:129
+#: inc/admin/customizer/options/button/full-filled.php:129
+#: inc/admin/customizer/options/button/underline.php:105
+msgid "Border Top"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:151
+#: inc/admin/customizer/options/button/full-filled.php:151
+#: inc/admin/customizer/options/button/underline.php:127
+msgid "Border Right"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:173
+#: inc/admin/customizer/options/button/full-filled.php:173
+#: inc/admin/customizer/options/button/underline.php:149
+msgid "Border Bottom"
+msgstr ""
+
+#: inc/admin/customizer/options/button/border-line.php:195
+#: inc/admin/customizer/options/button/full-filled.php:195
+#: inc/admin/customizer/options/button/underline.php:171
+msgid "Border Left"
+msgstr ""
+
+#: inc/admin/customizer/options/button/full-filled.php:7
+#: inc/admin/customizer/options/button/full-filled.php:16
+msgid "Full Filled"
+msgstr ""
+
+#: inc/admin/customizer/options/button/general.php:27
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer/options/button/general.php:36
+msgid "These settings control the typography for all button text."
+msgstr ""
+
+#: inc/admin/customizer/options/button/underline.php:7
+#: inc/admin/customizer/options/button/underline.php:16
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:199
+msgid "Underline"
+msgstr ""
+
+#: inc/admin/customizer/options/button/_panel.php:8
+msgid "Button"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/archive.php:31
+msgid "Select sidebar that will display on shop archive pages."
+msgstr ""
+
+#: inc/admin/customizer/options/shop/cart.php:4
+#: inc/admin/customizer/settings/functions.php:84
+msgid "Cart"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/cart.php:12
+msgid "Holding Time"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/cart.php:20
+msgid "Enable"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/cart.php:33
+msgid "Time"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/filter.php:4
+msgid "Product Filter"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/single.php:5
+msgid "Product Single"
+msgstr ""
+
+#: inc/admin/customizer/options/shop/single.php:13
+msgid "Single Product"
+msgstr ""
+
+#: inc/admin/customizer/settings/defaults.php:147
+msgid "© 2025 Uxper. All rights reserved"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:44
+msgid "Do you want to delete current layout?"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:60
+msgid "Do you want to import customizer options?"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:61
+msgid "Do you want to export customizer options?"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:62
+msgid ""
+"Attention! This will remove all customizations ever made via customizer to "
+"this theme!\n"
+"\n"
+"This action is irreversible!"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:72
+msgid "Site Logo"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:73
+#: inc/classes/class-togo-setup.php:181
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:74
+#: inc/classes/class-togo-setup.php:193
+msgid "Landing Menu"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:75
+msgid "Canvas Menu"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:76
+msgid "Canvas Menu 02"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:77
+msgid "Canvas Mobile Menu"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:78
+msgid "Device"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:79
+msgid "Languages"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:80
+msgid "Contact"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:81
+msgid "Search Icon"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:82
+msgid "Search Input"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:83
+msgid "Account"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:85
+msgid "Button 01"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:86
+msgid "Custom HTML 01"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:87
+msgid "Custom HTML 02"
+msgstr ""
+
+#: inc/admin/customizer/settings/functions.php:174
+msgid "Import is successful!"
+msgstr ""
+
+#: inc/admin/kirki/upgrade-notifications.php:44
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:58
+msgid "Background Image"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:63
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:136
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:433
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:438
+msgid "No File Selected"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:66
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:137
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:409
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:443
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:470
+#: inc/admin/kirki/controls/views/image.php:37
+#: inc/admin/kirki/field/class-kirki-field-image.php:56
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:67
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Select File"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:77
+msgid "Repeat All"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:78
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-background.php:79
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:140
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:141
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:142
+msgid "CSS Defaults"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-base.php:143
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimension.php:44
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:146
+msgid "Invalid Value"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:108
+msgid "Font Size"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:132
+msgid "Font Weight"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:116
+msgid "Line Height"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Font Style"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:135
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:124
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:136
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:132
+msgid "Word Spacing"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:137
+#: inc/admin/kirki/field/class-kirki-field-spacing.php:37
+msgid "Top"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:138
+#: inc/admin/kirki/field/class-kirki-field-spacing.php:38
+msgid "Bottom"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:142
+msgid "Size"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:143
+msgid "Spacing"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-dimensions.php:145
+msgid "Height"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:80
+msgid "row"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:89
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:124
+msgid "Select a Page"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:232
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:399
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:404
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:410
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:414
+msgid "Add Image"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:410
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:412
+msgid "Change Image"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:444
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:448
+msgid "Add File"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:444
+#: inc/admin/kirki/controls/php/class-kirki-control-repeater.php:446
+msgid "Change File"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-switch.php:55
+#: inc/admin/kirki/field/class-kirki-field-switch.php:45
+msgid "On"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-switch.php:59
+#: inc/admin/kirki/field/class-kirki-field-switch.php:46
+msgid "Off"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Font Family"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:89
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:94
+msgid "Select Font Family"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Backup Font"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:99
+msgid "Variant"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:140
+msgid "Text Align"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:145
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:187
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:203
+msgid "Inherit"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:169
+msgid "Justify"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Text Transform"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:183
+msgid "Capitalize"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:184
+msgid "Uppercase"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:185
+msgid "Lowercase"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Text Decoration"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:200
+msgid "Overline"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:201
+msgid "Line-Through"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:211
+msgid "Margin Top"
+msgstr ""
+
+#: inc/admin/kirki/controls/php/class-kirki-control-typography.php:219
+msgid "Margin Bottom"
+msgstr ""
+
+#: inc/admin/kirki/controls/views/image.php:35
+#: inc/admin/kirki/controls/views/image.php:39
+#: inc/admin/kirki/field/class-kirki-field-image.php:53
+#: inc/admin/kirki/field/class-kirki-field-image.php:58
+msgid "Select image"
+msgstr ""
+
+#: inc/admin/kirki/controls/views/image.php:36
+#: inc/admin/kirki/field/class-kirki-field-image.php:54
+msgid "Change image"
+msgstr ""
+
+#: inc/admin/kirki/controls/views/image.php:38
+#: inc/admin/kirki/field/class-kirki-field-image.php:57
+msgid "No image selected"
+msgstr ""
+
+#: inc/admin/kirki/controls/views/image.php:40
+#: inc/admin/kirki/field/class-kirki-field-image.php:59
+msgid "Choose image"
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-field.php:252
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-field.php:261
+#: inc/admin/kirki/core/class-kirki-field.php:271
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-field.php:365
+#, php-format
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-field.php:383
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-field.php:512
+#: inc/admin/kirki/core/class-kirki-field.php:523
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-init.php:301
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
+"get_variables() instead."
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-init.php:381
+msgid ""
+"Your theme uses a Font Awesome field for icons. To avoid issues with missing "
+"icons on your frontend we recommend you install the official Font Awesome "
+"plugin."
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-init.php:384
+msgid "Install Plugin"
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki-init.php:385
+msgid "Don't show this again"
+msgstr ""
+
+#: inc/admin/kirki/core/class-kirki.php:246
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: inc/admin/kirki/deprecated/functions.php:20
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: inc/admin/kirki/field/class-kirki-field-color.php:56
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use \"choices"
+"[alpha]\" instead."
+msgstr ""
+
+#: inc/admin/kirki/field/class-kirki-field-radio.php:42
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: inc/admin/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+msgid "Customizing"
+msgstr ""
+
+#: inc/admin/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:67
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:206
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Light 200"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:210
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Book 300"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:213
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Normal 400"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:215
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Medium 500"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:221
+msgid "Bold 700"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:222
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:223
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:224
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:225
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:226
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:227
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/admin/kirki/modules/webfonts/class-kirki-fonts.php:228
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:177
+msgid "Invalid code"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:208
+msgid "Error connecting to API"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:213
+msgid "The purchase code was invalid"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:219
+msgid "Failed to validate code due to an error: HTTP {$responseCode}"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:224
+msgid "Error parsing response"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:318
+#, php-format
+msgid "<a href=\"%1$s\" title=\"Install %2$s\">Install</a>"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:338
+#, php-format
+msgid "<a href=\"%1$s\" title=\"Update %2$s\">Update</a>"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:356
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"Activate %2$s\" data-slug=\"%3$s\" data-source="
+"\"%4$s\" data-plugin-action=\"activate-plugin\" data-nonce=\"%5$s\" class="
+"\"togo-plugin-action plugin-activate\">Activate</a>"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:366
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"Deactivate %2$s\" data-slug=\"%3$s\" data-source="
+"\"%4$s\" data-plugin-action=\"deactivate-plugin\" data-nonce=\"%5$s\" class="
+"\"togo-plugin-action plugin-deactivate\">Deactivate</a>"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:389
+msgid "TGM_Plugin_Activation does not exist"
+msgstr ""
+
+#: inc/admin/panel/class-panel.php:408
+msgid "Installation package not available."
+msgstr ""
+
+#: inc/admin/panel/sections/alert.php:43
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View version "
+"%4$s details</a> or <a href=\"%5$s\" %6$s>update now</a>."
+msgstr ""
+
+#: inc/admin/panel/sections/alert.php:55
+#, php-format
+msgid "View %1$s version %2$s details"
+msgstr ""
+
+#: inc/admin/panel/sections/alert.php:67
+#: inc/admin/panel/sections/section-welcome.php:42
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: inc/admin/panel/sections/alert.php:73
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <strong>Please enter your purchase "
+"code to update the theme.</strong>"
+msgstr ""
+
+#: inc/admin/panel/sections/section-changelog.php:3
+msgid "Changelogs"
+msgstr ""
+
+#: inc/admin/panel/sections/section-changelog.php:10
+#: inc/classes/class-tgm-plugin-activation.php:2778
+msgid "Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-changelog.php:11
+msgid "Description"
+msgstr ""
+
+#: inc/admin/panel/sections/section-changelog.php:12
+msgid "Date"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:5
+msgid "Export Demo Data"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:12
+msgid "Content"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:23
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:34
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:45
+msgid "Page Options"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:57
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:70
+msgid "Elementor"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:85
+msgid "Uxper Booking"
+msgstr ""
+
+#: inc/admin/panel/sections/section-export.php:98
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:28
+msgid "WordPress Environment"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:34
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:35
+msgid "Home URL"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:39
+msgid "The root URL of your site."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:40
+msgid "Site URL"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:44
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:45
+msgid "WP Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:49
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:50
+msgid "WP Multisite"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:60
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:61
+msgid "WP Memory Limit"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:72
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:80
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:81
+msgid "WP Debug Mode"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:91
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:92
+#: inc/classes/class-togo-templates.php:223
+msgid "Language"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:96
+msgid "The current theme name"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:97
+msgid "Theme Name"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:101
+msgid "The current theme version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:102
+msgid "Theme Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:106
+msgid "Installed plugins"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:107
+msgid "Activated Plugins"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:126
+msgid "Server Environment"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:132
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:133
+msgid "PHP Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:138
+msgid ""
+"Theme requires PHP version 5.6 or greater. Please contact your hosting "
+"provider to upgrade PHP version."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:147
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:148
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:152
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:153
+msgid "PHP Time Limit"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:158
+#, php-format
+msgid ""
+"%s - We recommend setting max execution time to at least 180. See: <a href="
+"\"%s\" target=\"_blank\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:165
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:166
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:171
+#, php-format
+msgid ""
+"%s - Max input vars limitation will truncate POST data such as menus. "
+"Required >= 5000"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:179
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:180
+msgid "MySQL Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:189
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:190
+msgid "Max Upload Size"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:194
+msgid "The default timezone for your server."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:195
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:199
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:209
+msgid "Plugins may use it when communicating with remote services."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:214
+msgid ""
+"Your server does not have fsockopen or cURL enabled. Please contact your "
+"hosting provider to enable it."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:218
+msgid "WordPress Importer use DOMDocument."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:223
+#, php-format
+msgid ""
+"Your server does not have <a href=\"%s\">the DOM extension</a> class "
+"enabled. Please contact your hosting provider to enable it."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:227
+msgid "WordPress Importer use XMLReader."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:232
+#, php-format
+msgid ""
+"Your server does not have <a href=\"%s\">the XMLReader extension</a> class "
+"enabled. Please contact your hosting provider to enable it."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:235
+msgid "Remote Get"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:236
+msgid "Retrieve the raw response from the HTTP request using the GET method."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:242
+msgid ""
+" WordPress function <a href=\"https://codex.wordpress.org/Function_Reference/"
+"wp_remote_get\">wp_remote_get()</a> test failed. Please contact your hosting "
+"provider to enable it."
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:244
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: inc/admin/panel/sections/section-info.php:246
+#, php-format
+msgid "Status code: %s"
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:2
+msgid "Not verified"
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:6
+msgid "Verified"
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:13
+#: inc/admin/panel/sections/section-liense.php:26
+msgid "Purchase code"
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:35
+msgid "The purchase code was invalid."
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:37
+msgid "Success! The purchase code was valid."
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:43
+msgid "Please do not provide purchase code to anyone."
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:45
+msgid "The purchase code was invalid. Please try again."
+msgstr ""
+
+#: inc/admin/panel/sections/section-liense.php:48
+msgid "Show us your ThemeForest purchase code to get the automatic update."
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:8
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:9
+msgid "Please install and activate plugins to use all functionality."
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:29
+#, php-format
+msgid " - %1$s"
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:41
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:44
+msgid "(Required)"
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:44
+msgid "(Recommended)"
+msgstr ""
+
+#: inc/admin/panel/sections/section-plugins.php:58
+msgid "This theme doesn't require any plugins."
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:6
+msgid "Welcome to Togo Theme"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:7
+msgid "We've assembled some links to get you started"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:14
+msgid "Get Started"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:17
+msgid "Customize your site"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:24
+#: inc/classes/class-tgm-plugin-activation.php:2957
+msgid "Update"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:29
+msgid "Current Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:34
+msgid "Lastest Version"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:42
+#, php-format
+msgid "<a class=\"button togo-update\" href=\"%1$s\" %2$s>Update now</a>"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:53
+msgid "Support"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:57
+msgid "Online Documentation"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:58
+msgid "Detailed instruction to get the right way with our theme."
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:61
+msgid "Request Support"
+msgstr ""
+
+#: inc/admin/panel/sections/section-welcome.php:62
+msgid "Need help? Our users enjoy premium 24/7 support."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:346
+#: inc/classes/class-togo-plugins.php:116
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:347
+#: inc/classes/class-togo-plugins.php:117
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:349
+#: inc/classes/class-togo-plugins.php:118
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:351
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:352
+#: inc/classes/class-togo-plugins.php:121
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:355
+#: inc/classes/class-togo-plugins.php:125
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:361
+#: inc/classes/class-togo-plugins.php:131
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:367
+#: inc/classes/class-togo-plugins.php:143
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:373
+#: inc/classes/class-togo-plugins.php:149
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:379
+#: inc/classes/class-togo-plugins.php:161
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:385
+#: inc/classes/class-togo-plugins.php:167
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:390
+#: inc/classes/class-togo-plugins.php:179
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:395
+#: inc/classes/class-togo-plugins.php:184
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:400
+#: inc/classes/class-togo-plugins.php:189
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:404
+#: inc/classes/class-togo-plugins.php:193
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:405
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:406
+#: inc/classes/class-tgm-plugin-activation.php:3400
+#: inc/classes/class-togo-plugins.php:194
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:407
+#: inc/classes/class-tgm-plugin-activation.php:3188
+#: inc/classes/class-togo-plugins.php:196
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:409
+#: inc/classes/class-togo-plugins.php:200
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:411
+#: inc/classes/class-togo-plugins.php:205
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:413
+#: inc/classes/class-togo-plugins.php:210
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:414
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:415
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:416
+#: inc/classes/class-togo-plugins.php:215
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:629
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:630
+msgid "Update Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:752
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1063
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1063
+#: inc/classes/class-tgm-plugin-activation.php:1073
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1073
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1266
+#: inc/classes/class-tgm-plugin-activation.php:3184
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2170
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2490
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2493
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2510
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2513
+msgid "External Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2516
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2534
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2538
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2540
+msgid "Active"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2546
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2548
+msgid "Requires Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2550
+msgid "Update recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2559
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2607
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2611
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2615
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2619
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2705
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2713
+msgid "Installed version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2721
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2733
+msgid "Available version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2757
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2772
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2773
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2774
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2779
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2831
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2836
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2842
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2916
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2951
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2960
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2992
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2994
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3035
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3037
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3144
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3170
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3399
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3751
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3754
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3756
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3760
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3762
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3763
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3765
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3768
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3770
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3771
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3773
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3778
+msgid "Show Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3778
+msgid "Hide Details"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:21
+msgid "Home"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:22
+#, php-format
+msgid "Search Result of \"%s\""
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:23
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:24
+#, php-format
+msgctxt "category label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:25
+#, php-format
+msgctxt "tag label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:26
+#, php-format
+msgctxt "taxonomy label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:27
+#, php-format
+msgctxt "author label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:28
+#, php-format
+msgctxt "attachment label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:29
+#, php-format
+msgctxt "year label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:30
+#, php-format
+msgctxt "month label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:31
+#, php-format
+msgctxt "day label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:32
+#, php-format
+msgctxt "post type label"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/class-togo-breadcrumb.php:33
+msgid " &gt; "
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:118
+msgid "Sending user info,please wait..."
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:129
+msgid "Prev"
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:130
+msgid "Next"
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:131
+msgid "guest"
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:132
+msgid "guests"
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:133
+msgid "Upload failed"
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:134
+msgid "Failed to remove image."
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:135
+msgid "An error occurred while uploading."
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:136
+msgid "An error occurred while removing image."
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:137
+msgid "Failed to delete review."
+msgstr ""
+
+#: inc/classes/class-togo-enqueue.php:138
+msgid "Failed to cancel booking."
+msgstr ""
+
+#: inc/classes/class-togo-helper.php:188
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/classes/class-togo-helper.php:330
+msgid "No image URL has been entered."
+msgstr ""
+
+#: inc/classes/class-togo-helper.php:384
+msgid "Image is BMP. Please use either JPG or PNG."
+msgstr ""
+
+#: inc/classes/class-togo-helper.php:495
+msgid "Share:"
+msgstr ""
+
+#: inc/classes/class-togo-helper.php:595
+msgid "No menu assigned"
+msgstr ""
+
+#: inc/classes/class-togo-hook.php:65
+#, php-format
+msgid "%sAlert:%s You are not allowed to copy content or view source !!"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:37
+msgid "Page Settings"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:54
+msgid "Controls the layout of this page."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:57
+msgid "Boxed"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:58
+msgid "Full Width"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:66
+msgid "Content Top Spacing"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:67 inc/classes/class-togo-metabox.php:83
+#: inc/classes/class-togo-metabox.php:99
+msgid ""
+"Controls the top spacing of content page. Enter value including any valid "
+"CSS unit. For e.g: 50px. Leave blank to use global setting."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:74
+msgid "Content Bottom Spacing"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:75 inc/classes/class-togo-metabox.php:91
+#: inc/classes/class-togo-metabox.php:107
+msgid ""
+"Controls the bottom spacing of content page. Enter value including any valid "
+"CSS unit. For e.g: 50px. Leave blank to use global setting."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:82
+msgid "Content Top Spacing Tablet"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:90
+msgid "Content Bottom Spacing Tablet"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:98
+msgid "Content Top Spacing Mobile"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:106
+msgid "Content Bottom Spacing Mobile"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:114
+msgid "Overflow Hidden"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:132
+msgid "Top Bar Type"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:135
+#, php-format
+msgid ""
+"Select top bar that displays on this page. When you choose Default, the "
+"value in %s will be used."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:147
+msgid "Header Type"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:150
+#, php-format
+msgid ""
+"Select header type that displays on this page. When you choose Default, the "
+"value in %s will be used."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:209
+msgid "Select sidebar that will display on this page."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:217
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:218
+msgid "Select position of Sidebar for this page."
+msgstr ""
+
+#: inc/classes/class-togo-metabox.php:237
+msgid "Footer Enable"
+msgstr ""
+
+#: inc/classes/class-togo-page-title.php:142
+msgid "Shop"
+msgstr ""
+
+#: inc/classes/class-togo-page-title.php:144
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/classes/class-togo-page-title.php:153
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/classes/class-togo-page-title.php:155
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/classes/class-togo-page-title.php:157
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/classes/class-togo-plugins.php:137
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-togo-plugins.php:155
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-togo-plugins.php:173
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-togo-profile.php:26
+msgid "Profile Info"
+msgstr ""
+
+#: inc/classes/class-togo-profile.php:30
+msgid "Avatar"
+msgstr ""
+
+#: inc/classes/class-togo-profile.php:39
+msgid "Mobile"
+msgstr ""
+
+#: inc/classes/class-togo-profile.php:43
+msgid "Fax Number"
+msgstr ""
+
+#: inc/classes/class-togo-profile.php:53
+msgid "Socials Profile"
+msgstr ""
+
+#: inc/classes/class-togo-profile.php:69
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/classes/class-togo-setup.php:185
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/classes/class-togo-setup.php:189
+msgid "My Account Menu"
+msgstr ""
+
+#: inc/classes/class-togo-setup.php:207
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/classes/class-togo-setup.php:208 inc/classes/class-togo-setup.php:218
+#: inc/classes/class-togo-setup.php:229
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/classes/class-togo-setup.php:217
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/classes/class-togo-setup.php:228
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/classes/class-togo-templates.php:120
+msgid "Menu"
+msgstr ""
+
+#: inc/classes/class-togo-templates.php:166
+msgid "Login"
+msgstr ""
+
+#: inc/classes/class-togo-templates.php:175
+msgid "Back"
+msgstr ""
+
+#: inc/classes/class-togo-templates.php:237
+msgid "Currencies"
+msgstr ""
+
+#: inc/classes/blog/class-togo-blog-post-loop.php:233
+msgid "Read More"
+msgstr ""
+
+#: inc/classes/blog/class-togo-blog-post.php:58
+msgid "By"
+msgstr ""
+
+#: inc/classes/blog/class-togo-blog-post.php:107
+msgid "Tags:"
+msgstr ""
+
+#: inc/classes/blog/class-togo-blog-post.php:135
+msgid "Related Articles"
+msgstr ""
+
+#: templates/comment.php:14
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: templates/comment.php:19
+msgid "Reply"
+msgstr ""
+
+#: templates/comment.php:20
+msgid "Edit"
+msgstr ""
+
+#: templates/comment.php:22
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/content-none.php:37
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/content-single-page.php:35
+msgid "Pages:"
+msgstr ""
+
+#: templates/global/site-loading.php:23
+msgid "Image Effect"
+msgstr ""
+
+#: templates/post-single/single-author.php:26
+msgid "Post by "
+msgstr ""
+
+#: templates/post-single/single-author.php:30
+msgid "Published: "
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:31 woocommerce/cart/cart-totals.php:32
+#: woocommerce/cart/cart.php:91 woocommerce/checkout/review-order.php:193
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:53 woocommerce/cart/cart-totals.php:54
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:73
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:101 woocommerce/cart/cart-totals.php:102
+#: woocommerce/checkout/review-order.php:242
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26
+msgid "Shopping cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:63 woocommerce/emails/email-order-details.php:43
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:86
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:113 woocommerce/checkout/review-order.php:110
+#: woocommerce/checkout/review-order.php:154
+#: woocommerce/order/order-details-item.php:95
+#, php-format
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/cart.php:130
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:79
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:121
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:25
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Contact details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:30
+#: woocommerce/checkout/form-checkout.php:52
+msgid "We’ll use this information to send booking confirmations and updates."
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:55
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:33
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+msgid "Payment details"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:27
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:59
+msgid "If you have any special needs, please enter them here."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:45
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:47
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:84
+#: woocommerce/order/order-details-item.php:69
+msgid "Open at"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:93
+#: woocommerce/order/order-details-item.php:78
+msgid "Departure at"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:176
+#: woocommerce/emails/email-order-details.php:44
+msgid "Price"
+msgstr ""
+
+#: woocommerce/emails/email-order-details.php:35
+#, php-format
+msgid "[Order #%s]"
+msgstr ""
+
+#: woocommerce/emails/email-order-details.php:80
+msgid "Note:"
+msgstr ""

@@ -1,0 +1,78 @@
+/*!
+Theme Name: Togo
+Theme URI: https://togo.uxper.co/
+Author: Uxper
+Author URI: http://uxper.co/
+Description: Togo – Unique WordPress Theme is top-notch technology & creative IT theme. By using this theme anyone can build for Startup, Apps, SaaS, IT services...
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: togo
+Tags: agency, app landing, business, corporate, ecommerce, marketing, saas theme, seo, software theme, startup
+*/
+
+// Settings
+@import "settings/_mixins";
+@import "settings/_bootstrap";
+@import "settings/_keyframes";
+
+// Vendor
+@import "vendor/bootstrap/_bootstrap-grid";
+@import "vendor/bootstrap/_utilities";
+
+// Elements
+@import "elements/_formatting";
+@import "elements/_editor-style";
+@import "elements/_general";
+@import "elements/_global";
+@import "elements/_important";
+@import "elements/_icons";
+
+// Widgets
+@import "widgets/_general";
+@import "widgets/_categories";
+@import "widgets/_calendar";
+@import "widgets/_recent-posts";
+@import "widgets/_rss";
+@import "widgets/_search";
+@import "widgets/_tag-cloud";
+
+// Components
+@import "components/_swiper";
+@import "components/_switcher";
+@import "components/_loading";
+@import "components/_scrollup";
+@import "components/_content-loading";
+@import "components/_content-protected";
+@import "components/_growl";
+@import "components/_comments";
+@import "components/_pagination";
+@import "components/_preloader";
+@import "components/_button";
+@import "components/_modal";
+@import "components/_skeleton";
+@import "components/_tooltip";
+@import "components/_contact_form_7";
+
+// Page Title
+@import "page-title/_page-title";
+
+// Header
+@import "header/_header";
+@import "header/_menu";
+@import "header/_mega-menu";
+
+// Header
+@import "footer/_copyright";
+
+// Posts
+@import "posts/_content-post";
+@import "posts/_archive-post";
+@import "posts/_single-post";
+
+// Elementor
+@import "elementor/_all";
+
+// Woo
+@import "woo/archive-product";
+@import "woo/filters-product";

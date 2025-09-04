@@ -1,0 +1,41 @@
+.togo-skeleton-wrapper {
+  border: 1px solid var(--togo-border-color-04);
+  border-radius: rem(16);
+  padding: rem(24);
+  display: none;
+  &.is-active {
+    display: block;
+  }
+  .togo-skeleton-title {
+    margin-bottom: rem(16);
+  }
+}
+
+.togo-skeleton {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(10);
+  span {
+    position: relative;
+    background: var(--togo-border-color-04);
+    overflow: hidden;
+    display: block;
+    height: rem(24);
+    width: 100%;
+    &:after {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100px;
+      left: -100px;
+      top: 0;
+      background: linear-gradient(
+        to right,
+        transparent,
+        #ffffff70,
+        transparent
+      );
+      animation: reflect 1200ms ease-out infinite;
+    }
+  }
+}

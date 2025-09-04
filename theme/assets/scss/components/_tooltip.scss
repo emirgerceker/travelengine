@@ -1,0 +1,41 @@
+.togo-tooltip {
+  position: relative;
+  display: flex;
+  gap: rem(6);
+  &-content {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    z-index: 999;
+    background: var(--togo-border-color-01);
+    color: var(--togo-text-color-04);
+    padding: rem(3) rem(12);
+    border-radius: rem(8);
+    box-shadow: 0 rem(8) rem(16) rgba(0, 0, 0, 0.1);
+    font-size: rem(14);
+    line-height: rem(20);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: rem(6);
+      border-style: solid;
+      border-color: var(--togo-border-color-01) transparent transparent
+        transparent;
+    }
+  }
+  &:hover {
+    .togo-tooltip-content {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

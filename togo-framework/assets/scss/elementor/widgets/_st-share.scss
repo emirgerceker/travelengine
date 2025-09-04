@@ -1,0 +1,42 @@
+.togo-st-share {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--e-global-color-dcd2472, #ddd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .togo-svg-icon svg {
+    width: 22px;
+  }
+  &:hover {
+    border-color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-accent);
+    color: var(--e-global-color-secondary);
+  }
+}
+.togo-modal-share ul {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--e-global-color-dcd2472, #ddd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .togo-svg-icon svg {
+      width: 22px;
+    }
+    &:hover {
+      border-color: var(--e-global-color-accent);
+      background-color: var(--e-global-color-accent);
+      color: var(--e-global-color-secondary);
+    }
+  }
+}

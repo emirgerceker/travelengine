@@ -1,0 +1,10 @@
+.togo-st-location {
+  a:after {
+    content: ",";
+    margin-right: 3px;
+  }
+  a:last-child:after {
+    content: "";
+    margin-right: 0;
+  }
+}

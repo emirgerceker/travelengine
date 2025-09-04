@@ -1,0 +1,88 @@
+.togo-modern-image {
+  position: relative;
+  border-radius: rem(16);
+  overflow: hidden;
+  .togo-modern-image-overlay {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background: transparent;
+      z-index: 2;
+      border-radius: 16px;
+      border-right: 6px solid #fff;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: transparent;
+      z-index: 2;
+      border-radius: 16px;
+      border-left: 6px solid #fff;
+    }
+    span {
+      &::before {
+        content: "";
+        --r: 18px;
+        line-height: 16px;
+        padding-inline: 8px;
+        border-block: var(--r) solid rgba(0, 0, 0, 0);
+        border-radius: var(--r) 0 0 var(--r) / calc(2 * var(--r));
+        mask: radial-gradient(
+              var(--r) at 0 var(--r),
+              rgba(0, 0, 0, 0) 98%,
+              #000 101%
+            )
+            100% calc(-1 * var(--r)) / var(--r) 100% repeat-y,
+          conic-gradient(#000 0 0) padding-box;
+        background: #fff border-box;
+        width: fit-content;
+        z-index: 2;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: rotate(-90deg);
+        margin-left: -8px;
+      }
+      &::after {
+        content: "";
+        --r: 18px;
+        line-height: 16px;
+        padding-inline: 8px;
+        border-block: var(--r) solid rgba(0, 0, 0, 0);
+        border-radius: var(--r) 0 0 var(--r) / calc(2 * var(--r));
+        mask: radial-gradient(
+              var(--r) at 0 var(--r),
+              rgba(0, 0, 0, 0) 98%,
+              #000 101%
+            )
+            100% calc(-1 * var(--r)) / var(--r) 100% repeat-y,
+          conic-gradient(#000 0 0) padding-box;
+        background: #fff border-box;
+        width: fit-content;
+        z-index: 2;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: rotate(90deg);
+        margin-left: -8px;
+      }
+    }
+  }
+  a,
+  img {
+    position: relative;
+    z-index: 1;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

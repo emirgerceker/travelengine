@@ -1,0 +1,491 @@
+.togo-my-bookings {
+  .filter-status {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: rem(32);
+    row-gap: rem(12);
+    margin-bottom: rem(32);
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    a {
+      font-size: rem(18);
+      font-weight: 500;
+      color: var(--togo-text-color-02);
+      &:hover {
+        color: var(--togo-text-color-01);
+      }
+    }
+    a.active {
+      text-decoration: underline;
+      color: var(--togo-accent-color);
+    }
+  }
+  table {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--togo-border-color-02);
+  }
+  tr th,
+  tr td {
+    border: 0;
+    padding-left: rem(24);
+    padding-right: rem(24);
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  tr th {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--togo-text-color-02);
+    padding-top: rem(12);
+    padding-bottom: rem(12);
+  }
+  tr td {
+    padding-top: rem(20);
+    padding-bottom: rem(20);
+    border-top: 1px solid var(--togo-border-color-02);
+    align-content: center;
+    .reservation-detail {
+      margin-top: 0;
+      .value {
+        font-size: rem(16);
+      }
+      .item {
+        align-items: flex-start;
+      }
+      .togo-svg-icon {
+        margin-top: 2px;
+      }
+      + .reservation-detail {
+        margin-top: rem(12);
+        padding-top: rem(12);
+        border-top: 1px solid var(--togo-border-color-02);
+      }
+    }
+    &.order-id {
+      font-weight: 500;
+    }
+    &.tour-info {
+      p {
+        display: flex;
+        align-items: center;
+        gap: rem(12);
+      }
+      img {
+        width: rem(80);
+        height: rem(80);
+        border-radius: rem(8);
+      }
+      span {
+        font-size: rem(18);
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+    }
+    .amount {
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+    }
+  }
+  .on-hold,
+  .completed,
+  .pending,
+  .cancelled,
+  .refunded,
+  .failed,
+  .checkout-draft,
+  .processing {
+    display: flex;
+    align-items: center;
+    gap: rem(8);
+    &:before {
+      content: "";
+      display: inline-block;
+      width: rem(8);
+      height: rem(8);
+      border-radius: 50%;
+      background-color: #ddd;
+    }
+    color: var(--togo-text-color-01);
+  }
+  .on-hold::before,
+  .pending::before {
+    background-color: #ffe453;
+  }
+  .processing::before {
+    background-color: #ff9500;
+  }
+  .completed::before {
+    background-color: #46e86a;
+  }
+  .failed::before {
+    background-color: #eba3a3;
+  }
+  .template-empty {
+    border: 0;
+  }
+}
+.booking-details {
+  display: flex;
+  &__summary {
+    flex: 0 0 calc(100% - rem(370));
+    max-width: calc(100% - rem(370));
+    padding-right: rem(40);
+  }
+  &__price {
+    flex: 0 0 rem(370);
+    max-width: rem(370);
+  }
+  .booking-details__summary-item {
+    margin-bottom: rem(24);
+    padding-bottom: rem(24);
+    border-bottom: 1px solid var(--togo-border-color-04);
+    h6 {
+      font-size: rem(16);
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+      text-transform: uppercase;
+      margin-bottom: rem(24);
+    }
+    .on-hold,
+    .completed,
+    .pending,
+    .cancelled,
+    .refunded,
+    .failed,
+    .checkout-draft,
+    .processing {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: rem(4) rem(12);
+      background-color: var(--togo-border-color-04);
+      border-radius: rem(24);
+      color: var(--togo-text-color-01);
+    }
+    .on-hold,
+    .pending {
+      background-color: #ffe453;
+    }
+    .processing {
+      background-color: #ff9500;
+    }
+    .completed {
+      background-color: #46e86a;
+    }
+    .failed {
+      background-color: #eba3a3;
+    }
+  }
+  .booking-details__summary-content {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: rem(12);
+      li {
+        display: flex;
+        align-items: center;
+        gap: rem(5);
+      }
+    }
+    .label {
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+    }
+    .tour-name {
+      .content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: rem(8);
+      }
+      a {
+        &:after {
+          content: ",";
+        }
+        color: var(--togo-accent-color);
+        &:hover {
+          opacity: 0.6;
+        }
+        &:last-child:after {
+          display: none;
+        }
+      }
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+.booking-detail-actions {
+  display: flex;
+  align-items: center;
+  gap: rem(16);
+}
+.booking-details__price {
+  border-radius: rem(16);
+  border: 1px solid var(--togo-border-color-04);
+  height: 100%;
+  h6 {
+    font-size: rem(24);
+    font-weight: 500;
+    padding: rem(16) rem(24);
+    border-bottom: 1px solid var(--togo-border-color-04);
+  }
+  p {
+    margin: 0;
+  }
+  .booking-details__price-item {
+    border-bottom: 1px solid var(--togo-border-color-04);
+    .product-price,
+    .product-service {
+      padding: rem(16) rem(24);
+      border-bottom: 1px solid var(--togo-border-color-04);
+      display: flex;
+      flex-direction: column;
+      gap: rem(8);
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .price {
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+        font-size: rem(16);
+      }
+    }
+    .product-service {
+      border-bottom: 0;
+    }
+    .product-name h6 {
+      font-size: rem(16);
+    }
+  }
+  .booking-details__price-subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: rem(16) rem(24);
+    .label,
+    .amount {
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+      font-size: rem(18);
+    }
+  }
+}
+.togo-modal-cancel-booking {
+  .togo-modal-footer {
+    display: flex;
+    align-items: center;
+    gap: rem(12);
+    flex-wrap: wrap;
+    .notice {
+      margin-bottom: rem(12);
+      width: 100%;
+      color: var(--togo-tone-color-03);
+    }
+  }
+}
+.action-cancel-booking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: rem(8);
+  .loading-icon {
+    display: none;
+  }
+  &.loading {
+    .loading-icon {
+      display: flex;
+      animation: spin 1s linear infinite;
+    }
+  }
+}
+.invoice-item {
+  display: flex;
+  border-bottom: 1px solid var(--togo-border-color-04);
+  padding-bottom: rem(32);
+  margin-bottom: rem(32);
+  padding-left: rem(24);
+  padding-right: rem(24);
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  &__left {
+    flex: 0 0 calc(100% - rem(320));
+    max-width: calc(100% - rem(320));
+    padding-right: rem(70);
+  }
+  &__right {
+    flex: 0 0 rem(320);
+    max-width: rem(320);
+  }
+  h6 {
+    margin-bottom: rem(6);
+  }
+  p {
+    margin-bottom: rem(6);
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &.bill-info {
+    margin-bottom: 0;
+    h6 {
+      font-weight: 500;
+    }
+  }
+  &.particular-main {
+    h6 {
+      font-size: rem(16);
+      font-weight: 500;
+      color: var(--togo-text-color-01);
+    }
+    .extra-services {
+      margin-top: rem(24);
+    }
+    .invoice-item__right {
+      h6 {
+        opacity: 0;
+        visibility: hidden;
+      }
+      p {
+        font-size: rem(16);
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+    }
+  }
+  &.particular-bottom {
+    .invoice-item__left p {
+      text-align: right;
+      &.total {
+        font-size: rem(18);
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+    }
+    .invoice-item__right {
+      p {
+        font-size: rem(16);
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+      p.total {
+        font-size: rem(18);
+      }
+    }
+  }
+}
+.particular-top {
+  padding-top: rem(20);
+  padding-bottom: rem(20);
+  background-color: var(--togo-border-color-04);
+  span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--togo-text-color-01);
+  }
+}
+.bill-info {
+  h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  p span {
+    font-weight: 500;
+    color: var(--togo-text-color-01);
+    margin-right: rem(4);
+  }
+}
+.payment-details {
+  display: flex;
+  flex-wrap: wrap;
+  > h6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    font-size: rem(16);
+    font-weight: 500;
+    color: var(--togo-text-color-01);
+    margin-bottom: rem(16);
+    text-transform: uppercase;
+  }
+  &__item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: rem(24);
+    display: flex;
+    flex-direction: column;
+    gap: rem(8);
+    p {
+      margin: 0;
+      &.label {
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+    }
+  }
+}
+.invoice-action {
+  margin-top: rem(32);
+  display: flex;
+  align-items: center;
+  gap: rem(24);
+}
+@media print {
+  body.page-template-my-account {
+    padding-left: 0;
+  }
+  .site-header,
+  .dashboard-nav,
+  .site-footer {
+    display: none;
+  }
+  .page-template-my-account .dashboard-main {
+    padding-top: 0;
+  }
+  .invoice-action {
+    display: none;
+  }
+  .invoice-item {
+    padding-bottom: rem(16);
+    padding-top: rem(16);
+    margin-bottom: rem(16);
+  }
+  .invoice-item p {
+    margin-top: rem(4);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .togo-my-bookings {
+    table {
+      border-bottom: 0;
+      margin-bottom: 0;
+      tr td {
+        padding-left: 0;
+        padding-right: 0;
+        border-top: 0;
+      }
+      .tour-info img {
+        display: none;
+      }
+      .tour-name {
+        text-align: right;
+      }
+    }
+  }
+}

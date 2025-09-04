@@ -1,0 +1,92 @@
+.togo-destinations-grid-wrapper {
+  .togo-destinations-grid {
+    margin-left: var(--margin-gap, rem(-12));
+    margin-right: var(--margin-gap, rem(-12));
+    row-gap: var(--row-gap, rem(24));
+    .togo-destination-grid-item {
+      padding-left: var(--column-gap, rem(12));
+      padding-right: var(--column-gap, rem(12));
+    }
+  }
+  .togo-destination-grid-image {
+    margin-bottom: rem(22);
+    a {
+      display: flex;
+      overflow: hidden;
+      border-radius: rem(16);
+    }
+    img {
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+      width: 100%;
+    }
+    &:hover img {
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .togo-destination-grid-content {
+    h3 {
+      font-size: rem(20);
+      margin-bottom: rem(4);
+      a {
+        font-family: var(--togo-heading-font-family);
+      }
+    }
+  }
+  &.grid-02 {
+    .togo-destination-grid-item {
+      display: flex;
+      align-items: center;
+      gap: rem(24);
+      a {
+        border-radius: 50%;
+      }
+      img {
+        width: rem(120);
+        height: rem(120);
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+  &.grid-03 {
+    .togo-destination-grid-item-inner {
+      display: flex;
+      align-items: center;
+      border: 1px solid #EEE;
+      border-radius: 16px;
+      height: 100%;
+      .togo-destination-grid-image {
+        margin-bottom: 0;
+        min-width: 55%;
+        flex-basis: 55%;
+        height: 100%;
+        @media screen and (max-width: 767px) {
+          min-width: 50%;
+          flex-basis: 50%;
+        }
+        a {
+          clip-path: url(#shape-clipCurve);
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          height: 100%;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .togo-destination-grid-content {
+      min-width: 45%;
+      flex-basis: 45%;
+      padding-left: 32px;
+      @media screen and (max-width: 767px) {
+        min-width: 50%;
+        flex-basis: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+}

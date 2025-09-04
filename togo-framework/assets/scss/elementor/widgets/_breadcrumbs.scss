@@ -1,0 +1,22 @@
+.elementor-widget-togo-breadcrumb {
+  .breadcrumbs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  svg {
+    margin: 0 12px;
+    width: 5px;
+  }
+  a {
+    font-size: 14px;
+    color: var(--togo-text-color-02);
+    &:hover {
+      color: var(--togo-primary-color);
+    }
+  }
+  span {
+    font-size: 14px;
+    color: var(--togo-text-color-02);
+  }
+}

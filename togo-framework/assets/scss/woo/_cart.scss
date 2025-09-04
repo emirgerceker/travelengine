@@ -1,0 +1,225 @@
+.woocommerce-cart {
+  header + .site-content {
+    background-color: #fbfbfb;
+  }
+  .woocommerce-cart-wrapper {
+    display: flex;
+    .woocommerce-cart-form {
+      flex: 1;
+      padding-right: rem(30);
+      > h2 {
+        font-size: rem(20);
+        margin-bottom: rem(16);
+      }
+    }
+    .cart-collaterals {
+      flex: 0 0 370px;
+      max-width: 370px;
+      .cart_totals {
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+  .cart-collaterals .cart_totals {
+    h2 {
+      font-size: rem(20);
+      margin-bottom: rem(16);
+    }
+    table.shop_table {
+      border-radius: rem(16);
+      margin-bottom: rem(16);
+      tr th,
+      tr td {
+        padding: rem(16) rem(24);
+        border-bottom: 0;
+      }
+      tr td {
+        text-align: right;
+      }
+    }
+  }
+  .woocommerce-cart-form__contents {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(16);
+  }
+  .woocommerce-cart-form__cart-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--togo-border-color-04);
+    border-radius: rem(16);
+    .product-thumbnail {
+      padding: rem(24);
+    }
+    img {
+      width: rem(100);
+      border-radius: rem(8);
+    }
+    .product-name {
+      flex: 1;
+      padding: rem(24) rem(24) rem(24) 0;
+      h6 {
+        font-size: rem(18);
+        margin-bottom: rem(12);
+      }
+    }
+    .product-subtotal {
+      flex: 0 0 30%;
+      max-width: 30%;
+      padding: rem(24);
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      row-gap: rem(4);
+      border-left: 1px solid var(--togo-border-color-04);
+      .woocommerce-Price-amount {
+        margin-bottom: rem(12);
+        font-size: rem(18);
+        font-weight: 500;
+        color: var(--togo-text-color-01);
+      }
+      a.remove {
+        color: var(--togo-border-color-05) !important;
+        background-color: var(--togo-button-border-line-background-color);
+        border: 1px solid var(--togo-border-color-05);
+        border-radius: var(--togo-button-border-line-radius);
+        border-style: var(--togo-button-border-line-border);
+        border-top-width: var(--togo-button-border-line-border-top);
+        border-right-width: var(--togo-button-border-line-border-right);
+        border-bottom-width: var(--togo-button-border-line-border-bottom);
+        border-left-width: var(--togo-button-border-line-border-left);
+        font-weight: var(--togo-button-font-weight);
+        font-size: var(--togo-button-font-size);
+        font-style: var(--togo-button-font-style);
+        width: rem(32);
+        height: rem(32);
+        margin-top: rem(12);
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        svg {
+          width: rem(18);
+        }
+        &:hover {
+          border-color: var(--togo-button-border-line-border-color-hover);
+          background-color: var(
+            --togo-button-border-line-background-color-hover
+          );
+          color: var(--togo-button-border-line-color-hover) !important;
+        }
+      }
+    }
+  }
+  .reservation-detail {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(8);
+    .item {
+      display: flex;
+      align-items: flex-start;
+      .togo-svg-icon {
+        margin-right: rem(8);
+        margin-top: rem(2);
+      }
+      svg {
+        width: rem(20);
+      }
+    }
+    .values {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .value {
+      font-weight: 500;
+      &:after {
+        content: ",";
+        margin-right: rem(5);
+      }
+      &:last-child:after {
+        content: "";
+      }
+    }
+  }
+  div.wc-proceed-to-checkout {
+    padding: 0;
+    a.checkout-button.togo-button {
+      padding-top: var(--togo-button-full-filled-padding-top);
+      padding-right: var(--togo-button-full-filled-padding-right);
+      padding-bottom: var(--togo-button-full-filled-padding-bottom);
+      padding-left: var(--togo-button-full-filled-padding-left);
+      font-size: rem(16);
+    }
+  }
+  .coupon {
+    display: flex;
+    align-items: center;
+    max-width: rem(300);
+    justify-content: flex-end;
+    position: relative;
+    margin-left: auto;
+    input[type="text"] {
+      height: 46px;
+      border: 1px solid var(--togo-border-color-04);
+      border-radius: rem(8);
+      padding: 0 rem(100) 0 rem(16);
+      margin-right: rem(16);
+    }
+    button[type="submit"] {
+      height: 46px;
+      border: 1px solid var(--togo-border-color-04);
+      border-radius: 0 rem(8) rem(8) 0;
+      padding: 0 rem(16);
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: var(--togo-border-color-01);
+      color: var(--togo-text-color-04);
+      &:hover {
+        background-color: var(--togo-accent-color);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .woocommerce-cart {
+    .woocommerce-cart-wrapper {
+      flex-direction: column;
+      gap: rem(40);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .woocommerce-cart {
+    .woocommerce-cart-wrapper {
+      display: block;
+      .woocommerce-cart-form {
+        padding-right: 0;
+        margin-bottom: rem(40);
+      }
+    }
+    .woocommerce-cart-form__cart-item {
+      flex-direction: column;
+      .product-name {
+        padding: 0 rem(24);
+      }
+      .product-subtotal {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: rem(20);
+        .value {
+          display: none;
+        }
+      }
+    }
+  }
+}

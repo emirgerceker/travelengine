@@ -1,0 +1,41 @@
+.ajax-register-form {
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .required {
+    color: red;
+    margin-left: 5px;
+  }
+}
+.register-submit {
+  button {
+    height: 46px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    border: 0;
+    background-color: var(--togo-primary-color);
+    color: #fff;
+    padding: 0 20px;
+    &:hover {
+      background-color: var(--togo-accent-color);
+    }
+    &:focus {
+      outline: 0;
+      outline-offset: unset;
+    }
+  }
+}
+.register-message {
+  p {
+    margin-bottom: 20px;
+  }
+  .success {
+    color: green;
+  }
+  .error {
+    color: red;
+  }
+}

@@ -1,0 +1,19 @@
+.woocommerce-error,
+.woocommerce-message {
+  &:focus-visible {
+    outline: 0;
+  }
+}
+.woocommerce-remove-coupon {
+  text-indent: -9999px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.28613 8.57153L7.42899 20.0001H16.5718L17.7147 8.57153' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M13.5 15.5V10.5' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10.5 15.5V10.5' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4.57129 6.28571H9.14272M9.14272 6.28571L9.52478 4.75746C9.63607 4.3123 10.0361 4 10.4949 4H13.5048C13.9637 4 14.3636 4.3123 14.4749 4.75746L14.857 6.28571M9.14272 6.28571H14.857M14.857 6.28571H19.4284' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+    no-repeat center center;
+  width: rem(20);
+  height: rem(20);
+  background-size: contain;
+  display: inline-block;
+  &:hover {
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.28613 8.57153L7.42899 20.0001H16.5718L17.7147 8.57153' stroke='red' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M13.5 15.5V10.5' stroke='red' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10.5 15.5V10.5' stroke='red' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4.57129 6.28571H9.14272M9.14272 6.28571L9.52478 4.75746C9.63607 4.3123 10.0361 4 10.4949 4H13.5048C13.9637 4 14.3636 4.3123 14.4749 4.75746L14.857 6.28571M9.14272 6.28571H14.857M14.857 6.28571H19.4284' stroke='red' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+      no-repeat center center;
+  }
+}

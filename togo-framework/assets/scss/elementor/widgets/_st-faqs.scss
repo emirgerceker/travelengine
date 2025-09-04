@@ -1,0 +1,40 @@
+.togo-st-faqs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  .togo-st-faqs-item {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    &.is-active {
+      .togo-st-faqs-question svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .togo-st-faqs-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+    padding: 20px;
+    &:hover .togo-st-faqs-question-title,
+    &:hover .togo-svg-icon {
+      color: var(--togo-accent-color);
+    }
+    svg {
+      transition: all 0.3s;
+    }
+  }
+  .togo-st-faqs-question-title {
+    font-size: rem(18);
+    font-weight: 500;
+    line-height: rem(26);
+  }
+  .togo-st-faqs-answer {
+    padding: 20px 0;
+    margin: 0 20px;
+    border-top: 1px solid #eee;
+    display: none;
+  }
+}

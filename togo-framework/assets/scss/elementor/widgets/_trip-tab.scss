@@ -1,0 +1,79 @@
+.elementor-widget-togo-trip-tab {
+  .togo-trip-grid {
+    &.loading {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 10;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: rem(-20);
+        margin-left: rem(-20);
+        width: rem(40);
+        height: rem(40);
+        border: 2px solid var(--togo-border-color-02);
+        border-top: 2px solid var(--togo-accent-color);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        z-index: 11;
+      }
+    }
+  }
+  .togo-trip-tab-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: rem(32);
+  }
+  .togo-trip-tab-title {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .togo-trip-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(32);
+    .togo-trip-tab-link {
+      font-size: rem(18);
+      font-weight: 500;
+      color: var(--togo-text-color-02);
+      display: flex;
+      border-bottom: 1px solid transparent;
+      &.active {
+        color: var(--togo-accent-color);
+        border-color: var(--togo-accent-color);
+      }
+      &:hover {
+        color: var(--togo-accent-color);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .elementor-widget-togo-trip-tab {
+    .togo-trip-tab-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .togo-trip-tab-title {
+      margin-bottom: rem(16);
+    }
+    .togo-trip-tabs {
+      width: 100%;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: rem(16);
+    }
+  }
+}

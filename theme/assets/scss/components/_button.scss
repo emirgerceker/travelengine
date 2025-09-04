@@ -1,0 +1,147 @@
+.togo-button {
+  cursor: pointer;
+  font-family: var(--togo-button-font-family, --togo-body-font-family);
+  font-weight: var(--togo-button-font-weight);
+  font-size: var(--togo-button-font-size);
+  font-style: var(--togo-button-font-style);
+  letter-spacing: var(--togo-button-letter-spacing);
+  line-height: var(--togo-button-line-height);
+  font-style: var(--togo-button-font-style);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  padding-top: var(--togo-button-full-filled-padding-top);
+  padding-right: var(--togo-button-full-filled-padding-right);
+  padding-bottom: var(--togo-button-full-filled-padding-bottom);
+  padding-left: var(--togo-button-full-filled-padding-left);
+  border-radius: var(--togo-button-full-filled-radius);
+  display: inline-flex;
+  justify-content: center;
+
+  &.full-filled {
+    color: var(--togo-button-full-filled-color);
+    background-color: var(--togo-button-full-filled-background-color);
+    border-color: var(--togo-button-full-filled-border-color);
+    padding-top: var(--togo-button-full-filled-padding-top);
+    padding-right: var(--togo-button-full-filled-padding-right);
+    padding-bottom: var(--togo-button-full-filled-padding-bottom);
+    padding-left: var(--togo-button-full-filled-padding-left);
+    border-radius: var(--togo-button-full-filled-radius);
+    border-style: var(--togo-button-full-filled-border);
+    border-top-width: var(--togo-button-full-filled-border-top);
+    border-right-width: var(--togo-button-full-filled-border-right);
+    border-bottom-width: var(--togo-button-full-filled-border-bottom);
+    border-left-width: var(--togo-button-full-filled-border-left);
+    &:hover {
+      color: var(--togo-button-full-filled-color-hover);
+      background-color: var(--togo-button-full-filled-background-color-hover);
+      border-color: var(--togo-button-full-filled-border-color-hover);
+    }
+  }
+
+  &.underline {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    position: relative;
+    background-color: transparent;
+    color: var(--togo-button-underline-color);
+    padding: 0 0 4px;
+    border-radius: 0;
+    border-bottom: 1px solid var(--togo-button-underline-border-color);
+
+    &:hover {
+      background-color: transparent;
+      color: var(--togo-button-underline-color-hover);
+      border-color: var(--togo-button-underline-border-color-hover);
+    }
+  }
+
+  &.line {
+    color: var(--togo-button-border-line-color);
+    background-color: var(--togo-button-border-line-background-color);
+    border: 1px solid var(--togo-button-border-line-border-color);
+    padding-top: var(--togo-button-border-line-padding-top);
+    padding-right: var(--togo-button-border-line-padding-right);
+    padding-bottom: var(--togo-button-border-line-padding-bottom);
+    padding-left: var(--togo-button-border-line-padding-left);
+    border-radius: var(--togo-button-border-line-radius);
+    border-style: var(--togo-button-border-line-border);
+    border-top-width: var(--togo-button-border-line-border-top);
+    border-right-width: var(--togo-button-border-line-border-right);
+    border-bottom-width: var(--togo-button-border-line-border-bottom);
+    border-left-width: var(--togo-button-border-line-border-left);
+
+    &:hover {
+      border-color: var(--togo-button-border-line-border-color-hover);
+      background-color: var(--togo-button-border-line-background-color-hover);
+      color: var(--togo-button-border-line-color-hover);
+    }
+  }
+
+  &.togo-loadmore-button {
+    padding: 0;
+    border: 0;
+    text-transform: inherit;
+    i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 40px;
+      color: #fff;
+      background-color: var(--togo-primary-color);
+      border-radius: 50%;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+  }
+  &.togo-loadmore-button:hover {
+    background-color: inherit;
+    color: var(--togo-accent-color);
+    i {
+      background-color: var(--togo-accent-color);
+    }
+  }
+  &.with-icon {
+    gap: rem(6);
+    svg {
+      width: rem(20);
+    }
+  }
+}
+
+.hover-icon-right {
+  .elementor-button-icon {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .elementor-button {
+    &:hover {
+      .elementor-align-icon-right {
+        margin-left: 18px !important;
+      }
+    }
+  }
+}
+
+.hover-icon-left {
+  .elementor-button-icon {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .elementor-button {
+    &:hover {
+      .elementor-align-icon-left {
+        margin-right: 18px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.comments-area {
+  padding-top: 80px;
+  border-top: 1px solid #edf0f2;
+  margin-top: 40px;
+}
+.comment-reply-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+.comment-form,
+.togo-comment-form {
+  .comment-form-comment textarea {
+    height: 220px;
+    resize: none;
+    font-family: var(--togo-body-font-family);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+  }
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 12px;
+    span {
+      margin-left: 2px;
+    }
+  }
+  .comment-form-cookies-consent {
+    label {
+      font-size: 16px;
+      font-weight: 400;
+      color: #757e8d;
+    }
+  }
+  input[type="submit"] {
+    letter-spacing: normal;
+    font-size: 16px;
+  }
+  .comment-notes {
+    color: #757e8d;
+    margin-bottom: 32px;
+  }
+}
+#comments {
+  .comment-meta {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .comment-author {
+    img {
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .says {
+      margin-left: 3px;
+    }
+  }
+  .comment-metadata {
+    display: flex;
+    gap: 20px;
+  }
+  .reply {
+    margin-top: 10px;
+    a {
+      font-size: 15px;
+    }
+  }
+}

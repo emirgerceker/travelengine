@@ -1,0 +1,17 @@
+.elementor-widget-social-icons {
+  .elementor-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.elementor-widget-togo-icon {
+  .elementor-widget-container {
+    display: flex;
+  }
+}
+.elementor-button {
+  padding: 11px 24px;
+  background-color: var(--togo-accent-color);
+  border-radius: 24px;
+}
